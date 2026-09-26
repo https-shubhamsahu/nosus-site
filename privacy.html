@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — NO SUS</title>
+  <meta name="description" content="What NO SUS collects, how burn notes, burn files, website visits and app usage events are handled, where your data is stored, and how to delete it.">
+  <link rel="canonical" href="https://nosus.foo/privacy.html">
+  <style>
+    body { font-family: 'Courier New', monospace; background: #0D0D0D; color: #F5F5F5;
+           max-width: 720px; margin: 0 auto; padding: 32px 24px; line-height: 1.7; }
+    h1 { font-size: 22px; letter-spacing: 2px; }
+    h2 { font-size: 15px; letter-spacing: 1px; margin-top: 32px; color: #ccc; }
+    p, li { font-size: 13px; color: #bbb; }
+    a { color: #fff; }
+    .home { font-size: 11px; margin: 0 0 24px; }
+    .updated { font-size: 11px; color: #777; }
+  </style>
+</head>
+<body>
+  <p class="home"><a href="https://nosus.foo/">&larr; NO SUS home</a></p>
+  <h1>NO SUS — PRIVACY POLICY</h1>
+  <p class="updated">Last updated: 17 September 2026</p>
+
+  <h2>1. What we collect</h2>
+  <ul>
+    <li><b>Account data:</b> your email address, display name, and chosen avatar (a preset character or a photo you upload).</li>
+    <li><b>Content you upload:</b> documents and notes you add to groups, stored in private storage protected by row-level security. Optional profile photos are stored in a public avatars bucket.</li>
+    <li><b>Activity records:</b> to protect shared documents, we record events such as file uploads, views, membership changes, and screenshot attempts in a tamper-evident audit log visible to members of the same group.</li>
+    <li><b>Share-link views:</b> when someone opens a document you shared by link, we record the email they enter and view timestamps, visible to you as the sender.</li>
+    <li><b>Feedback:</b> messages you submit through Help &amp; Feedback, with your app version.</li>
+    <li><b>Website visits:</b> our website, nosus.foo, uses Cloudflare Web Analytics to count visits. It sets no cookies and, according to Cloudflare, does not collect visitors' personal data; we see aggregate figures such as pages viewed, referring sites, browser and device types, countries, and page-load speed. It never loads on a link that carries a share key or sign-in data, and it is not part of the NO SUS app.</li>
+    <li><b>Device security signals:</b> on sign-in and periodically during use, the app checks the device for indicators of tampering (root access, known instrumentation/hooking frameworks, active screen mirroring). Findings are written to a tamper-evident security ledger tied to your account — never sold or shared with third parties — and used only to flag your own account as higher-risk (e.g. requiring re-authentication) if serious tampering is detected.</li>
+    <li><b>App usage events:</b> the app records a small, fixed set of events so we can see where people get stuck — for example: the app was opened; the welcome screen was viewed; a no-account tool was opened; someone reached a feature that needs an account; sign-up was started or completed, or sign-in completed; onboarding was started, skipped, or completed; creating or joining a group was started or completed; a first document was uploaded or viewed; or a notification permission prompt was shown, accepted, or declined. Each event carries the app version, the platform (such as web or Android), your account ID if you are signed in, and at most a short fixed label such as which tool or action it concerns. Events are recorded whether or not you are signed in — including when someone opens a shared link in the app — and carry no account ID when no one is signed in. They never include document or file names, group names, file contents, invite codes, or share-link keys. They are stored in our own Supabase database, readable only by NO SUS administrators, and are not sold or shared. There is currently no setting to turn them off.</li>
+  </ul>
+
+  <h2>2. Burn notes &amp; burn files</h2>
+  <p>Burn notes and burn files are encrypted on your device before upload, and the decryption key travels in the link you share. So that a recipient can unlock a single note or file with a short code instead of the full link, a copy of its key is also sent to our servers and kept until that code is used or expires (20 minutes by default, never longer than the note or file itself), then deleted. Multi-file shares from the app do not use codes, so their keys are not sent to us. The encrypted content is permanently deleted the moment it is read/downloaded (or when it expires unread). Burn files require no NO SUS account on either end; we do not know who sent or received them.</p>
+
+  <h2>3. What we don't do</h2>
+  <ul>
+    <li>We do not sell your data.</li>
+    <li>We do not use third-party advertising or tracking SDKs. The website visit counter described above sets no cookies.</li>
+    <li>We do not read your documents for any purpose other than serving them back to you and your group.</li>
+  </ul>
+
+  <h2>4. Where data lives</h2>
+  <p>Data is stored on Supabase (managed Postgres, storage, and authentication). Transport is encrypted with TLS. Access is enforced with row-level security so users can only reach rows their membership allows.</p>
+
+  <h2>5. Data deletion</h2>
+  <p>You can delete your account at any time from Profile → Danger Zone → Delete User Account. This permanently removes your profile, group memberships, uploaded files, and auth record. App usage events are not deleted: your account ID is removed from them, detaching them from your account, and the rest of each event is kept. See <a href="account-deletion.html">account deletion</a> for details.</p>
+
+  <h2>6. Contact</h2>
+  <p>Questions or requests: <a href="mailto:shubhamsahu9372580326@gmail.com">shubhamsahu9372580326@gmail.com</a></p>
+
+  <h2>7. Saved and Google Drive</h2>
+  <p>If you turn on Saved, notes and files you send there are written to a <code>NO SUS/Saved</code> folder in your own Google Drive, using the <code>drive.file</code> scope. NO SUS can only see files it created there. Google can read those files the same way it can read anything else in your Drive. A borrowed computer does not receive your Google password or token; it only gets the items you approve from your phone, for the session you approve. Anything you download or print on that computer may remain there. Disconnecting the session stops further access. It does not delete copies already made.</p>
+
+  <h2>8. Your address and Drop</h2>
+  <p>If you pick a NO SUS address, anyone who has it can send you one file at a time, without an account, but only while you have opened your door. The sender's browser seals the file, its name, their name, and their note to your devices' public keys before upload. Our server stores the sealed file, its size, when it arrived, and a keyed hash of the sender's IP address (used for rate limits and blocks). Unaccepted files are deleted after 24 hours, accepted ones within an hour after you accept, declined ones within about ten minutes. Accepted files are saved to a <code>NO SUS/Inbox</code> folder in your Google Drive. Our server hands out your device keys, so a sender can compare the door check code on your address page with the one in your app.</p>
+
+  <h2>9. Terms of Service</h2>
+  <p>Please also review our <a href="terms.html">Terms of Service</a>, which govern your use of NO SUS.</p>
+</body>
+</html>

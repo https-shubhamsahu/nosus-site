@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "foo.nosus.app",
+      "sha256_cert_fingerprints": [
+        "3D:6F:46:90:3C:38:D0:05:E2:68:58:AC:F0:CD:2C:EC:BB:23:5A:89:24:6C:96:BD:B8:A8:D1:A9:E5:27:49:6F",
+        "63:F6:CB:CF:17:74:00:71:B2:D2:0C:F9:C8:7A:B7:80:45:3B:54:46:55:44:C6:46:A3:E4:AE:F5:C6:DA:E4:D5"
+      ]
+    }
+  }
+]

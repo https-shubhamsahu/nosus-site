@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, follow" />
+    <meta name="theme-color" content="#050505" />
+    <meta name="color-scheme" content="dark" />
+    <title>NO SUS.</title>
+    <link rel="preload" href="fonts/geist-sans-latin-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/geist-sans-latin-700.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/8.png" as="image" />
+    <link rel="preload" href="assets/founder.jpg" as="image" />
+    <link rel="preload" href="assets/qr-try.png?v=3" as="image" />
+    <link rel="stylesheet" href="style.css?v=4" />
+  </head>
+  <body>
+    <div id="curtain" aria-hidden="true"></div>
+    <div id="motif" aria-hidden="true"></div>
+
+    <main id="deck" aria-label="NO SUS presentation">
+
+      <!-- 01 HOOK -->
+      <section class="scene" data-scene="hook" data-label="The question" data-pace="slow">
+        <h1 class="hook-type">
+          <span class="mask"><span>WHAT HAPPENS</span></span>
+          <span class="mask"><span>AFTER YOU</span></span>
+          <span class="mask send-line"><span>PRESS <em>SEND</em><i class="q">?</i></span></span>
+        </h1>
+        <div class="wordmark corner" data-slot="hook-mark"><b>NO SUS</b><i class="slot"></i></div>
+      </section>
+
+      <!-- 02 SEND -->
+      <section class="scene" data-scene="send" data-label="The send" data-pace="medium">
+        <p class="send-copy">
+          <span class="mask"><span>You can send a sensitive document in seconds.</span></span>
+          <span class="mask turn"><span>But what do you know after you send it?</span></span>
+        </p>
+        <article class="doc" aria-hidden="true">
+          <span class="doc-meta">PDF · RESTRICTED</span>
+          <strong>CONFIDENTIAL.pdf</strong>
+          <span class="doc-rule"></span>
+          <span class="doc-lines"></span>
+        </article>
+        <div class="send-cta"><span>SEND</span></div>
+        <div class="void-mark">?</div>
+      </section>
+
+      <!-- 03 QUESTIONS -->
+      <section class="scene" data-scene="questions" data-label="The gap" data-pace="fast">
+        <div class="q-stack">
+          <p class="q-item"><span>WHO OPENED IT?</span></p>
+          <p class="q-item"><span>WHEN?</span></p>
+          <p class="q-item"><span>THE RIGHT PERSON?</span></p>
+          <p class="q-item stay"><span>WHAT HAPPENED NEXT?</span></p>
+        </div>
+      </section>
+
+      <!-- 04 STORAGE -->
+      <section class="scene" data-scene="storage" data-label="A different layer" data-pace="medium">
+        <h2 class="storage-lead">
+          <span class="mask"><span>STORAGE IS</span></span>
+          <span class="mask"><span><em>SOLVED.</em></span></span>
+        </h2>
+        <div class="storage-row">
+          <span>STORE</span>
+          <i></i>
+          <span>SHARE</span>
+          <i></i>
+          <span>COLLABORATE</span>
+          <i class="open"></i>
+        </div>
+        <p class="storage-turn"><span>But what happens after sharing?</span></p>
+      </section>
+
+      <!-- 05 REVEAL -->
+      <section class="scene" data-scene="reveal" data-label="NO SUS" data-pace="slow">
+        <div class="reveal-mark wordmark" data-slot="reveal-mark"><b>NO SUS</b><i class="slot"></i></div>
+        <p class="layer-kicker">THE LAYER BETWEEN</p>
+        <p class="layer-pair"><strong>SEND</strong><span class="layer-and">AND</span><strong>LEAK</strong></p>
+      </section>
+
+      <!-- 06 PRODUCT -->
+      <section class="scene" data-scene="product" data-label="The product" data-pace="medium">
+        <div class="product-copy">
+          <p class="step-label" id="product-step">UPLOAD</p>
+          <p class="step-note" id="product-note">A document enters the workspace.</p>
+        </div>
+        <figure class="device" aria-label="NO SUS product">
+          <div class="device-screen">
+            <img class="shot" data-shot="workspace" src="assets/8.png" alt="NO SUS workspace" />
+            <img class="shot" data-shot="spyglass" src="assets/10.png" alt="NO SUS secure viewer" />
+            <img class="shot" data-shot="secure" src="assets/19.png" alt="Watermarked document view" />
+            <img class="shot" data-shot="audit" src="assets/13.png" alt="NO SUS audit ledger" />
+          </div>
+        </figure>
+        <aside class="product-aside">
+          <div class="tracked-link">
+            <span class="url">app.nosus.foo/#/r/</span>
+            <span class="token">········</span>
+            <span class="copy">COPY</span>
+          </div>
+          <div class="identity">
+            <small>RECIPIENT</small>
+            <strong>SCHOLAR</strong>
+            <span>student@nosus.app</span>
+          </div>
+          <div class="viewed-event">
+            <i class="slot event-slot"></i>
+            <div>
+              <strong>DOCUMENT VIEWED</strong>
+              <span>identity confirmed · watermarked</span>
+            </div>
+          </div>
+        </aside>
+        <article class="doc mini-doc" aria-hidden="true">
+          <strong>CONFIDENTIAL.pdf</strong>
+        </article>
+      </section>
+
+      <!-- 07 LOOP -->
+      <section class="scene" data-scene="loop" data-label="The core loop" data-pace="medium">
+        <div class="loop-path">
+          <span>UPLOAD</span><i></i>
+          <span>SHARE</span><i></i>
+          <span>IDENTIFY</span><i></i>
+          <span>VIEW</span><i></i>
+          <span>TRACK</span>
+        </div>
+        <div class="loop-contrast">
+          <p class="hope"><span>SEND</span><i></i><span class="struck">HOPE<b></b></span></p>
+          <p class="known"><span>SEND</span><i></i><span>IDENTIFY</span><i></i><span>VIEW</span><i></i><span>TRACK</span></p>
+        </div>
+      </section>
+
+      <!-- 08 INSIGHT -->
+      <section class="scene" data-scene="insight" data-label="The belief" data-pace="slow">
+        <h2 class="statement">
+          <span class="mask"><span>A FILE SHOULD NOT</span></span>
+          <span class="mask"><span>BECOME ANONYMOUS</span></span>
+          <span class="mask"><span>THE MOMENT IT IS SHARED<i class="slot end-slot"></i></span></span>
+        </h2>
+      </section>
+
+      <!-- 09 PROOF — live product before any future -->
+      <section class="scene" data-scene="proof" data-label="It's live" data-pace="medium">
+        <h2 class="proof-lead">
+          <span class="mask"><span>NOT A CONCEPT.</span></span>
+          <span class="mask"><span>IT’S LIVE.</span></span>
+        </h2>
+        <div class="proof-devices">
+          <figure class="device sm"><img src="assets/8.png" alt="NO SUS workspace" /></figure>
+          <figure class="device sm"><img src="assets/19.png" alt="Watermarked viewer" /></figure>
+          <figure class="device sm"><img src="assets/13.png" alt="Audit activity" /></figure>
+        </div>
+        <ul class="proof-facts">
+          <li>WORKING ANDROID APP</li>
+          <li>WORKING WEB APP</li>
+          <li>TRACKED SHARING</li>
+          <li>RECIPIENT BROWSER FLOW</li>
+          <li>nosus.foo · app.nosus.foo</li>
+        </ul>
+      </section>
+
+      <!-- 10 PASSPORT -->
+      <section class="scene" data-scene="passport" data-label="Document Passport" data-pace="medium">
+        <p class="quiet">That made us ask a bigger question.</p>
+        <h2 class="passport-q">
+          <span class="mask"><span>WHAT IF A DOCUMENT</span></span>
+          <span class="mask"><span>HAD AN <em>IDENTITY?</em></span></span>
+        </h2>
+        <div class="passport">
+          <p class="passport-kicker">DOCUMENT PASSPORT <span>FUTURE</span></p>
+          <ol>
+            <li>CREATED</li>
+            <li>MODIFIED</li>
+            <li>SHARED</li>
+            <li>VIEWED</li>
+            <li>DOWNLOADED</li>
+            <li>TRANSFORMED</li>
+            <li class="now">CURRENT PROVENANCE</li>
+          </ol>
+        </div>
+        <p class="future-note">Today is the first layer. The rest is the direction.</p>
+      </section>
+
+      <!-- 11 AI -->
+      <section class="scene" data-scene="ai" data-label="After AI" data-pace="medium">
+        <h2 class="ai-lead">
+          <span class="mask"><span>AND THEN</span></span>
+          <span class="mask"><span><em>AI</em> ARRIVED.</span></span>
+        </h2>
+        <div class="actors">
+          <span>HUMAN</span>
+          <i></i>
+          <span>APPLICATION</span>
+          <i></i>
+          <span>AI AGENT</span>
+        </div>
+        <div class="ai-asks">
+          <p>WHO IS ALLOWED TO READ IT?</p>
+          <p>WHO IS ALLOWED TO ACT ON IT?</p>
+        </div>
+      </section>
+
+      <!-- 12 BIGGER -->
+      <section class="scene" data-scene="bigger" data-label="Not enough" data-pace="slow">
+        <p class="quiet bigger-now">We know who opened your document.</p>
+        <h2 class="bigger-turn">
+          <span class="mask"><span>BUT KNOWING WHO OPENED</span></span>
+          <span class="mask"><span>A DOCUMENT</span></span>
+          <span class="mask"><span>ISN’T ENOUGH ANYMORE.</span></span>
+        </h2>
+        <p class="bigger-q">
+          <span class="mask"><span>What happens when the thing opening</span></span>
+          <span class="mask"><span>your document isn’t a person?</span></span>
+        </p>
+        <div class="actors-col">
+          <span>HUMAN</span>
+          <i></i>
+          <span>APPLICATION</span>
+          <i></i>
+          <span>AI AGENT</span>
+        </div>
+      </section>
+
+      <!-- 13 CAPABILITY -->
+      <section class="scene" data-scene="capability" data-label="A capability" data-pace="slow">
+        <p class="layer-kicker cap-kicker">NO SUS NEXT · FUTURE ARCHITECTURE</p>
+        <h2 class="cap-line">
+          <span class="mask"><span>DON’T GIVE AI</span></span>
+          <span class="mask"><span>YOUR DOCUMENT.</span></span>
+          <span class="mask"><span>GIVE IT</span></span>
+          <span class="mask cap-strong"><span>A CAPABILITY<i class="slot"></i></span></span>
+        </h2>
+      </section>
+
+      <!-- 14 AGENT MOCK -->
+      <section class="scene" data-scene="agent" data-label="Private AI" data-pace="medium">
+        <p class="layer-kicker agent-kicker">NO SUS PRIVATE AI <span>CONCEPT</span></p>
+        <article class="policy-card">
+          <div class="policy-meta">
+            <p><small>DOCUMENT</small><strong>Research_Proposal.pdf</strong></p>
+            <p><small>AGENT</small><strong>Research Assistant</strong></p>
+          </div>
+          <div class="policy-split">
+            <ul class="allow">
+              <li class="policy-head">ALLOWED</li>
+              <li><b>✓</b> Check for PII</li>
+              <li><b>✓</b> Answer predefined questions</li>
+            </ul>
+            <ul class="deny">
+              <li class="policy-head">DENIED</li>
+              <li><b>✕</b> Download</li>
+              <li><b>✕</b> Export</li>
+              <li><b>✕</b> Unrestricted access</li>
+            </ul>
+          </div>
+          <div class="authorize">AUTHORIZE</div>
+        </article>
+        <div class="process">
+          <i></i>
+          <span>PRIVATE COMPUTATION</span>
+        </div>
+        <div class="agent-result">
+          <p class="result-line">Potential personally identifiable information detected.</p>
+          <p class="stamps"><span>RAW DOCUMENT NOT DISCLOSED</span><span>AI PERMISSION EXPIRED</span></p>
+        </div>
+        <ol class="agent-log">
+          <li><time>10:42</time> Document shared</li>
+          <li><time>10:43</time> AI Agent authorized</li>
+          <li><time>10:43</time> Privacy check executed</li>
+          <li><time>10:43</time> Result returned</li>
+          <li><time>10:43</time> Permission expired</li>
+        </ol>
+      </section>
+
+      <!-- 15 LIFECYCLE -->
+      <section class="scene" data-scene="lifecycle" data-label="Access lifecycle" data-pace="medium">
+        <p class="quiet">The passport now has to hold more than a person.</p>
+        <h2 class="passport-q">
+          <span class="mask"><span>NOT ONLY WHO OPENED IT.</span></span>
+          <span class="mask"><span>WHAT WAS <em>ALLOWED.</em></span></span>
+        </h2>
+        <div class="passport life-list">
+          <p class="passport-kicker">DOCUMENT PASSPORT <span>FUTURE</span></p>
+          <ol>
+            <li>CREATED</li>
+            <li>SHARED</li>
+            <li>HUMAN ACCESSED</li>
+            <li>AI AGENT AUTHORIZED</li>
+            <li>SPECIFIC OPERATION EXECUTED</li>
+            <li>RESULT GENERATED</li>
+            <li class="now">PERMISSION REVOKED</li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- 16 ARCH -->
+      <section class="scene" data-scene="arch" data-label="The layer" data-pace="medium">
+        <p class="layer-kicker">FUTURE ARCHITECTURE</p>
+        <div class="arch-stack">
+          <p>NO SUS</p>
+          <small>POLICY + IDENTITY + AUDIT</small>
+          <i></i>
+          <p>PRIVACY LAYER</p>
+          <i></i>
+          <p>AI / AGENT</p>
+          <i></i>
+          <p>VERIFIED RESULT</p>
+        </div>
+        <p class="arch-tech">Confidential Computing · MPC · Zero-Knowledge Proofs · Midnight · Privacy-Preserving AI</p>
+        <p class="arch-note">Enabling technologies. NO SUS is the product: the permission and accountability layer.</p>
+      </section>
+
+      <!-- 16B POSITION -->
+      <section class="scene" data-scene="position" data-label="Permissions" data-pace="medium">
+        <div class="pos-rows">
+          <p class="hope"><small>TRADITIONAL FILE SHARING</small><span>SEND</span><i></i><span>HOPE</span></p>
+          <p class="hope"><small>EXISTING AI WORKFLOW</small><span>UPLOAD</span><i></i><span>AI GETS DATA</span></p>
+          <p class="known"><small>NO SUS</small><span>SHARE</span><i></i><span>CONTROL</span><i></i><span>PROCESS</span><i></i><span>VERIFY</span></p>
+        </div>
+        <p class="advantage-line pos-line">
+          <span>WE ARE NOT MORE ENCRYPTED.</span>
+          <strong>NO SUS GIVES INFORMATION PERMISSIONS,<br />NOT JUST LINKS.</strong>
+        </p>
+      </section>
+
+      <!-- 17 MARKET -->
+      <section class="scene" data-scene="market" data-label="Where it expands" data-pace="fast">
+        <h2 class="market-lead">
+          <span class="mask"><span>START NARROW.</span></span>
+          <span class="mask"><span>EXPAND NATURALLY.</span></span>
+        </h2>
+        <ul class="markets">
+          <li>UNIVERSITIES</li>
+          <li>RESEARCH</li>
+          <li>PROFESSIONAL SERVICES</li>
+          <li>BUSINESS</li>
+        </ul>
+        <p class="tiers"><span>FREE</span><i></i><span>PRO</span><i></i><span>TEAM</span><i></i><strong>ORGANIZATION</strong></p>
+      </section>
+
+      <!-- 18 ADVANTAGE -->
+      <section class="scene" data-scene="advantage" data-label="The difference" data-pace="medium">
+        <div class="split">
+          <div class="col dim">
+            <small>TRADITIONAL FILE SHARING</small>
+            <p>Storage</p>
+            <p>Collaboration</p>
+            <p>Access</p>
+          </div>
+          <div class="col live">
+            <small>NO SUS</small>
+            <p>Identity-aware sharing</p>
+            <p>Watermarked viewing</p>
+            <p>Document activity</p>
+            <p>Controlled external access</p>
+          </div>
+        </div>
+        <p class="advantage-line">
+          <span>WE ARE NOT REPLACING STORAGE.</span>
+          <strong>WE ARE BUILDING THE ACCOUNTABILITY LAYER AROUND SHARING.</strong>
+        </p>
+      </section>
+
+      <!-- 20 FOUNDER -->
+      <section class="scene" data-scene="team" data-label="The founder" data-pace="medium">
+        <figure class="founder-photo">
+          <img src="assets/founder.jpg" alt="Shubham Sahu" />
+        </figure>
+        <div class="founder-copy">
+          <h2 class="team-name">
+            <span class="mask"><span>SHUBHAM SAHU</span></span>
+          </h2>
+          <p class="team-role">FOUNDER · PRODUCT &amp; ENGINEERING</p>
+          <p class="team-solo">15 DAYS. SOLO.</p>
+          <p class="team-pipe">IDEA → DESIGN → CODE → BACKEND → ANDROID → WEB → DEPLOYMENT</p>
+          <p class="team-quote">AI made building software faster.<br />It didn’t make building the right thing easy.</p>
+          <p class="team-ask">I am looking for the people who can help take this from something I built alone into something people actually need.</p>
+          <p class="team-maturity">Software is becoming easier to build. Execution, product judgment, distribution and persistence are becoming more important.</p>
+          <div class="team-looking">
+            <small>LOOKING FOR</small>
+            <span>A CO-FOUNDER</span>
+            <span>EARLY TEAM</span>
+            <span>STRATEGIC PARTNERS</span>
+            <span>CAPITAL</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 21 CLOSE -->
+      <section class="scene" data-scene="finale" data-label="What are they allowed" data-pace="slow">
+        <h2 class="final-a">
+          <span class="mask"><span>TODAY,</span></span>
+          <span class="mask"><span>NO SUS TELLS YOU</span></span>
+          <span class="mask"><span>WHO ACCESSED</span></span>
+          <span class="mask"><span>YOUR INFORMATION.</span></span>
+        </h2>
+        <h2 class="final-b">
+          <span class="mask"><span>TOMORROW,</span></span>
+          <span class="mask"><span>NO SUS CAN DECIDE</span></span>
+          <span class="mask"><span>WHAT A HUMAN,</span></span>
+          <span class="mask"><span>APPLICATION,</span></span>
+          <span class="mask"><span>OR AI AGENT</span></span>
+          <span class="mask"><span>IS ALLOWED TO DO.</span></span>
+        </h2>
+        <h2 class="final-c">
+          <span class="mask"><span>THE QUESTION ISN’T ONLY:</span></span>
+          <span class="mask"><span>WHO HAS MY DATA?</span></span>
+          <span class="mask cap-strong"><span>WHAT ARE THEY</span></span>
+          <span class="mask cap-strong"><span>ALLOWED TO DO</span></span>
+          <span class="mask cap-strong"><span>WITH IT?</span></span>
+        </h2>
+        <aside class="final-cta">
+          <div class="wordmark final-mark" data-slot="finale-mark"><b>NO SUS</b><i class="slot"></i></div>
+          <img class="qr" src="assets/qr-try.png?v=3" width="1024" height="1024" alt="QR code to try NO SUS" />
+          <p>SCAN IT.<br />SEE IT YOURSELF.</p>
+        </aside>
+      </section>
+    </main>
+
+    <nav class="controls" aria-label="Presentation controls">
+      <button type="button" id="prev" aria-label="Previous">←</button>
+      <span id="counter">01</span>
+      <div class="progress" aria-hidden="true"><i id="progressFill"></i></div>
+      <button type="button" id="next" aria-label="Next">→</button>
+      <button type="button" id="fullscreen" aria-label="Fullscreen">Full</button>
+    </nav>
+
+    <script src="vendor/gsap.min.js"></script>
+    <script src="app.js?v=2"></script>
+  </body>
+</html>
