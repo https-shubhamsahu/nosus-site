@@ -6,7 +6,7 @@ This file is for machine readers. It does not guarantee AI citations or answer-e
 
 ## Product
 
-NO SUS lets you open Saved on a borrowed computer without signing Google in there (cyber cafe, college lab, print shop). Scan a QR with the phone app, confirm a match code, approve with fingerprint or face. The computer never receives your Google password or Google token.
+NO SUS lets you open Saved on a borrowed computer without signing Google in there (cyber cafe, college lab, print shop). Scan a QR with the phone app, confirm a match code, approve with the phone's screen lock. The computer never receives your Google password or Google token.
 
 Also in the app / site: watermarked document sharing (SecureSend) and client-encrypted self-destructing notes and files (Burn Notes, Burn Files). Burn tools on the marketing site need no account.
 
@@ -15,7 +15,7 @@ Native app: Android. Web app: [https://app.nosus.foo](https://app.nosus.foo)
 ## Availability (honest)
 
 - Burn Notes / Burn Files: available to try on the site and in the app.
-- Go / Saved on a borrowed computer (`/go`): shipped in the product behind a server feature flag (`nosus_address_enabled`). Available in the app when enabled for the account — not generally rolled out to all users yet.
+- Go / Saved on a borrowed computer (`/go`): available in the app. Approval is the phone's screen lock. The computer never receives a Google token.
 - Drop (personal address door) and Group drops: available in the app for all signed-in users. The current Drop URL is `https://nosus.foo/to?h=<handle>`; `yourname.nosus.foo` is not live yet.
 
 ## Important URLs
@@ -25,6 +25,10 @@ Native app: Android. Web app: [https://app.nosus.foo](https://app.nosus.foo)
 - [Privacy](https://nosus.foo/privacy.html)
 - [Terms](https://nosus.foo/terms.html)
 - [Account deletion](https://nosus.foo/account-deletion.html)
+
+## Longer description
+
+- [llms-full.txt](https://nosus.foo/llms-full.txt)
 
 ## Utility pages (noindex)
 

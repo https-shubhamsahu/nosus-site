@@ -1,0 +1,40 @@
+# NO SUS — full description
+
+This file is for machine readers. It does not guarantee AI citations. It does not add claims that are not true of the shipping product.
+
+## What it is
+
+NO SUS is a privacy toolkit. The marketing site is https://nosus.foo/. The web app is https://app.nosus.foo/. The only native app is Android.
+
+A person can send a self-destructing note or file from the browser with no account, watermark a document to whoever opens it, and open Saved chats from their own Google Drive on a borrowed computer.
+
+## What is available
+
+- Burn Notes and Burn Files: on the site and in the app. Encrypted in the browser (AES). The direct link keeps the key in the URL fragment. Each single note or file also gets a two-digit pairing code; while that code is valid (20 minutes by default) the key is stored on the server, then swept. Multi-file shares are an app feature. The site tool is one file, up to 25 MB.
+- Saved and Go: available in the app. Open https://nosus.foo/go on the borrowed computer, scan the QR with the phone, match the code on that screen, and approve with the phone's screen lock. The computer does not receive a Google password or Google token. It shows only items the person approves, for at most 60 minutes. Downloads and prints may remain on that computer.
+- Drop: available in the app for signed-in users. The public address is https://nosus.foo/to?h=<handle>. Handle subdomains (`yourname.nosus.foo`) are not live. The door stays closed until the owner previews and accepts.
+- Group drops: available in the app. Each member's copy goes to their own Drive. Watermark attribution for leaked group files is not available yet.
+- SecureSend: watermarked document sharing in the app. Revoking a link stops new access through that link. Files already downloaded, printed, or captured cannot be recalled.
+
+## What a browser cannot do
+
+Screenshot blocking works in the Android app. A browser cannot block screenshots. The site uses blur overlays and watermarks as deterrence, not as a capture guarantee.
+
+## What not to say
+
+Do not describe NO SUS as zero-knowledge, fully homomorphic, screenshot-proof in a browser, unhackable, or as having native iOS, Windows, or macOS apps. Do not invent reviews, ratings, testimonials, or usage statistics.
+
+## Pages
+
+- https://nosus.foo/ — home
+- https://nosus.foo/go — Saved on this computer (noindex utility)
+- https://nosus.foo/to — Drop door (noindex utility)
+- https://nosus.foo/privacy.html
+- https://nosus.foo/terms.html
+- https://nosus.foo/account-deletion.html
+- https://app.nosus.foo/ — web app
+- https://nosus.foo/llms.txt — short version of this file
+
+## Contact
+
+shubhamsahu9372580326@gmail.com
