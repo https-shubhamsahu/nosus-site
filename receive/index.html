@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer"><title>Send and Receive — NO SUS</title><link rel="stylesheet" href="./style.css"></head>
+<body><main><header><a href="/">NO SUS</a><h1>Send and Receive</h1><p>Burn text and files between devices. No account or PC installation.</p></header>
+<section id="preview"><h2>Device sharing</h2><p>Device sharing is disabled in this browser. Enable it to send and receive.</p><button id="enable">Enable on this browser</button></section>
+<div id="app" hidden>
+<p id="offlineStatus" role="status">Offline page has not been saved yet.</p><button id="save">Save this page for offline use</button>
+<p id="status" role="status" aria-live="polite">Choose how to connect.</p><p id="error" role="alert"></p>
+<section id="setup"><label>Connection <select id="mode"><option value="online">Online</option><option value="offline">Offline — same Wi-Fi or hotspot</option></select></label>
+<button id="receive">Receive on this device</button><p>For phone → PC, open Receive on the PC, then scan its QR with the phone.</p>
+<label>PC connection code, QR link, or offline offer<textarea id="joinText" autocomplete="off" spellcheck="false" placeholder="Enter the PC’s 8-character code or scan its QR"></textarea></label><button id="join">Connect to that device</button><button id="scan">Scan the PC’s QR</button><label class="upload">Or scan a QR image<input id="qrImage" type="file" accept="image/*"></label>
+<details><summary>Android local connection</summary><p>Start Local signaling in the Android app. Enter the displayed phone address here. Both devices must share Wi-Fi or a hotspot. Allow local-network access when prompted.</p><label>Phone address<input id="localAddress" placeholder="192.168.1.20:53318" autocomplete="off"></label><button id="localConnect">Connect locally</button></details></section>
+<section id="camera" hidden><video id="video" playsinline muted></video><button id="stopScan">Stop scanning</button><p id="scanProgress" role="status"></p></section>
+<section id="pairing" hidden><h2 id="qrTitle">Scan this with the phone</h2><canvas id="qr" aria-label="Connection QR code"></canvas><p id="frame" role="status"></p><p id="code"></p><label id="detailsLabel">Connection details<textarea id="details" readonly spellcheck="false"></textarea></label><button id="copyDetails">Copy connection details</button>
+<div id="answerEntry" hidden><p>On the phone, scan the QR above. Then type the phone’s full response below. It can be much longer than a short code.</p><label>Phone response<textarea id="answer" spellcheck="false" autocomplete="off"></textarea></label><button id="accept">Use phone response</button></div></section>
+<section id="confirm" hidden><h2>Check both screens</h2><p>Both devices must show this same number:</p><strong id="match"></strong><button id="confirmButton">The numbers match</button></section>
+<section id="sendSection" hidden><h2>Send a Burn</h2><label>Text<textarea id="note" maxlength="50000" spellcheck="false" placeholder="Up to 50,000 characters"></textarea></label><button id="sendNote">Send text</button><label>Files — up to 10, 25 MB combined<input id="files" type="file" multiple></label><p id="draftFiles"></p><button id="sendFiles">Send files</button><progress id="progress" max="1" value="0"></progress><p id="sent" role="status"></p></section>
+<section><h2 id="inboxTitle" hidden>Received</h2><div id="inbox"></div></section>
+<section id="reveal" hidden><h2>Burn text</h2><p id="timer" role="status"></p><pre id="secret"></pre><button id="copySecret">Copy text</button><button id="burnNow">Burn now</button></section>
+<button id="end" hidden>End connection</button><p>Copied text and downloaded files can remain on this device. Closing the session clears pending items from this page.</p><p id="receipt" role="status"></p>
+</div></main><script type="module" src="./receive.mjs"></script></body></html>
