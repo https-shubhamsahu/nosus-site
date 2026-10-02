@@ -1,6 +1,6 @@
 // A standalone scope: never intercept Burn URLs, API calls or the main site.
-const CACHE='nosus-receive-91f295e705bb6fbb';
-const FILES=['./','./index.html','./style.css','./protocol.mjs','./receive.mjs','./vendor.mjs'];
+const CACHE='nosus-receive-5c17242fd28aabc0';
+const FILES=['./','./index.html','./style.css','./theme.js','./geist-400.woff2','./geist-700.woff2','./protocol.mjs','./receive.mjs','./vendor.mjs'];
 self.addEventListener('install',event=>event.waitUntil((async()=>{const c=await caches.open(CACHE);await c.addAll(FILES);await self.skipWaiting();})()));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const k of await caches.keys())if(k.startsWith('nosus-receive-')&&k!==CACHE)await caches.delete(k);await self.clients.claim();})()));
 self.addEventListener('fetch',event=>{
