@@ -5,6 +5,9 @@ let pc,channel,key,offer,answer,cipher,transfer,secret,token,poll,expiry,qrTimer
 let mode='online', qrFrames=new Map(), scanFrames=new Map();
 const status=s=>{$('status').textContent=s;}, error=e=>{$('error').textContent=e.message||'Connection failed';};
 const hex=()=>Array.from(crypto.getRandomValues(new Uint8Array(32)),b=>b.toString(16).padStart(2,'0')).join('');
+function chooseSend(value=true){show('choices',!value);show('senderSetup',value);status(value?'Step 1 · Connect to the receiving device':'What would you like to do?');}
+function contentTab(files=false){show('textDraft',!files);show('fileDraft',files);$('textTab').setAttribute('aria-pressed',String(!files));$('fileTab').setAttribute('aria-pressed',String(files));}
+function connectionMode(){const offline=$('mode').value==='offline';show('offlineHelp',offline);$('joinLabel').firstChild.textContent=offline?'Full connection offer':'Connection code';$('joinText').placeholder=offline?'Scan the other device’s QR or paste its full offer':'8-character code';}
 async function signal(action,extra={}) {
   const res=await fetch(`${SUPABASE_URL}/functions/v1/burn-device-signal`,{method:'POST',headers:{apikey:SUPABASE_ANON_KEY,'Content-Type':'application/json'},body:JSON.stringify({action,secret,sid:offer?.sid,...extra}),signal:AbortSignal.timeout(15000),cache:'no-store'});
   const data=await res.json();if(!res.ok)throw Error(data.error||'Connection service unavailable');return data;
@@ -38,10 +41,14 @@ async function secure(role) {
   cipher=new Cipher(material,role==='offer'?0:1);transfer=new Transfer(wire,render);$('match').textContent=material.code;
   if(channel?.readyState==='open')showConfirm();
 }
-function showConfirm(){status('Confirming — check the number on both devices.');show('confirm',true);show('pairing',false);stopQR();show('end',true);}
+function showConfirm(){status('Step 2 · Check both screens');show('confirm',true);show('pairing',false);stopQR();show('end',true);}
 async function displayQR(text,title) {
   stopQR();show('pairing',true);$('qrTitle').textContent=title;$('details').value=text.startsWith('NS1.')?`NS1.${text.slice(4).match(/.{1,8}/g).join(' ')}`:text;
   $('detailsLabel').firstChild.textContent=`Connection details — ${text.length} characters`;
+  const response=mode==='offline'&&answer!=null;
+  show('codeBlock',mode==='online'&&!!$('code').textContent);show('qr',!response);$('connectionDetails').open=response;
+  $('detailsSummary').textContent=response?'Your response — enter this on the receiving device':'More connection options';
+  $('qrHelp').textContent=response?'Enter the full response below on the receiving device. Keep both screens open.':'On the sending device, choose Send and scan this QR. Keep this screen open.';
   const id=randomId(),chunks=text.match(/.{1,800}/g)||[text];qrFrames=new Map(chunks.map((chunk,i)=>[i,chunks.length===1?text:`NF1.${id}.${i}.${chunks.length}.${chunk}`]));let index=0;
   const draw=async()=>{await QRCode.toCanvas($('qr'),qrFrames.get(index),{width:360,errorCorrectionLevel:'M',margin:3});$('frame').textContent=chunks.length>1?`QR part ${index+1} of ${chunks.length}. Keep the phone pointed at the screen.`:'';index=(index+1)%chunks.length;};
   await draw();if(chunks.length>1)qrTimer=setInterval(()=>draw().catch(error),1200);
@@ -51,14 +58,14 @@ async function startReceive(local=false) {
   mode=local?'offline':$('mode').value;await setup('offer');
   await pc.setLocalDescription(await pc.createOffer());await gather();offer={v:1,role:'offer',sid:randomId(),pub:key.pub,expires:Date.now()+15*60000,sdp:pc.localDescription.sdp};
   expiry=setTimeout(()=>{error(Error('Connection expired. Start a new session.'));end();},15*60000);
-  show('setup',false);show('end',true);status('Waiting for the phone.');
+  show('setup',false);show('end',true);status('Waiting for the sending device…');
   if(local){
     const raw=$('localAddress').value.trim();if(!/^(?:10\.(?:\d{1,3}\.){2}\d{1,3}|192\.168\.\d{1,3}\.\d{1,3}|172\.(?:1[6-9]|2\d|3[01])\.\d{1,3}\.\d{1,3}):\d{2,5}$/.test(raw))throw Error('Enter the private Wi-Fi address and port shown on the phone');
     localUrl=`http://${raw}`;const encoded=await encodeSignal(offer);await displayQR(`NL1.${raw}.${encoded}`,'Scan with the Android NO SUS app');
     await localRequest('offer',{offer});poll=setInterval(()=>localRequest('poll').then(r=>{if(r.answer&&!answer)acceptAnswer(r.answer).catch(error);}).catch(e=>{error(e);end();}),2000);
   }else if(mode==='online'){
     token=hex();const alphabet='ABCDEFGHJKLMNPQRSTUVWXYZ23456789';const code=Array.from(crypto.getRandomValues(new Uint8Array(8)),b=>alphabet[b%32]).join('');
-    await signal('create',{offer,token,code});$('code').textContent=code;await displayQR(`https://nosus.foo/receive/#device=${token}`,'Scan this QR on the phone');
+    await signal('create',{offer,token,code});$('code').textContent=code;await displayQR(`https://nosus.foo/receive/#device=${token}`,'Ready to receive');
     poll=setInterval(()=>signal('poll').then(r=>{if(r.answer&&!answer)acceptAnswer(r.answer).catch(error);}).catch(e=>{error(e);end();}),2000);
   }else{await displayQR(await encodeSignal(offer),'Scan this QR on the phone');show('answerEntry',true);}
 }
@@ -81,9 +88,10 @@ async function join(raw) {
 }
 async function acceptAnswer(value){if(answer)return;const next=typeof value==='string'?await decodeSignal(value,'answer'):validateSignal(value,'answer');if(next.sid!==offer.sid||next.expires!==offer.expires)throw Error('Response belongs to another session');answer=next;clearInterval(poll);await secure('offer');await pc.setRemoteDescription({type:'answer',sdp:answer.sdp});if(channel?.readyState!=='open')connectionTimeout=setTimeout(()=>{if(!closed&&channel?.readyState!=='open'){error(Error('Connection blocked. Check the Wi-Fi or hotspot and whether the network allows devices to communicate.'));status('Disconnected');end();}},30000);}
 function render(){
-  if(!transfer)return;if(transfer.connected){show('confirm',false);show('sendSection',true);status('Connected — ready to send.');}
+  if(!transfer)return;if(transfer.connected){show('confirm',false);show('sendSection',true);status('Connected · You can now send in either direction');}
+  show('progress',transfer.progress>0&&transfer.progress<1);
   $('progress').value=transfer.progress;$('sent').textContent=[...transfer.outgoing.values()].map(p=>`${p.name}: ${p.state}`).join(' · ');
-  $('inbox').replaceChildren();show('inboxTitle',transfer.pending.size>0);
+  $('inbox').replaceChildren();show('inboxTitle',transfer.pending.size>0);show('inboxSection',transfer.pending.size>0);
   for(const p of transfer.pending.values()){
     const row=document.createElement('div');row.className='item';const label=document.createElement('p');label.textContent=`${p.name}: ${p.state==='sending'?`${Math.round(p.received/p.size*100)}%`:p.state}`;row.append(label);
     if(p.state==='ready'){const button=document.createElement('button');button.textContent=p.kind==='text'?'Reveal':p.kind==='link'?'Open Burn':'Download';button.onclick=()=>consume(p.id).catch(error);row.append(button);} $('inbox').append(row);
@@ -112,18 +120,19 @@ async function scanValue(text){
 }
 async function startScan(){scanFrames.clear();scanStream=await navigator.mediaDevices.getUserMedia({video:{facingMode:'environment'},audio:false});$('video').srcObject=scanStream;await $('video').play();show('camera',true);const canvas=document.createElement('canvas');const loop=async()=>{if(!scanStream)return;const v=$('video');if(v.videoWidth){canvas.width=v.videoWidth;canvas.height=v.videoHeight;const ctx=canvas.getContext('2d');ctx.drawImage(v,0,0);const frame=ctx.getImageData(0,0,canvas.width,canvas.height);const qr=jsQR(frame.data,frame.width,frame.height);if(qr)await scanValue(qr.data);}scanTimer=setTimeout(()=>loop().catch(e=>{stopScan();error(e);}),250);};await loop();}
 function end(){closed=true;clearInterval(poll);clearTimeout(expiry);clearTimeout(connectionTimeout);stopQR();stopScan();burnText();transfer?.clear();cipher?.clear();pc?.close();cipher=transfer=pc=channel=key=offer=answer=null;draftFiles=[];$('draftFiles').textContent='';$('note').value='';$('files').value='';$('details').value='';$('answer').value='';$('joinText').value='';$('inbox').replaceChildren();$('confirmButton').disabled=false;for(const id of ['pairing','confirm','sendSection','end','answerEntry'])show(id,false);show('setup',true);}
-async function run(action){if(busy)return;busy=true;$('error').textContent='';try{await action();}catch(e){error(e);if(!transfer?.connected){end();status('Disconnected — try pairing again.');}}finally{busy=false;}}
+async function run(action){if(busy)return;busy=true;$('error').textContent='';try{await action();}catch(e){error(e);if(!transfer?.connected){const note=$('note').value,files=[...draftFiles];end();$('note').value=note;draftFiles=files;$('draftFiles').textContent=files.map(f=>f.name).join(' · ');status('Could not connect. Your draft is safe — try again.');}}finally{busy=false;}}
 async function checkOffline(registration){await new Promise((resolve,reject)=>{const c=new MessageChannel();const timer=setTimeout(()=>reject(Error('Could not verify the offline page')),15000);c.port1.onmessage=e=>{clearTimeout(timer);if(e.data){resolve();}else{reject(Error('Offline files are incomplete'));}};(registration.active||registration.waiting)?.postMessage('check-ready',[c.port2]);});$('offlineStatus').textContent='Ready for offline sharing. Keep this saved page on both browser devices.';}
 async function saveOffline(){if(!('serviceWorker' in navigator))throw Error('Offline caching is unavailable in this browser');const registration=await navigator.serviceWorker.register('./sw.js',{scope:'./'});await navigator.serviceWorker.ready;await checkOffline(registration);}
 if('serviceWorker' in navigator)navigator.serviceWorker.getRegistration('./').then(r=>{if(r?.active)return checkOffline(r);}).catch(()=>{});
-function enable(){try{localStorage.setItem('burn_device_sharing_enabled','true');}catch{}show('preview',false);show('app',true);if(location.hash.startsWith('#device=')){const raw=location.href;history.replaceState(null,'',location.pathname);run(()=>join(raw));}else if(location.hash==='#send'){history.replaceState(null,'',location.pathname);$('joinText').focus();}window.parent.postMessage({type:'burn-device-ready'},location.origin);}
+function enable(){try{localStorage.setItem('burn_device_sharing_enabled','true');}catch{}show('preview',false);show('app',true);if(location.hash.startsWith('#device=')){const raw=location.href;history.replaceState(null,'',location.pathname);run(()=>join(raw));}else if(location.hash==='#send'){history.replaceState(null,'',location.pathname);chooseSend();}window.parent.postMessage({type:'burn-device-ready'},location.origin);}
 $('enable').onclick=enable;try{if(localStorage.getItem('burn_device_sharing_enabled')!=='false')enable();}catch{enable();}
 $('save').onclick=()=>run(saveOffline);$('receive').onclick=()=>run(()=>startReceive());$('localConnect').onclick=()=>run(()=>startReceive(true));$('join').onclick=()=>run(()=>join($('joinText').value));$('accept').onclick=()=>run(()=>acceptAnswer($('answer').value));$('scan').onclick=()=>run(startScan);$('stopScan').onclick=stopScan;
-$('confirmButton').onclick=()=>run(async()=>{await transfer.confirm();$('confirmButton').disabled=true;});$('sendNote').onclick=()=>run(sendText);$('sendFiles').onclick=()=>run(sendFiles);
-$('end').onclick=()=>{if(mode==='online'&&offer)signal('end').catch(()=>{});end();$('confirmButton').disabled=false;status('Disconnected. Pending items cleared.');};$('burnNow').onclick=burnText;
+$('confirmButton').onclick=()=>run(async()=>{await transfer.confirm();$('confirmButton').disabled=true;$('confirmationHelp').textContent='Waiting for confirmation on the other device…';});$('sendNote').onclick=()=>run(sendText);$('sendFiles').onclick=()=>run(sendFiles);
+$('chooseSend').onclick=()=>chooseSend();$('back').onclick=()=>chooseSend(false);$('mode').onchange=connectionMode;$('textTab').onclick=()=>contentTab();$('fileTab').onclick=()=>contentTab(true);
+$('end').onclick=()=>{if(mode==='online'&&offer)signal('end').catch(()=>{});end();$('confirmButton').disabled=false;$('confirmationHelp').textContent='Confirm on both devices to connect.';chooseSend(false);status('Disconnected. Pending items cleared.');};$('burnNow').onclick=burnText;
 $('copyDetails').onclick=()=>run(()=>navigator.clipboard.writeText($('details').value));$('copySecret').onclick=()=>run(()=>navigator.clipboard.writeText($('secret').textContent));
 $('qrImage').onchange=()=>run(async()=>{const file=$('qrImage').files[0];if(!file)return;const image=await createImageBitmap(file);const c=document.createElement('canvas');c.width=image.width;c.height=image.height;const ctx=c.getContext('2d');ctx.drawImage(image,0,0);const frame=ctx.getImageData(0,0,c.width,c.height);const qr=jsQR(frame.data,frame.width,frame.height);image.close();if(!qr)throw Error('No QR found in that image');await scanValue(qr.data);});
-window.addEventListener('message',e=>{if(e.origin!==location.origin||e.source!==window.parent||e.data?.type!=='burn-device-draft')return;const d=e.data;if(typeof d.note==='string')$('note').value=d.note.slice(0,50000);if(Array.isArray(d.files)&&d.files.every(f=>f instanceof File)){draftFiles=d.files;$('draftFiles').textContent=draftFiles.map(f=>`${f.name} — ${f.size} bytes`).join(' · ');}});
+window.addEventListener('message',e=>{if(e.origin!==location.origin||e.source!==window.parent||e.data?.type!=='burn-device-draft')return;const d=e.data;if(typeof d.note==='string')$('note').value=d.note.slice(0,50000);if(Array.isArray(d.files)&&d.files.every(f=>f instanceof File)){draftFiles=d.files;$('draftFiles').textContent=draftFiles.map(f=>f.name).join(' · ');if(draftFiles.length)contentTab(true);}});
 window.addEventListener('pagehide',end);document.addEventListener('visibilitychange',()=>{if(document.hidden)burnText();});
 
 $('files').onchange=()=>{draftFiles=[...$('files').files];$('draftFiles').textContent=draftFiles.map(f=>`${f.name} — ${f.size} bytes`).join(' · ');};
