@@ -66,8 +66,8 @@ function stopQR(){clearInterval(qrTimer);qrFrames.clear();}
 async function startReceive() {
   if(!navigator.onLine)throw Error('Internet is required on the website. Offline sharing is available only between Android apps.');
   status('Preparing your connection… Keep this screen open.');
-  await setup('offer');await pc.setLocalDescription(await pc.createOffer());await gather();offer={v:1,role:'offer',sid:randomId(),pub:key.pub,expires:connectionNow()+15*60000,sdp:pc.localDescription.sdp};
-  expiry=setTimeout(()=>{error(Error('Connection expired. Start a new session.'));end();},15*60000);
+  await setup('offer');await pc.setLocalDescription(await pc.createOffer());await gather();offer={v:1,role:'offer',sid:randomId(),pub:key.pub,expires:connectionNow()+14*60000,sdp:pc.localDescription.sdp};
+  expiry=setTimeout(()=>{error(Error('Connection expired. Start a new session.'));end();},offer.expires-connectionNow());
   show('setup',false);show('end',true);status('Waiting for the sending device…');
     token=hex();const alphabet='ABCDEFGHJKLMNPQRSTUVWXYZ23456789';const code=Array.from(crypto.getRandomValues(new Uint8Array(8)),b=>alphabet[b%32]).join('');
     await signal('create',{offer,token,code});$('code').textContent=code;await displayQR(`https://nosus.foo/receive/#device=${token}`,'Ready to receive');
