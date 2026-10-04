@@ -80,7 +80,7 @@ export class Transfer {
     this.pending = new Map(); this.outgoing = new Map(); this.seen = new Set(); this.total = 0; this.progress = 0;
   }
   get connected() { return this.localConfirmed && this.remoteConfirmed; }
-  async confirm() { this.localConfirmed = true; await this.send({t:'confirm'}); this.changed(); }
+  async confirm() { if(this.localConfirmed)return; await this.send({t:'confirm'}); this.localConfirmed = true; this.changed(); }
   async receive(m) {
     if (m.t === 'confirm') { this.remoteConfirmed = true; this.changed(); return; }
     if (!this.connected) throw Error('Confirm both devices before sharing');
