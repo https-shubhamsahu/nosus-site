@@ -6,6 +6,8 @@ document.documentElement.dataset.device=phone?'phone':'computer';
 show('scan',phone);show('desktopScan',!phone);
 if(!phone)$('joinHelp').textContent='Enter the code or paste the connection link shown on the receiving device. No camera needed.';
 let pc,channel,key,offer,answer,cipher,transfer,secret,token,poll,expiry,qrTimer,scanStream,scanTimer,burnTimer,connectionTimeout,busy=false,closed=false,sendQueue=Promise.resolve(),readQueue=Promise.resolve(),draftFiles=[];
+let clockOffset=0;
+const connectionNow=()=>Date.now()+clockOffset;
 let qrFrames=new Map(), scanFrames=new Map();
 const status=s=>{$('status').textContent=s;}, error=e=>{$('error').textContent=e.message||'Connection failed';};
 const hex=()=>Array.from(crypto.getRandomValues(new Uint8Array(32)),b=>b.toString(16).padStart(2,'0')).join('');
@@ -36,13 +38,16 @@ async function setup(role) {
   if(pc)throw Error('End the current connection before pairing again.');
   show('retry',false);
   closed=false;key=await makeKey();secret=hex();sendQueue=Promise.resolve();readQueue=Promise.resolve();
+  const started=Date.now(),time=await signal('clock');
+  if(!Number.isSafeInteger(time.now))throw Error('Connection service unavailable. Try again.');
+  clockOffset=time.now-Math.round((started+Date.now())/2);
   pc=new RTCPeerConnection({iceServers:[{urls:'stun:stun.l.google.com:19302'}]});
   pc.ondatachannel=e=>bindChannel(e.channel);
   const peer=pc;pc.onconnectionstatechange=()=>{if(['failed','disconnected','closed'].includes(peer.connectionState)&&!closed){error(Error('Connection ended. Check the Wi-Fi or hotspot and try again.'));end(true);show('retry',true);}};
   if(role==='offer')bindChannel(pc.createDataChannel('burn',{ordered:true}));
 }
 async function secure(role) {
-  const material=await derive({role,key:key.privateKey},offer,answer);if(closed)return;
+  const material=await derive({role,key:key.privateKey},offer,answer,connectionNow());if(closed)return;
   cipher=new Cipher(material,role==='offer'?0:1);transfer=new Transfer(wire,render);$('match').textContent=material.code;
   if(channel?.readyState==='open')showConfirm();
 }
@@ -61,7 +66,7 @@ function stopQR(){clearInterval(qrTimer);qrFrames.clear();}
 async function startReceive() {
   if(!navigator.onLine)throw Error('Internet is required on the website. Offline sharing is available only between Android apps.');
   status('Preparing your connection… Keep this screen open.');
-  await setup('offer');await pc.setLocalDescription(await pc.createOffer());await gather();offer={v:1,role:'offer',sid:randomId(),pub:key.pub,expires:Date.now()+15*60000,sdp:pc.localDescription.sdp};
+  await setup('offer');await pc.setLocalDescription(await pc.createOffer());await gather();offer={v:1,role:'offer',sid:randomId(),pub:key.pub,expires:connectionNow()+15*60000,sdp:pc.localDescription.sdp};
   expiry=setTimeout(()=>{error(Error('Connection expired. Start a new session.'));end();},15*60000);
   show('setup',false);show('end',true);status('Waiting for the sending device…');
     token=hex();const alphabet='ABCDEFGHJKLMNPQRSTUVWXYZ23456789';const code=Array.from(crypto.getRandomValues(new Uint8Array(8)),b=>alphabet[b%32]).join('');
@@ -74,15 +79,15 @@ async function join(raw) {
   if(/^(NS1|NL1|NF1)\./.test(raw))throw Error('Offline sharing is available only between Android apps. Use the receiving device’s online QR or 8-character code.');
   if(!navigator.onLine)throw Error('Internet is required on the website.');
   await setup('answer');
-  const found=raw.match(/(?:#device=|\/device\/)([a-f0-9]{64})/);const result=await signal('join',found?{token:found[1]}:{code:raw.toUpperCase().replace(/\s/g,'')});offer=validateSignal(result.offer,'offer');
+  const found=raw.match(/(?:#device=|\/device\/)([a-f0-9]{64})/);const result=await signal('join',found?{token:found[1]}:{code:raw.toUpperCase().replace(/\s/g,'')});offer=validateSignal(result.offer,'offer',connectionNow());
   show('setup',false);show('end',true);status('Connecting…');
-  expiry=setTimeout(()=>{error(Error('Connection expired'));end();},offer.expires-Date.now());
+  expiry=setTimeout(()=>{error(Error('Connection expired'));end();},offer.expires-connectionNow());
   await pc.setRemoteDescription({type:'offer',sdp:offer.sdp});await pc.setLocalDescription(await pc.createAnswer());await gather();
   answer={v:1,role:'answer',sid:offer.sid,pub:key.pub,expires:offer.expires,sdp:pc.localDescription.sdp};await secure('answer');
   await signal('answer',{answer});
   waitForConnection();
 }
-async function acceptAnswer(value){if(answer)return;const next=validateSignal(value,'answer');if(next.sid!==offer.sid||next.expires!==offer.expires)throw Error('Response belongs to another session');answer=next;clearInterval(poll);await secure('offer');await pc.setRemoteDescription({type:'answer',sdp:answer.sdp});waitForConnection();}
+async function acceptAnswer(value){if(answer)return;const next=validateSignal(value,'answer',connectionNow());if(next.sid!==offer.sid||next.expires!==offer.expires)throw Error('Response belongs to another session');answer=next;clearInterval(poll);await secure('offer');await pc.setRemoteDescription({type:'answer',sdp:answer.sdp});waitForConnection();}
 function waitForConnection(){clearTimeout(connectionTimeout);if(channel?.readyState!=='open')connectionTimeout=setTimeout(()=>{if(!closed&&channel?.readyState!=='open'){error(Error('Connection blocked. Put both devices on the same Wi-Fi or hotspot, or share a Burn link instead.'));status('Disconnected — your unsent draft is safe');end(true);show('retry',true);}},30000);}
 function render(){
   if(!transfer)return;if(transfer.connected){show('confirm',false);show('sendSection',true);status('Connected · You can now send in either direction');}

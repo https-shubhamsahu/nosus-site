@@ -11,9 +11,9 @@ export function unb64(s) {
 export const randomId = () => b64(crypto.getRandomValues(new Uint8Array(16)));
 export const digest = async bytes => new Uint8Array(await crypto.subtle.digest('SHA-256', bytes));
 export const canonical = value => JSON.stringify(value, Object.keys(value).sort());
-export function validateSignal(s, role) {
+export function validateSignal(s, role, now = Date.now()) {
   if (!s || s.v !== 1 || s.role !== role || !/^[A-Za-z0-9_-]{22}$/.test(s.sid) ||
-      !Number.isSafeInteger(s.expires) || s.expires < Date.now() || s.expires > Date.now() + 16 * 60000 ||
+      !Number.isSafeInteger(s.expires) || s.expires < now || s.expires > now + 16 * 60000 ||
       typeof s.pub !== 'string' || unb64(s.pub).length !== 65 || unb64(s.pub)[0] !== 4 ||
       typeof s.sdp !== 'string' || s.sdp.length > 24000 || !s.sdp.startsWith('v=0')) throw Error('Invalid or expired connection details');
   return s;
@@ -40,8 +40,8 @@ export async function makeKey() {
   const key = await crypto.subtle.generateKey({name:'ECDH', namedCurve:'P-256'}, true, ['deriveBits']);
   return {privateKey:key.privateKey, pub:b64(new Uint8Array(await crypto.subtle.exportKey('raw', key.publicKey)))};
 }
-export async function derive(privateKey, offer, answer) {
-  validateSignal(offer, 'offer'); validateSignal(answer, 'answer');
+export async function derive(privateKey, offer, answer, now = Date.now()) {
+  validateSignal(offer, 'offer', now); validateSignal(answer, 'answer', now);
   if (offer.sid !== answer.sid || offer.expires !== answer.expires) throw Error('Response belongs to another session');
   const transcript = utf8.encode(`${DOMAIN}\n${canonical(offer)}\n${canonical(answer)}`);
   const salt = await digest(transcript);
