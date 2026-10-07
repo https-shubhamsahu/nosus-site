@@ -16,7 +16,7 @@ Native app: Android. Web app: [https://app.nosus.foo](https://app.nosus.foo)
 
 - Burn Notes / Burn Files: available to try on the site and in the app.
 - Go / Saved on a borrowed computer (`/go`): available in the app. Approval is the phone's screen lock. The computer never receives a Google token.
-- Drop (personal address door) and Group drops: available in the app for all signed-in users. The current Drop URL is `https://nosus.foo/to?h=<handle>`; `yourname.nosus.foo` is not live yet.
+- Drop (personal address door) and Group drops: available in the Android and web app for all signed-in users. Drop addresses use `https://<handle>.nosus.foo/`. Existing `https://nosus.foo/to?h=<handle>` links still work. Senders need no account. The owner opens the door when expecting a file, then previews and accepts it into Drive.
 
 ## Important URLs
 
