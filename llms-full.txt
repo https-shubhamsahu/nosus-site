@@ -10,7 +10,7 @@ A person can send a self-destructing note or file from the browser with no accou
 
 ## What is available
 
-- Burn Notes and Burn Files: on the site and in the app. Encrypted in the browser (AES). The direct link keeps the key in the URL fragment. Each single note or file also gets a two-digit pairing code; while that code is valid (20 minutes by default) the key is stored on the server, then swept. Multi-file shares are an app feature. The site tool is one file, up to 25 MB.
+- Burn Notes and Burn Files: on the site and in the app. Encrypted in the browser (AES). The direct link keeps the key in the URL fragment. Each single note or file also gets a two-digit pairing code; while that code is valid (20 minutes by default) the key is stored on the server, then swept. Burn Files take up to 10 files, 50 MB combined, as one link, on the site and in the app. A multi-file share is link-only, with no pairing code.
 - Saved and Go: available in the app. Open https://nosus.foo/go on the borrowed computer, scan the QR with the phone, match the code on that screen, and approve with the phone's screen lock. The computer does not receive a Google password or Google token. It shows only items the person approves, for at most 60 minutes. Downloads and prints may remain on that computer.
 - Drop: available in the app for signed-in users. The public address is https://nosus.foo/to?h=<handle>. Handle subdomains (`yourname.nosus.foo`) are not live. The door stays closed until the owner previews and accepts.
 - Group drops: available in the app. Each member's copy goes to their own Drive. Watermark attribution for leaked group files is not available yet.
