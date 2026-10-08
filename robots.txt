@@ -1,4 +1,26 @@
+# Content Signals (https://contentsignals.org): NO SUS may be found, cited and
+# used as live answer context by search and AI assistants; training is not allowed.
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Allow: /
+
+# Answer-engine crawlers, named so intent is unambiguous.
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: Google-Extended
+User-agent: Applebot
+User-agent: Bingbot
+Allow: /
+
+# Training-only crawlers.
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: CCBot
+User-agent: Bytespider
+Disallow: /
 
 Sitemap: https://nosus.foo/sitemap.xml
