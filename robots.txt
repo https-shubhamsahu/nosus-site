@@ -11,7 +11,6 @@ User-agent: PerplexityBot
 User-agent: Perplexity-User
 User-agent: Claude-SearchBot
 User-agent: Claude-User
-User-agent: Google-Extended
 User-agent: Applebot
 User-agent: Bingbot
 Allow: /
@@ -21,6 +20,11 @@ User-agent: GPTBot
 User-agent: ClaudeBot
 User-agent: CCBot
 User-agent: Bytespider
+Disallow: /
+
+# Google combines Gemini training and grounding under this token. Blocking it
+# preserves ai-train=no; Googlebot and Google Search AI features stay allowed.
+User-agent: Google-Extended
 Disallow: /
 
 Sitemap: https://nosus.foo/sitemap.xml

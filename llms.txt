@@ -21,6 +21,7 @@ Native app: Android. Web app: [https://app.nosus.foo](https://app.nosus.foo)
 ## Important URLs
 
 - [Home](https://nosus.foo/)
+- [Product guide: Burn, Go, SecureSend and Drop](https://nosus.foo/guides)
 - [Web app](https://app.nosus.foo/)
 - [Privacy](https://nosus.foo/privacy.html)
 - [Terms](https://nosus.foo/terms.html)
