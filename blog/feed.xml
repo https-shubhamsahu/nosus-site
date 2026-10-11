@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NO SUS blog</title>
+    <link>https://nosus.foo/blog</link>
+    <description>Privacy guides and news: sharing documents, passwords and IDs safely, borrowed computers, and what changed this week.</description>
+    <language>en</language>
+    <atom:link href="https://nosus.foo/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>AI Chatbot Privacy Study: Your Chats May Be Reaching Trackers</title>
+      <link>https://nosus.foo/blog/ai-chatbots-share-chats-with-advertisers</link>
+      <guid isPermaLink="true">https://nosus.foo/blog/ai-chatbots-share-chats-with-advertisers</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <description>A preprint from IMDEA Networks in Madrid, reported from 5 October 2026, found that all nine big AI chatbots it tested contact ad or tracking companies, and that 6 of 9 chatbot websites sent chat links, chat titles, prompts or screenshots to outside firms, often alongside ad cookies or hashed emails. Grok was the worst case: its chat links were public by default, and test links planted in Grok chats were later opened from 14 countries. The study does not show any ad company reading chats, but you should keep ID numbers and documents out of prompts and stop using share links for anything personal.</description>
+    </item>
+    <item>
+      <title>Bank Account Frozen? What RBI's Draft Money Mule Rules Change</title>
+      <link>https://nosus.foo/blog/rbi-money-mule-rules-bank-account-frozen</link>
+      <guid isPermaLink="true">https://nosus.foo/blog/rbi-money-mule-rules-bank-account-frozen</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <description>The RBI's 11 September 2026 draft rules would let banks put a temporary debit hold on flagged transactions of Rs 1,000 or more, but they must tell you why, give you 20 days to explain, and lift the hold within 60 days unless police or another authority directs otherwise. It is still a draft, proposed to apply from 1 April 2027, so these deadlines do not yet bind banks. The surest protection is never letting anyone else use your account, UPI ID or SIM.</description>
+    </item>
+    <item>
+      <title>Digital Arrest Scam: CBI Raids 142 Locations. What to Do If Called</title>
+      <link>https://nosus.foo/blog/digital-arrest-scam-cbi-crackdown-what-to-do</link>
+      <guid isPermaLink="true">https://nosus.foo/blog/digital-arrest-scam-cbi-crackdown-what-to-do</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <description>There is no such thing as a legal &quot;digital arrest&quot;. The CBI says no police or government agency places anyone under digital arrest or asks for money over a phone or video call. If you get the call, hang up, verify with the agency on its official number, tell someone you trust, and if money has already moved, call 1930 or file at cybercrime.gov.in straight away.</description>
+    </item>
+    <item>
+      <title>Do Disappearing Messages Really Disappear? What 5 Apps Keep</title>
+      <link>https://nosus.foo/blog/do-disappearing-messages-really-disappear</link>
+      <guid isPermaLink="true">https://nosus.foo/blog/do-disappearing-messages-really-disappear</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Explainer</category>
+      <description>Inside the app, yes: the message is deleted from both phones when the timer ends. Outside the app, no: a screenshot (on most apps), a photo taken with another phone, a quoted reply, a backup made earlier or a notification preview can all outlive it. Disappearing messages shrink the trail on your devices; they do not stop a recipient who wants to keep a copy.</description>
+    </item>
+    <item>
+      <title>Google Account Security Checkup: A 10-Minute Guide (Oct 2026)</title>
+      <link>https://nosus.foo/blog/google-account-security-checkup</link>
+      <guid isPermaLink="true">https://nosus.foo/blog/google-account-security-checkup</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Open myaccount.google.com/security-checkup and fix anything flagged red or yellow. Then sign out devices you don't recognise, remove apps you no longer use, update your recovery phone and email, turn on 2-Step Verification, add a passkey on a phone only you use, and clear any Gmail forwarding or filters you didn't create. If you think you were hacked, change your password first and run the same checks.</description>
+    </item>
+    <item>
+      <title>How to Collect Documents From Clients Securely (DPDP-Ready Guide)</title>
+      <link>https://nosus.foo/blog/how-to-collect-documents-from-clients-securely</link>
+      <guid isPermaLink="true">https://nosus.foo/blog/how-to-collect-documents-from-clients-securely</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Give clients one dedicated upload link instead of your personal WhatsApp or email, ask only for the documents the job needs, keep them in one access-controlled folder, and delete stray copies on a schedule. Under India's DPDP Act, a professional who decides why and how client data is used is a Data Fiduciary, and the core duties on notice, security, breach reporting and erasure apply from mid-May 2027.</description>
+    </item>
+    <item>
+      <title>How to Log Out of WhatsApp Web on Another Computer From Your Phone</title>
+      <link>https://nosus.foo/blog/logout-whatsapp-web-from-another-computer</link>
+      <guid isPermaLink="true">https://nosus.foo/blog/logout-whatsapp-web-from-another-computer</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Open WhatsApp on your phone and go to Linked devices (Android: the three-dot menu; iPhone: Settings or your profile picture). Every computer, browser and tablet using your account is listed there; tap one and choose Log out. If you see one you don't recognise, log it out, then turn on two-step verification and app lock.</description>
+    </item>
+    <item>
+      <title>How to Print Documents at a Xerox Shop Without Leaking Them</title>
+      <link>https://nosus.foo/blog/print-shop-document-privacy</link>
+      <guid isPermaLink="true">https://nosus.foo/blog/print-shop-document-privacy</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>The safest way to print at a Xerox shop or cyber cafe is to keep your file off the shopkeeper's phone and computer: photocopy from the paper original, print straight from your phone to the printer, or bring a pen drive holding only the pages you need. If the file has to touch the shop PC, skip WhatsApp and email logins, then watch the file get deleted from Downloads and the Recycle Bin before you pay.</description>
+    </item>
+    <item>
+      <title>How to Receive Files Without Sharing Your Phone Number</title>
+      <link>https://nosus.foo/blog/receive-files-without-sharing-your-phone-number</link>
+      <guid isPermaLink="true">https://nosus.foo/blog/receive-files-without-sharing-your-phone-number</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Give strangers something other than your WhatsApp number: a masked email address for small files, or a Dropbox file request link that takes files up to 2 GB from people without an account. Telegram and Signal usernames work when the sender already uses those apps, while WhatsApp usernames are on hold in India as of October 2026.</description>
+    </item>
+    <item>
+      <title>How to Send a Password Securely (Not in WhatsApp or Email)</title>
+      <link>https://nosus.foo/blog/how-to-send-a-password-securely</link>
+      <guid isPermaLink="true">https://nosus.foo/blog/how-to-send-a-password-securely</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Don't paste a password, Wi-Fi key or API key into WhatsApp, email or Slack, where it stays in chat history and backups. For access someone needs long term, use a password manager's sharing feature; for a one-off, send an expiring one-time link and give its password over a different channel. OTPs and your UPI PIN should never be sent to anyone.</description>
+    </item>
+    <item>
+      <title>How to Share an Aadhaar Copy Safely (and Your PAN) in 2026</title>
+      <link>https://nosus.foo/blog/how-to-share-aadhaar-copy-safely</link>
+      <guid isPermaLink="true">https://nosus.foo/blog/how-to-share-aadhaar-copy-safely</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Don't hand over a plain, full-number photocopy. As of October 2026 the safer options are UIDAI's new Aadhaar app, which shares only the fields a QR request asks for, a masked e-Aadhaar that shows just the last four digits, an offline e-KYC file, or DigiLocker. Mark any copy you do give with its purpose and date, then lock your biometrics and check your authentication history.</description>
+    </item>
+    <item>
+      <title>How to Watermark a PDF or ID Copy Before You Share It</title>
+      <link>https://nosus.foo/blog/how-to-watermark-a-pdf-before-sharing</link>
+      <guid isPermaLink="true">https://nosus.foo/blog/how-to-watermark-a-pdf-before-sharing</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Write who the copy is for, why, and the date (for example &quot;For KYC at XYZ Bank only, 12 Oct 2026&quot;) and run it diagonally across the page so it crosses the photo or key text. Use a tool that runs on your own device (your phone's photo editor or Mac Preview for ID photos, LibreOffice or Word for documents) and send a flattened PDF or image. A watermark labels and deters; it cannot stop cropping, retyping, screenshots or AI removal.</description>
+    </item>
+    <item>
+      <title>Is It Safe to Log In on a Cyber Cafe Computer? A Practical Checklist</title>
+      <link>https://nosus.foo/blog/is-it-safe-to-log-in-on-a-cyber-cafe-computer</link>
+      <guid isPermaLink="true">https://nosus.foo/blog/is-it-safe-to-log-in-on-a-cyber-cafe-computer</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Sometimes, with care. A quick Gmail, DigiLocker or college-portal login on a cyber cafe or lab computer is manageable if you use a Guest or private window, refuse every offer to save a password or stay signed in, and sign out remotely from your phone afterwards. Net banking is the exception: banks such as PNB tell customers not to use cyber cafe computers for it, so do it on your phone instead.</description>
+    </item>
+    <item>
+      <title>Jumped Deposit Scam: SBI's Warning on 'Money Sent by Mistake' Calls</title>
+      <link>https://nosus.foo/blog/jumped-deposit-upi-scam-sbi-warning</link>
+      <guid isPermaLink="true">https://nosus.foo/blog/jumped-deposit-upi-scam-sbi-warning</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <description>On 10 October 2026, SBI warned customers about the jumped deposit scam: a stranger credits a small amount (or claims to), calls saying it was a mistake, and steers you into approving a much bigger UPI payment. Don't refund anyone who calls. Check your balance in your bank's own app, let the bank handle any genuine wrong credit, and remember that a UPI PIN is only ever needed to send money, never to receive it.</description>
+    </item>
+    <item>
+      <title>Self-Destructing Notes Compared: Privnote, Bitwarden Send &amp; More</title>
+      <link>https://nosus.foo/blog/self-destructing-note-tools-compared</link>
+      <guid isPermaLink="true">https://nosus.foo/blog/self-destructing-note-tools-compared</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Comparison</category>
+      <description>Privnote, Yopass and PrivateBin encrypt your note in the browser and need no account, while Onetime Secret encrypts on its own server but is open source and ad-free. Bitwarden Send gives the most control over expiry and views and handles files up to 500 MB, but the sender needs an account, and Premium for files. For a single password, any browser-encrypting tool works; pick Yopass or PrivateBin if you want code you can audit or host yourself.</description>
+    </item>
+    <item>
+      <title>Telegram Desktop Vulnerability: One Link Could Hijack Your Account</title>
+      <link>https://nosus.foo/blog/telegram-desktop-vulnerability-account-takeover-fix</link>
+      <guid isPermaLink="true">https://nosus.foo/blog/telegram-desktop-vulnerability-account-takeover-fix</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <description>A Telegram Desktop vulnerability (CVE-2026-107181) let one link, posted in a group you were added to and bounced through your browser, send your session files to an attacker, who could then use your account without your password or login code. Telegram fixed it quietly in Desktop 7.2.9 on 17 September 2026, and the researcher published the full attack steps on 3 October. Update now, set a Local passcode, and review your logged-in devices from your phone.</description>
+    </item>
+    <item>
+      <title>TRAI New Spam Call Rules 2026: BLOCK PROMO, DND and 1600 Numbers</title>
+      <link>https://nosus.foo/blog/trai-new-spam-call-rules-block-promo-1909</link>
+      <guid isPermaLink="true">https://nosus.foo/blog/trai-new-spam-call-rules-block-promo-1909</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <description>TRAI's amended spam regulations, notified on 18 September 2026, let telecom operators use their AI spam detection to start action against callers, bring robocalls and AI-voice calls under the rules, and replace the old FULLY BLOCK DND choice with BLOCK PROMO. BLOCK PROMO stops promotional calls and SMS but still lets OTPs, service alerts and government messages through. Bank and government service calls are meant to come from 1600xx numbers, and caller-ID apps may no longer mark those numbers as spam.</description>
+    </item>
+  </channel>
+</rss>
