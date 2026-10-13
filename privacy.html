@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy — NO SUS</title>
-  <meta name="description" content="What NO SUS collects, how burn notes, burn files, website visits and app usage events are handled, where your data is stored, and how to delete it.">
+  <meta name="description" content="What NO SUS collects, how Google sign-in, NO SUS Chat and Google Drive, burn notes and files, traceable copies, website visits and app usage events are handled, and how to delete it.">
   <link rel="canonical" href="https://nosus.foo/privacy.html">
   <style>
     body { font-family: 'Courier New', monospace; background: #0D0D0D; color: #F5F5F5;
@@ -20,11 +20,11 @@
 <body>
   <p class="home"><a href="https://nosus.foo/">&larr; NO SUS home</a></p>
   <h1>NO SUS — PRIVACY POLICY</h1>
-  <p class="updated">Last updated: 17 September 2026</p>
+  <p class="updated">Last updated: 14 October 2026</p>
 
   <h2>1. What we collect</h2>
   <ul>
-    <li><b>Account data:</b> your email address, display name, and chosen avatar (a preset character or a photo you upload).</li>
+    <li><b>Account data:</b> your email address, display name, and chosen avatar (a preset character or a photo you upload). New accounts sign in with Google only, so we receive the email address and name of the Google account you choose. Accounts created earlier with an email and password, GitHub or a phone number still work.</li>
     <li><b>Content you upload:</b> documents and notes you add to groups, stored in private storage protected by row-level security. Optional profile photos are stored in a public avatars bucket.</li>
     <li><b>Activity records:</b> to protect shared documents, we record events such as file uploads, views, membership changes, and screenshot attempts in a tamper-evident audit log visible to members of the same group.</li>
     <li><b>Share-link views:</b> when someone opens a document you shared by link, we record the email they enter and view timestamps, visible to you as the sender.</li>
@@ -53,13 +53,20 @@
   <h2>6. Contact</h2>
   <p>Questions or requests: <a href="mailto:shubhamsahu9372580326@gmail.com">shubhamsahu9372580326@gmail.com</a></p>
 
-  <h2>7. Saved and Google Drive</h2>
-  <p>If you turn on Saved, notes and files you send there are written to a <code>NO SUS/Saved</code> folder in your own Google Drive, using the <code>drive.file</code> scope. NO SUS can only see files it created there. Google can read those files the same way it can read anything else in your Drive. A borrowed computer does not receive your Google password or token; it only gets the items you approve from your phone, for the session you approve. Anything you download or print on that computer may remain there. Disconnecting the session stops further access. It does not delete copies already made.</p>
+  <h2>7. NO SUS Chat and Google Drive</h2>
+  <p>Notes and files you keep in NO SUS Chat are written to a <code>NO SUS</code> folder in your own Google Drive. NO SUS asks Google only for the <code>drive.file</code> permission: it lets NO SUS see and change the files NO SUS itself created, and nothing else in your Drive. We do not store those files on our servers. Google can read them the same way it can read anything else in your Drive.</p>
+  <p>Your handle and your domain (your handle followed by .nosus.foo) are public. Opening your domain shows a QR code; nothing opens on that screen unless you scan it and approve on your phone. That screen does not receive your Google password or token; it gets only what you approve, for the session you approve, relayed through our server sealed between your phone and that screen. Anything you download or print on that screen may remain there. Ending the session stops further access. It does not delete copies already made.</p>
 
-  <h2>8. Your address and Drop</h2>
-  <p>If you pick a NO SUS address, anyone who has it can send you one file at a time, without an account, but only while you have opened your door. The sender's browser seals the file, its name, their name, and their note to your devices' public keys before upload. Our server stores the sealed file, its size, when it arrived, and a keyed hash of the sender's IP address (used for rate limits and blocks). Unaccepted files are deleted after 24 hours, accepted ones within an hour after you accept, declined ones within about ten minutes. Accepted files are saved to a <code>NO SUS/Inbox</code> folder in your Google Drive. Our server hands out your device keys, so a sender can compare the door check code on your address page with the one in your app.</p>
+  <h2>8. Traceable copies and leak checks</h2>
+  <p>When you send a note with traceable copies, our server stores each reader's copy encrypted, and the name each reader types (not verified) with the time they opened it. Reader names are deleted 7 days after the link expires. Each seal and each open is recorded on Solana devnet, a public test network, as a short signed record containing only hashes, never your text or reader names. When you check a leak, the comparison runs on your own device. If you pick a screenshot, the Android app reads its text on your device and does not upload the image.</p>
 
-  <h2>9. Terms of Service</h2>
+  <h2>9. PDFs you open in NO SUS</h2>
+  <p>When you open a PDF in NO SUS from another app, it is read on your device. It is not uploaded unless you choose to send it, and then only through the way you pick in Send.</p>
+
+  <h2>10. Receiving files from people without an account (ended)</h2>
+  <p>Since version 1.7.0, NO SUS no longer takes files from people without an account. Files that were still waiting to be accepted are deleted within 24 hours of arrival, as before.</p>
+
+  <h2>11. Terms of Service</h2>
   <p>Please also review our <a href="terms.html">Terms of Service</a>, which govern your use of NO SUS.</p>
 </body>
 </html>

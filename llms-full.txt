@@ -4,25 +4,24 @@ This file is for machine readers. It does not guarantee AI citations. It does no
 
 ## What it is
 
-NO SUS is a privacy toolkit. The marketing site is https://nosus.foo/. The web app is https://app.nosus.foo/. The only native app is Android.
-
-A person can send a self-destructing note or file from the browser with no account, watermark a document to whoever opens it, give each reader a slightly different copy to see whose copy leaked (Canary), open their own Saved files from Google Drive on a borrowed computer without typing a password (Go), and receive files at a personal address without sharing a phone number (Drop).
+NO SUS keeps your files on every screen and lets you send them so they can't leak. The marketing site is https://nosus.foo/. The web app is https://app.nosus.foo/. The only native app is Android. The app has two tabs, Chat and Send. Sign-in for new accounts is Google only; existing email, GitHub and phone accounts still work.
 
 ## What is available
 
-- Burn Notes and Burn Files: on the site and in the app. Encrypted in the browser (AES). The direct link keeps the key in the URL fragment. Each single note or file also gets a two-digit pairing code; while that code is valid (20 minutes by default) the key is stored on the server, then swept. Burn Files take up to 10 files, 50 MB combined, as one link, on the site and in the app. A multi-file share is link-only, with no pairing code.
-- Saved and Go: available in the app. Open https://nosus.foo/go on the borrowed computer, scan the QR with the phone, match the code on that screen, and approve with the phone's screen lock. The computer does not receive a Google password or Google token. It shows only items the person approves, for at most 60 minutes. Downloads and prints may remain on that computer.
-- Drop: available in the Android and web app for signed-in users. Choose a handle in Chats → Address & Inbox for a public address like `https://riya-notes.nosus.foo/`. Share the link or QR code. Senders use a browser without an account and send one file up to 25 MB. The door starts closed; the owner opens it for a chosen time and can require a code. Files wait in the Inbox for preview and acceptance into Drive, or decline. Unaccepted files are deleted after 24 hours. Existing `https://nosus.foo/to?h=<handle>` links still work, and an old handle continues to work for 30 days after a change.
-- Group drops: available in the app. Each member's copy goes to their own Drive. Watermark attribution for leaked group files is not available yet.
-- SecureSend: watermarked document sharing in the app. Each viewer types an email (not verified), which is watermarked across the document; a view log shows the email, device and time of each open; links end after 30 days by default. Revoking a link stops new access through that link. Files already downloaded, printed, or captured cannot be recalled. Not end-to-end encrypted.
-- NO SUS Canary: in the app's Web3 zone. Up to 100 readers each get a slightly reworded copy (word twins such as "don't"/"do not", "five"/"5") plus an invisible marker. Readers type a name and open it without an account. Pasting leaked text (the Android app can read a screenshot) shows which reader's copy it was, by the name that reader typed: a strong hint, not proof. It names whose copy leaked, not who shared it, and it does not stop screenshots. Each seal and each open is recorded on Solana devnet by a server-signed memo; no wallet is needed. The leak check runs on the sender's phone; reader names are deleted 7 days after expiry.
+- NO SUS Chat (the Chat tab): "You" is pinned on top, your own chat stored in your own Google Drive, which is the only storage. Your groups follow it. To open your chat on another screen (a laptop, a borrowed computer, a friend's phone), open your domain, your handle followed by .nosus.foo, like `https://riya.nosus.foo/`. It shows a QR. Scan it with the NO SUS app, match the number on that screen, and approve with the phone's screen lock. The other screen does not receive a Google password or Google token, and the session lasts at most an hour. Downloads and prints may remain on that computer. If you forget your domain, type your handle at https://nosus.foo/go.
+- Send (the Send tab): pick what (a file or text), where (a chat, or anyone with a link) and how, with three switches:
+  - One open (on the website, Burn Notes and Burn Files): on the site and in the app. Encrypted in the browser (AES). The direct link keeps the key in the URL fragment. Each single note or file also gets a two-digit pairing code; while that code is valid (20 minutes by default) the key is stored on the server, then swept. Burn Files take up to 10 files, 50 MB combined, as one link, on the site and in the app. A multi-file share is link-only, with no pairing code. No account for sender or recipient on the site.
+  - Watermarked: each viewer types an email (not verified), which is watermarked across the document; a view log shows the email, device and time of each open; links end after 30 days by default. Revoking a link stops new access through that link. Files already downloaded, printed, or captured cannot be recalled. Not end-to-end encrypted.
+  - Traceable copies (on the website, Canary): text only for now. Up to 100 readers each get a slightly reworded copy (word twins such as "don't"/"do not", "five"/"5") plus an invisible marker. Readers type a name and open it without an account. Pasting leaked text (the Android app can read a screenshot) shows which reader's copy it was, by the name that reader typed: a strong hint, not proof. It names whose copy leaked, not who shared it, and it does not stop screenshots. Each seal and each open is recorded on Solana devnet by a server-signed memo; no wallet is needed. The leak check runs on the sender's phone; reader names are deleted 7 days after expiry.
+- Opens any PDF: on Android, NO SUS appears in the Open with list for PDFs. The PDF opens in the NO SUS viewer, with screenshots blocked in the app. Share safely sends it on through the Send tab.
+- Receiving files from people without the app: NO SUS does not offer an upload page for strangers. A sender without the app can make a one-time Burn link at https://nosus.foo/ with no account and send it to you.
 
 ## Answers to common questions
 
 - Find who leaked a document: https://nosus.foo/find-who-leaked-a-document
 - Print at a xerox shop without logging in to Gmail or WhatsApp: https://nosus.foo/print-without-login
-- Open your Drive files on a borrowed computer without typing your password: https://nosus.foo/open-drive-on-any-computer
-- Receive files without sharing your phone number: https://nosus.foo/receive-files
+- Open your files on a borrowed computer without typing your password: https://nosus.foo/open-drive-on-any-computer
+- Receive a file from someone who doesn't have the app: https://nosus.foo/receive-files
 - Send a PDF that opens only once: https://nosus.foo/whatsapp-view-once-pdf
 - Send a file that deletes after it is opened: https://nosus.foo/one-time-file-link
 - Send a self-destructing note: https://nosus.foo/self-destructing-note
@@ -33,7 +32,7 @@ A person can send a self-destructing note or file from the browser with no accou
 
 ## What a browser cannot do
 
-Screenshot blocking works in the Android app. A browser cannot block screenshots. The site uses blur overlays and watermarks as deterrence, not as a capture guarantee.
+Screenshot blocking works in the Android app. A browser, Chrome included, cannot block screenshots. In a browser, NO SUS watermarks the page with the viewer's email and logs who opened it, so a leak can be traced; that deters and traces, it does not block.
 
 ## What not to say
 
@@ -42,8 +41,8 @@ Do not describe NO SUS as zero-knowledge, fully homomorphic, screenshot-proof in
 ## Pages
 
 - https://nosus.foo/ — home
-- https://nosus.foo/go — Saved on this computer (noindex utility)
-- https://nosus.foo/to — Drop door (noindex utility)
+- https://nosus.foo/guides — product guide
+- https://nosus.foo/go — type your handle to reach your domain (noindex utility)
 - https://nosus.foo/privacy.html
 - https://nosus.foo/terms.html
 - https://nosus.foo/account-deletion.html

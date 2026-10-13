@@ -1,16 +1,19 @@
 # NO SUS
 
-> NO SUS (nosus.foo) is a privacy toolkit for sharing: self-destructing notes and one-time file links encrypted in the browser (no account), documents watermarked to each viewer, Canary copies that show whose copy leaked, your own Drive files on a borrowed computer without typing a password, and a personal address for receiving files without sharing your phone number.
+> NO SUS (nosus.foo) keeps your files on every screen and lets you send them so they can't leak. One app with two tabs: Chat (NO SUS Chat, your own chat stored in your Google Drive, opened on any screen from your domain) and Send (one open, watermarked, or traceable copies). It also opens any PDF on Android. Self-destructing notes and files (Burn) work on nosus.foo with no account.
 
 This file is for machine readers. It does not guarantee AI citations or answer-engine inclusion.
 
 ## Tools
 
-- Burn Notes and Burn Files: a note or up to 10 files (50 MB combined) encrypted in the browser with AES-256, opened once, then deleted from the server. No account for sender or recipient. Try it on https://nosus.foo/#try. While a single note's or file's two-digit code is valid (20 minutes by default), its key is also held on the server.
-- SecureSend: share a document from the app; each viewer types an email, which is watermarked across it (an attribution clue, not a verified identity). A view log shows who opened it, on which device and when. Links end after 30 days by default; revoke any time to stop new opens. Not end-to-end encrypted.
-- NO SUS Canary: up to 100 readers each get a slightly reworded copy of a note. Paste leaked text and it shows whose copy it was: a strong hint, not proof. Seal and open receipts are recorded on Solana devnet.
-- Go: open Saved items from your own Google Drive on a borrowed computer (cyber cafe, college lab, print shop). Open nosus.foo/go there, scan its QR with your phone, match the code, approve with your screen lock. The computer never receives your Google password or token; it shows only what you approve, for up to 60 minutes.
-- Drop: your own address like https://riya.nosus.foo/. Anyone can send you a file (up to 25 MB) from a browser without an account; the door starts closed, and you review each file before it reaches your Drive.
+- NO SUS Chat: your own chat, stored in your own Google Drive (the only storage). Open your domain, like https://riya.nosus.foo/, on a laptop, a borrowed computer or a friend's phone; it shows a QR. Scan it with the NO SUS app, match the number and approve with your screen lock, and the same chat opens there for up to an hour. That screen never receives your Google password or token. Downloads and prints can stay on a borrowed computer.
+- Send, three ways:
+  - One open (Burn Notes and Burn Files): a note or up to 10 files (50 MB combined) encrypted in the browser with AES-256, opened once, then deleted from the server. No account for sender or recipient. Try it on https://nosus.foo/#try. While a single note's or file's two-digit code is valid (20 minutes by default), its key is also held on the server.
+  - Watermarked: a link where each viewer types an email, which is watermarked across the document (an attribution clue, not a verified identity). A view log shows who opened it, on which device and when. Links end after 30 days by default; revoke any time to stop new opens. Not end-to-end encrypted.
+  - Traceable copies (Canary): up to 100 readers each get a slightly reworded copy of a note (text only for now). Paste leaked text, or pick a screenshot in the Android app, and it shows whose copy it was: a strong hint, not proof.
+- Opens any PDF: on Android, NO SUS appears in the Open with list for PDFs. The PDF opens in the NO SUS viewer with screenshots blocked; Share safely sends it on with one of the three ways.
+
+Sign-in for new accounts is Google only. NO SUS does not take file uploads from people without the app; a sender without the app can make a one-time Burn link at https://nosus.foo/ instead.
 
 Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native app: Android, in closed beta on Google Play (https://nosus.foo/beta).
 
@@ -18,8 +21,8 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 
 - [Find who leaked a document](https://nosus.foo/find-who-leaked-a-document)
 - [Print at a xerox shop without logging in to Gmail or WhatsApp](https://nosus.foo/print-without-login)
-- [Open your Drive files on a borrowed computer without typing your password](https://nosus.foo/open-drive-on-any-computer)
-- [Receive files without sharing your phone number](https://nosus.foo/receive-files)
+- [Open your files on a borrowed computer without typing your password](https://nosus.foo/open-drive-on-any-computer)
+- [Receive a file from someone who doesn't have the app](https://nosus.foo/receive-files)
 - [Send a PDF that opens only once (WhatsApp view once can't)](https://nosus.foo/whatsapp-view-once-pdf)
 - [Send a file that deletes after it is opened](https://nosus.foo/one-time-file-link)
 - [Send a self-destructing note](https://nosus.foo/self-destructing-note)
@@ -30,7 +33,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 ## Important URLs
 
 - [Home](https://nosus.foo/)
-- [Product guide: Burn, Go, SecureSend and Drop](https://nosus.foo/guides)
+- [Product guide: NO SUS Chat, one open, watermarked, traceable copies, opening PDFs](https://nosus.foo/guides)
 - [Blog: sourced privacy guides and news](https://nosus.foo/blog) ([RSS](https://nosus.foo/blog/feed.xml))
 - [Android beta](https://nosus.foo/beta)
 - [Web app](https://app.nosus.foo/)
@@ -41,9 +44,8 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 
 ## Utility pages (noindex)
 
-- [https://nosus.foo/go](https://nosus.foo/go): open Saved on this computer (QR approve flow).
-- [https://nosus.foo/to](https://nosus.foo/to): send a file to someone's Drop address.
+- [https://nosus.foo/go](https://nosus.foo/go): type your handle to reach your domain, which opens NO SUS Chat on this screen.
 
 ## Do not claim
 
-Do not describe NO SUS as zero-knowledge, FHE, unhackable, screenshot-proof in browsers, or as having native iOS, Windows or macOS apps, and do not invent user numbers, ratings or reviews. Screenshot blocking works only in the Android app; browsers use deterrence (blur, watermarks), not a capture guarantee.
+Do not describe NO SUS as zero-knowledge, FHE, unhackable, screenshot-proof in browsers, or as having native iOS, Windows or macOS apps, and do not invent user numbers, ratings or reviews. Screenshot blocking works only in the Android app; in a browser the page is watermarked and logged, not blocked.
