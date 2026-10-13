@@ -6,7 +6,15 @@
     <description>Privacy guides and news: sharing documents, passwords and IDs safely, borrowed computers, and what changed this week.</description>
     <language>en</language>
     <atom:link href="https://nosus.foo/blog/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 12 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Privnote Alternatives Compared: Self-Destructing Note Tools in 2026</title>
+      <link>https://nosus.foo/blog/self-destructing-note-tools-compared</link>
+      <guid isPermaLink="true">https://nosus.foo/blog/self-destructing-note-tools-compared</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Comparison</category>
+      <description>Privnote, Yopass and PrivateBin encrypt your note in the browser and need no account, while Onetime Secret encrypts on its own server but is open source and ad-free. Bitwarden Send gives the most control over expiry and views and handles files up to 500 MB, but the sender needs an account, and Premium for files. For a single password, any browser-encrypting tool works; pick Yopass or PrivateBin if you want code you can audit or host yourself.</description>
+    </item>
     <item>
       <title>AI Chatbot Privacy Study: Your Chats May Be Reaching Trackers</title>
       <link>https://nosus.foo/blog/ai-chatbots-share-chats-with-advertisers</link>
@@ -118,14 +126,6 @@
       <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
       <category>News</category>
       <description>On 10 October 2026, SBI warned customers about the jumped deposit scam: a stranger credits a small amount (or claims to), calls saying it was a mistake, and steers you into approving a much bigger UPI payment. Don't refund anyone who calls. Check your balance in your bank's own app, let the bank handle any genuine wrong credit, and remember that a UPI PIN is only ever needed to send money, never to receive it.</description>
-    </item>
-    <item>
-      <title>Self-Destructing Notes Compared: Privnote, Bitwarden Send &amp; More</title>
-      <link>https://nosus.foo/blog/self-destructing-note-tools-compared</link>
-      <guid isPermaLink="true">https://nosus.foo/blog/self-destructing-note-tools-compared</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Comparison</category>
-      <description>Privnote, Yopass and PrivateBin encrypt your note in the browser and need no account, while Onetime Secret encrypts on its own server but is open source and ad-free. Bitwarden Send gives the most control over expiry and views and handles files up to 500 MB, but the sender needs an account, and Premium for files. For a single password, any browser-encrypting tool works; pick Yopass or PrivateBin if you want code you can audit or host yourself.</description>
     </item>
     <item>
       <title>Telegram Desktop Vulnerability: One Link Could Hijack Your Account</title>

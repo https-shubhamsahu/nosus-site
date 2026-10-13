@@ -6,7 +6,7 @@ This file is for machine readers. It does not guarantee AI citations. It does no
 
 NO SUS is a privacy toolkit. The marketing site is https://nosus.foo/. The web app is https://app.nosus.foo/. The only native app is Android.
 
-A person can send a self-destructing note or file from the browser with no account, watermark a document to whoever opens it, and open Saved chats from their own Google Drive on a borrowed computer.
+A person can send a self-destructing note or file from the browser with no account, watermark a document to whoever opens it, give each reader a slightly different copy to see whose copy leaked (Canary), open their own Saved files from Google Drive on a borrowed computer without typing a password (Go), and receive files at a personal address without sharing a phone number (Drop).
 
 ## What is available
 
@@ -14,7 +14,22 @@ A person can send a self-destructing note or file from the browser with no accou
 - Saved and Go: available in the app. Open https://nosus.foo/go on the borrowed computer, scan the QR with the phone, match the code on that screen, and approve with the phone's screen lock. The computer does not receive a Google password or Google token. It shows only items the person approves, for at most 60 minutes. Downloads and prints may remain on that computer.
 - Drop: available in the Android and web app for signed-in users. Choose a handle in Chats → Address & Inbox for a public address like `https://riya-notes.nosus.foo/`. Share the link or QR code. Senders use a browser without an account and send one file up to 25 MB. The door starts closed; the owner opens it for a chosen time and can require a code. Files wait in the Inbox for preview and acceptance into Drive, or decline. Unaccepted files are deleted after 24 hours. Existing `https://nosus.foo/to?h=<handle>` links still work, and an old handle continues to work for 30 days after a change.
 - Group drops: available in the app. Each member's copy goes to their own Drive. Watermark attribution for leaked group files is not available yet.
-- SecureSend: watermarked document sharing in the app. Revoking a link stops new access through that link. Files already downloaded, printed, or captured cannot be recalled.
+- SecureSend: watermarked document sharing in the app. Each viewer types an email (not verified), which is watermarked across the document; a view log shows the email, device and time of each open; links end after 30 days by default. Revoking a link stops new access through that link. Files already downloaded, printed, or captured cannot be recalled. Not end-to-end encrypted.
+- NO SUS Canary: in the app's Web3 zone. Up to 100 readers each get a slightly reworded copy (word twins such as "don't"/"do not", "five"/"5") plus an invisible marker. Readers type a name and open it without an account. Pasting leaked text (the Android app can read a screenshot) shows which reader's copy it was, by the name that reader typed: a strong hint, not proof. It names whose copy leaked, not who shared it, and it does not stop screenshots. Each seal and each open is recorded on Solana devnet by a server-signed memo; no wallet is needed. The leak check runs on the sender's phone; reader names are deleted 7 days after expiry.
+
+## Answers to common questions
+
+- Find who leaked a document: https://nosus.foo/find-who-leaked-a-document
+- Print at a xerox shop without logging in to Gmail or WhatsApp: https://nosus.foo/print-without-login
+- Open your Drive files on a borrowed computer without typing your password: https://nosus.foo/open-drive-on-any-computer
+- Receive files without sharing your phone number: https://nosus.foo/receive-files
+- Send a PDF that opens only once: https://nosus.foo/whatsapp-view-once-pdf
+- Send a file that deletes after it is opened: https://nosus.foo/one-time-file-link
+- Send a self-destructing note: https://nosus.foo/self-destructing-note
+- Watermark a PDF with the viewer's email: https://nosus.foo/watermark-pdf-viewer-email
+- NO SUS vs Privnote: https://nosus.foo/compare/privnote
+- NO SUS vs DocSend for individuals: https://nosus.foo/compare/docsend
+- Android beta (closed testing on Google Play): https://nosus.foo/beta
 
 ## What a browser cannot do
 
