@@ -24,9 +24,17 @@
   let pointerT = 0;
   const REMOTE_SYNC = location.protocol === "http:" || location.protocol === "https:";
   let remoteRevision = 0;
+  let remoteTimer = 0;
+  let remoteOff = false;
+  // The Wi-Fi controller is optional. A static host answers /api/state with
+  // 404/405, so stop asking instead of polling a missing route forever.
+  function stopRemote() {
+    remoteOff = true;
+    if (remoteTimer) window.clearInterval(remoteTimer);
+  }
 
   function syncHostState() {
-    if (!REMOTE_SYNC) return;
+    if (!REMOTE_SYNC || remoteOff) return;
     fetch("/api/state", {
       method: "POST",
       headers: { "content-type": "application/json" },
@@ -36,9 +44,10 @@
   }
 
   async function pollRemoteState() {
-    if (!REMOTE_SYNC) return;
+    if (!REMOTE_SYNC || remoteOff) return;
     try {
       const response = await fetch(`/api/state?since=${remoteRevision}`, { cache: "no-store" });
+      if (response.status === 404 || response.status === 405) return stopRemote();
       if (!response.ok) return;
       const state = await response.json();
       remoteRevision = Math.max(remoteRevision, Number(state.revision) || 0);
@@ -718,5 +727,5 @@
   index = Number.isFinite(fromHash) && fromHash >= 1 && fromHash <= scenes.length ? fromHash - 1 : 0;
   play(index, { fromBlack: true });
   pollRemoteState();
-  if (REMOTE_SYNC) window.setInterval(pollRemoteState, 350);
+  if (REMOTE_SYNC) remoteTimer = window.setInterval(pollRemoteState, 350);
 })();
