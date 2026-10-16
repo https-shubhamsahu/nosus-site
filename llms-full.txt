@@ -18,17 +18,30 @@ NO SUS keeps your files on every screen and lets you send them so they can't lea
 
 ## Answers to common questions
 
-- Find who leaked a document: https://nosus.foo/find-who-leaked-a-document
-- Print at a xerox shop without logging in to Gmail or WhatsApp: https://nosus.foo/print-without-login
-- Open your files on a borrowed computer without typing your password: https://nosus.foo/open-drive-on-any-computer
-- Receive a file from someone who doesn't have the app: https://nosus.foo/receive-files
-- Send a PDF that opens only once: https://nosus.foo/whatsapp-view-once-pdf
-- Send a file that deletes after it is opened: https://nosus.foo/one-time-file-link
-- Send a self-destructing note: https://nosus.foo/self-destructing-note
-- Watermark a PDF with the viewer's email: https://nosus.foo/watermark-pdf-viewer-email
-- NO SUS vs Privnote: https://nosus.foo/compare/privnote
-- NO SUS vs DocSend for individuals: https://nosus.foo/compare/docsend
-- Android beta (closed testing on Google Play): https://nosus.foo/beta
+- Find who leaked a document: https://nosus.foo/find-who-leaked-a-document/
+- Print at a xerox shop without logging in to Gmail or WhatsApp: https://nosus.foo/print-without-login/
+- Open your files on a borrowed computer without typing your password: https://nosus.foo/open-drive-on-any-computer/
+- Receive a file from someone who doesn't have the app: https://nosus.foo/receive-files/
+- Send a PDF that opens only once: https://nosus.foo/whatsapp-view-once-pdf/
+- Send a file that deletes after it is opened: https://nosus.foo/one-time-file-link/
+- Send a self-destructing note: https://nosus.foo/self-destructing-note/
+- Watermark a PDF with the viewer's email: https://nosus.foo/watermark-pdf-viewer-email/
+- NO SUS vs Privnote: https://nosus.foo/compare/privnote/
+- NO SUS vs DocSend for individuals: https://nosus.foo/compare/docsend/
+- Send a one-time link (generator): https://nosus.foo/one-time-link/
+- Send a file without logging in or making an account: https://nosus.foo/send-file-without-login/
+- Send a password securely with a one-time link: https://nosus.foo/send-password-securely/
+- Onetime Secret alternative: https://nosus.foo/alternatives/onetimesecret/
+- Yopass alternative: https://nosus.foo/alternatives/yopass/
+- Password Pusher alternative: https://nosus.foo/alternatives/password-pusher/
+- Bitwarden Send alternative: https://nosus.foo/alternatives/bitwarden-send/
+- PrivateBin alternative: https://nosus.foo/alternatives/privatebin/
+- WeTransfer alternative for private files: https://nosus.foo/alternatives/wetransfer/
+- Digify alternative: https://nosus.foo/alternatives/digify/
+- Papermark alternative: https://nosus.foo/alternatives/papermark/
+- All alternatives, compared: https://nosus.foo/alternatives/
+- Security (what is encrypted where, who holds the key, what is logged): https://nosus.foo/security/
+- Android beta (closed testing on Google Play): https://nosus.foo/beta/
 
 ## What a browser cannot do
 
@@ -41,8 +54,8 @@ Do not describe NO SUS as zero-knowledge, fully homomorphic, screenshot-proof in
 ## Pages
 
 - https://nosus.foo/ — home
-- https://nosus.foo/guides — product guide
-- https://nosus.foo/go — type your handle to reach your domain (noindex utility)
+- https://nosus.foo/guides/ — product guide
+- https://nosus.foo/go/ — type your handle to reach your domain (noindex utility)
 - https://nosus.foo/privacy.html
 - https://nosus.foo/terms.html
 - https://nosus.foo/account-deletion.html

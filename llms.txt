@@ -15,27 +15,40 @@ This file is for machine readers. It does not guarantee AI citations or answer-e
 
 Sign-in for new accounts is Google only. NO SUS does not take file uploads from people without the app; a sender without the app can make a one-time Burn link at https://nosus.foo/ instead.
 
-Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native app: Android, in closed beta on Google Play (https://nosus.foo/beta).
+Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native app: Android, in closed beta on Google Play (https://nosus.foo/beta/).
 
 ## Answers
 
-- [Find who leaked a document](https://nosus.foo/find-who-leaked-a-document)
-- [Print at a xerox shop without logging in to Gmail or WhatsApp](https://nosus.foo/print-without-login)
-- [Open your files on a borrowed computer without typing your password](https://nosus.foo/open-drive-on-any-computer)
-- [Receive a file from someone who doesn't have the app](https://nosus.foo/receive-files)
-- [Send a PDF that opens only once (WhatsApp view once can't)](https://nosus.foo/whatsapp-view-once-pdf)
-- [Send a file that deletes after it is opened](https://nosus.foo/one-time-file-link)
-- [Send a self-destructing note](https://nosus.foo/self-destructing-note)
-- [Watermark a PDF with the viewer's email](https://nosus.foo/watermark-pdf-viewer-email)
-- [NO SUS vs Privnote](https://nosus.foo/compare/privnote)
-- [NO SUS vs DocSend for individuals](https://nosus.foo/compare/docsend)
+- [Find who leaked a document](https://nosus.foo/find-who-leaked-a-document/)
+- [Print at a xerox shop without logging in to Gmail or WhatsApp](https://nosus.foo/print-without-login/)
+- [Open your files on a borrowed computer without typing your password](https://nosus.foo/open-drive-on-any-computer/)
+- [Receive a file from someone who doesn't have the app](https://nosus.foo/receive-files/)
+- [Send a PDF that opens only once (WhatsApp view once can't)](https://nosus.foo/whatsapp-view-once-pdf/)
+- [Send a file that deletes after it is opened](https://nosus.foo/one-time-file-link/)
+- [Send a self-destructing note](https://nosus.foo/self-destructing-note/)
+- [Watermark a PDF with the viewer's email](https://nosus.foo/watermark-pdf-viewer-email/)
+- [NO SUS vs Privnote](https://nosus.foo/compare/privnote/)
+- [NO SUS vs DocSend for individuals](https://nosus.foo/compare/docsend/)
+- [Send a one-time link (generator)](https://nosus.foo/one-time-link/)
+- [Send a file without logging in or making an account](https://nosus.foo/send-file-without-login/)
+- [Send a password securely with a one-time link](https://nosus.foo/send-password-securely/)
+- [Alternatives to Onetime Secret](https://nosus.foo/alternatives/onetimesecret/)
+- [Alternatives to Yopass](https://nosus.foo/alternatives/yopass/)
+- [Alternatives to Password Pusher](https://nosus.foo/alternatives/password-pusher/)
+- [Alternatives to Bitwarden Send](https://nosus.foo/alternatives/bitwarden-send/)
+- [Alternatives to PrivateBin](https://nosus.foo/alternatives/privatebin/)
+- [Alternatives to WeTransfer for private files](https://nosus.foo/alternatives/wetransfer/)
+- [Alternatives to Digify](https://nosus.foo/alternatives/digify/)
+- [Alternatives to Papermark](https://nosus.foo/alternatives/papermark/)
 
 ## Important URLs
 
 - [Home](https://nosus.foo/)
-- [Product guide: NO SUS Chat, one open, watermarked, traceable copies, opening PDFs](https://nosus.foo/guides)
-- [Blog: sourced privacy guides and news](https://nosus.foo/blog) ([RSS](https://nosus.foo/blog/feed.xml))
-- [Android beta](https://nosus.foo/beta)
+- [All alternatives, compared](https://nosus.foo/alternatives/)
+- [Security: what is encrypted where, who holds the key](https://nosus.foo/security/)
+- [Product guide: NO SUS Chat, one open, watermarked, traceable copies, opening PDFs](https://nosus.foo/guides/)
+- [Blog: sourced privacy guides and news](https://nosus.foo/blog/) ([RSS](https://nosus.foo/blog/feed.xml))
+- [Android beta](https://nosus.foo/beta/)
 - [Web app](https://app.nosus.foo/)
 - [Privacy](https://nosus.foo/privacy.html)
 - [Terms](https://nosus.foo/terms.html)
@@ -44,7 +57,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 
 ## Utility pages (noindex)
 
-- [https://nosus.foo/go](https://nosus.foo/go): type your handle to reach your domain, which opens NO SUS Chat on this screen.
+- [https://nosus.foo/go/](https://nosus.foo/go/): type your handle to reach your domain, which opens NO SUS Chat on this screen.
 
 ## Do not claim
 

@@ -6,7 +6,70 @@
     <description>Privacy guides and news: sharing documents, passwords and IDs safely, borrowed computers, and what changed this week.</description>
     <language>en</language>
     <atom:link href="https://nosus.foo/blog/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Best Self-Destructing Message Apps in 2026 (Honestly Compared)</title>
+      <link>https://nosus.foo/blog/best-self-destructing-message-apps/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/best-self-destructing-message-apps</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Comparison</category>
+      <description>For a conversation, Signal has the most honest disappearing messages and Telegram secret chats are a close second. For a single photo, WhatsApp view once is the easiest. For a password or file that should never sit in a chat, use a one-time link tool: Yopass for open code, Privnote for the simplest note, NO SUS Burn for files up to 50 MB with no account. None of them can stop a camera pointed at the screen.</description>
+    </item>
+    <item>
+      <title>Can WhatsApp View Once Be Screenshotted, Saved or Recovered?</title>
+      <link>https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Explainer</category>
+      <description>WhatsApp's help pages say view once photos and videos cannot be screenshotted, screen-recorded, forwarded, saved or replayed. They also say a camera on another device can still capture the screen, and a phone's own screen recorder may capture the audio of view once voice messages. WhatsApp does not publish which app versions block screenshots, so treat the block as strong but not guaranteed.</description>
+    </item>
+    <item>
+      <title>How to Send a PDF Securely: Gmail, Outlook and Free Options</title>
+      <link>https://nosus.foo/blog/how-to-send-a-pdf-securely/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/how-to-send-a-pdf-securely</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Pick the method by what you are protecting. A password-protected PDF keeps the file unreadable to anyone without the password, so send the password through a different channel. Gmail confidential mode limits forwarding, copying, printing and downloads, and Outlook's Do Not Forward blocks copying and forwarding, but a camera can still photograph the screen, and Outlook lets a PDF be downloaded without encryption. For KYC, send a masked Aadhaar from the UIDAI myAadhaar site, watermarked with purpose and date, through a link that expires.</description>
+    </item>
+    <item>
+      <title>Is Privnote Safe? What It Protects, What It Doesn't, and Fake Sites</title>
+      <link>https://nosus.foo/blog/is-privnote-safe/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/is-privnote-safe</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Explainer</category>
+      <description>Privnote is reasonably safe for a one-off note if you are on the real site. Its privacy policy says the link, which holds the decryption key, is generated in your browser and never sent to Privnote, so it cannot read notes. The practical risks are lookalike phishing sites, someone else opening your link first, and the reader copying the note. Type privnote.com yourself.</description>
+    </item>
+    <item>
+      <title>Telegram Secret Chat vs WhatsApp Disappearing Messages: What's Safe?</title>
+      <link>https://nosus.foo/blog/telegram-secret-chat-vs-whatsapp-disappearing-messages/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/telegram-secret-chat-vs-whatsapp-disappearing-messages</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Comparison</category>
+      <description>WhatsApp encrypts every personal chat end to end by default and adds optional disappearing messages. Telegram encrypts end to end only in secret chats, which are one-to-one, tied to one device and need to be started by hand; normal Telegram chats are stored encrypted on Telegram's servers. Both let the other person keep a copy, because neither can block a camera, and a WhatsApp backup, forward or quoted reply can outlive its timer.</description>
+    </item>
+    <item>
+      <title>What Is a Canary Trap? How Reworded Copies Catch a Leaker</title>
+      <link>https://nosus.foo/blog/what-is-a-canary-trap/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/what-is-a-canary-trap</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Explainer</category>
+      <description>A canary trap, also called a barium meal test, gives each person a slightly different version of the same document. If it leaks, the version that appears points to whose copy it was. It is a strong hint, not proof, and heavy rewording or mixing copies can defeat it. NO SUS Canary automates it for up to 100 readers, for text.</description>
+    </item>
+    <item>
+      <title>How to Send a Password Securely (Not in WhatsApp or Email)</title>
+      <link>https://nosus.foo/blog/how-to-send-a-password-securely/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/how-to-send-a-password-securely</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Don't paste a password, Wi-Fi key or API key into WhatsApp, email or Slack, where it stays in chat history and backups. For access someone needs long term, use a password manager's sharing feature; for a one-off, send an expiring one-time link and give its password over a different channel. OTPs and your UPI PIN should never be sent to anyone.</description>
+    </item>
     <item>
       <title>Privnote Alternatives Compared: Self-Destructing Note Tools in 2026</title>
       <link>https://nosus.foo/blog/self-destructing-note-tools-compared/</link>
@@ -96,15 +159,6 @@
       <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
       <category>Guide</category>
       <description>Give strangers something other than your WhatsApp number: a masked email address for small files, or a Dropbox file request link that takes files up to 2 GB from people without an account. Telegram and Signal usernames work when the sender already uses those apps, while WhatsApp usernames are on hold in India as of October 2026.</description>
-    </item>
-    <item>
-      <title>How to Send a Password Securely (Not in WhatsApp or Email)</title>
-      <link>https://nosus.foo/blog/how-to-send-a-password-securely/</link>
-      <!-- The guid stays slash-free so readers do not show every post again. -->
-      <guid isPermaLink="true">https://nosus.foo/blog/how-to-send-a-password-securely</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Guide</category>
-      <description>Don't paste a password, Wi-Fi key or API key into WhatsApp, email or Slack, where it stays in chat history and backups. For access someone needs long term, use a password manager's sharing feature; for a one-off, send an expiring one-time link and give its password over a different channel. OTPs and your UPI PIN should never be sent to anyone.</description>
     </item>
     <item>
       <title>How to Share an Aadhaar Copy Safely (and Your PAN) in 2026</title>
