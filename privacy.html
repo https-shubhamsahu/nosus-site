@@ -21,7 +21,7 @@
   <p class="home"><a href="https://nosus.foo/">&larr; NO SUS home</a></p>
   <main>
   <h1>NO SUS — PRIVACY POLICY</h1>
-  <p class="updated">Last updated: 19 October 2026</p>
+  <p class="updated">Last updated: 20 October 2026</p>
 
   <h2>1. What we collect</h2>
   <ul>
@@ -50,7 +50,7 @@
   <h2>3. What we don't do</h2>
   <ul>
     <li>We do not sell your data.</li>
-    <li>We do not use third-party advertising or tracking SDKs. The website visit counter described above sets no cookies.</li>
+    <li>We do not use advertising SDKs or build cross-app advertising profiles. Google ML Kit sends SDK usage and performance metrics to Google as described below. The website visit counter described above sets no cookies.</li>
     <li>We do not read your documents for any purpose other than serving them back to you and your group.</li>
   </ul>
 
@@ -58,17 +58,17 @@
   <p>Data is stored on Supabase (managed Postgres, storage, and authentication). Transport is encrypted with TLS. Access is enforced with row-level security so users can only reach rows their membership allows.</p>
 
   <h2>5. Data deletion</h2>
-  <p>You can delete your account at any time from Profile → Danger Zone → Delete User Account. This permanently removes your profile, group memberships, uploaded files, and auth record. App usage events are not deleted: your account ID is removed from them, detaching them from your account, and the rest of each event is kept. See <a href="account-deletion.html">account deletion</a> for details.</p>
+  <p>You can delete your account at any time by tapping your avatar, then Settings → Danger zone → Delete account. This permanently removes your profile, group memberships, files you uploaded to NO SUS storage, and auth record. NO SUS disconnects Google Drive on this device; notes and files in your own Drive are not deleted. You can delete those in Google Drive. App usage events are not deleted: your account ID is removed from them, detaching them from your account, and the rest of each event is kept. See <a href="account-deletion.html">account deletion</a> for details.</p>
 
   <h2>6. Contact</h2>
   <p>Questions or requests: <a href="mailto:shubhamsahu@nosus.foo">shubhamsahu@nosus.foo</a></p>
 
   <h2>7. NO SUS Chat and Google Drive</h2>
   <p>Notes and files you keep in NO SUS Chat are written to a <code>NO SUS</code> folder in your own Google Drive. NO SUS asks Google only for the <code>drive.file</code> permission: it lets NO SUS see and change the files NO SUS itself created, and nothing else in your Drive. We do not store those files on our servers. Google can read them the same way it can read anything else in your Drive.</p>
-  <p>Your handle and your domain (your handle followed by .nosus.foo) are public. Opening your domain shows a QR code; nothing opens on that screen unless you scan it and approve on your phone. That screen does not receive your Google password or token; it gets only what you approve, for the session you approve, relayed through our server sealed between your phone and that screen. Anything you download or print on that screen may remain there. Ending the session stops further access. It does not delete copies already made.</p>
+  <p>Your handle and your domain (your handle followed by .nosus.foo) are public. Opening your domain shows a QR code; nothing opens on that screen unless you scan it and approve on your phone. That screen does not receive your Google password or token; it gets only what you approve, for the session you approve, relayed through our server sealed between your phone and that screen. If you allow it, that screen can also add notes and files to your chat: they reach your phone the same sealed way, and your phone saves them to your Drive. A session lasts no longer than the time you pick (at most 8 hours) and ends early when nobody uses it. Anything you download or print on that screen may remain there. Ending the session stops further access. It does not delete copies already made.</p>
 
   <h2>8. Traceable copies and leak checks</h2>
-  <p>When you send a note with traceable copies, our server stores each reader's copy encrypted, and the name each reader types (not verified) with the time they opened it. Reader names are deleted 7 days after the link expires. Each seal and each open is recorded on Solana devnet, a public test network, as a short signed record containing only hashes, never your text or reader names. When you check a leak, the comparison runs on your own device. If you pick a screenshot, the Android app reads its text on your device and does not upload the image.</p>
+  <p>When you send a note with traceable copies, our server stores each reader's copy encrypted, and the name each reader types (not verified) with the time they opened it. Reader names are deleted 7 days after the link expires. Each seal and each open is recorded on Solana devnet, a public test network, as a short signed record containing only hashes, never your text or reader names. When you check a leak, the comparison runs on your own device. If you pick a screenshot, the Android app uses Google ML Kit to read its text on your device and does not upload the image or recognized text to Google. ML Kit also supports QR scanning. Its Android SDKs send device and app information, per-installation identifiers, feature usage, performance metrics and error codes to Google over HTTPS for diagnostics and usage analytics. Google uses those metrics to operate and improve ML Kit. See <a href="https://developers.google.com/ml-kit/terms">ML Kit privacy information</a> and <a href="https://developers.google.com/ml-kit/android-data-disclosure">data disclosures</a>.</p>
 
   <h2>9. PDFs you open in NO SUS</h2>
   <p>When you open a PDF in NO SUS from another app, it is read on your device. It is not uploaded unless you choose to send it, and then only through the way you pick in Send.</p>
