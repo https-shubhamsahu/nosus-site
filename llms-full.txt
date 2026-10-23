@@ -72,6 +72,15 @@ Every public page, from the sitemap, with its date and summary. Answer pages sta
 - [Privnote Alternative: NO SUS बनाम Privnote, आमने-सामने](https://nosus.foo/hi/compare/privnote/) (updated 2026-10-20): Privnote alternative चाहिए? NO SUS और Privnote की सीधी तुलना: encryption, files, expiry, password, ads, और जहाँ Privnote बेहतर है। अक्टूबर 2026 में जाँचा।
 - [Disappearing / Self Destructing Message का मतलब हिंदी में](https://nosus.foo/hi/self-destructing-message-meaning/) (updated 2026-10-20): Disappearing message ka matlab और self destructing message kya hota hai: हिंदी में सीधा मतलब, WhatsApp और Telegram पर कैसे चलता है, और ये क्या नहीं रोकता।
 - [NO SUS हिंदी में: एक बार खुलने वाले Note और File](https://nosus.foo/hi/) (updated 2026-10-23): NO SUS के हिंदी पेज: खुद मिटने वाला note, एक बार खुलने वाला file link, PDF watermark, leak की जाँच और बिना login print, steps और सीमाओं के साथ।
+- [Aadhar Card Share Karna Chahiye Ya Nahi? Safe Tarika (2026)](https://nosus.foo/hi/blog/aadhar-card-share-karna-chahiye-ya-nahi/) (updated 2026-10-23): Haan, par plain photocopy nahi. Masked Aadhaar (sirf aakhri 4 digit) dein, Aadhaar app se sirf zaroori details share karein, har copy par purpose likhein.
+- [WhatsApp View Once फोटो का स्क्रीनशॉट या सेव हो सकता है?](https://nosus.foo/hi/blog/can-whatsapp-view-once-be-screenshotted-or-saved/) (updated 2026-10-23): नहीं। WhatsApp के हिंदी help पेज के मुताबिक View once फोटो-वीडियो का स्क्रीनशॉट या स्क्रीन रिकॉर्डिंग नहीं होती। दूसरे फ़ोन के कैमरे से फोटो ली जा सकती है।
+- [One Time View Photo Kaise Bheje? WhatsApp aur Instagram](https://nosus.foo/hi/blog/one-time-view-photo-kaise-bheje/) (updated 2026-10-23): WhatsApp par photo chunein, '1' wala icon hara karein aur bhejein. Instagram chat mein camera dabakar 'एक बार देखें' chunein. Dono ke steps, help pages se.
+
+## Other languages (Português, Bahasa Indonesia, Español)
+
+- [Foto de visualização única pode printar? Não, mas tem furo](https://nosus.foo/pt/foto-visualizacao-unica-whatsapp-print/) (updated 2026-10-23): Não. O WhatsApp bloqueia print e gravação de tela em foto e vídeo de visualização única. Outro celular ainda consegue fotografar a tela. Veja o que fazer.
+- [Foto Sekali Lihat WhatsApp Bisa Di-download? Tidak Bisa](https://nosus.foo/id/foto-sekali-lihat-whatsapp/) (updated 2026-10-23): Tidak bisa. Foto sekali lihat WhatsApp tidak bisa di-download, di-save, atau di-screenshot, dan tidak masuk galeri. Kamera HP lain tetap bisa memotretnya.
+- [Cómo capturar "ver una vez" en WhatsApp: no se puede](https://nosus.foo/es/ver-una-vez-whatsapp-captura/) (updated 2026-10-23): No: WhatsApp bloquea capturas y grabaciones de pantalla de fotos y videos de visualización única. Otro celular sí puede fotografiar la pantalla.
 
 ## Blog articles
 

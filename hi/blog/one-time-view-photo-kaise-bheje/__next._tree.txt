@@ -1,0 +1,9 @@
+:HL["/_next/static/chunks/0212s9tdlik3o.css","style"]
+:HL["/_next/static/chunks/2fin7_zci9071.css","style"]
+:HL["/_next/static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+4:[["children",{"s":"__PAGE__","h":160}]]
+3:[["children",{"s":{"n":"slug","t":"d","k":"one-time-view-photo-kaise-bheje","s":[]},"h":65632,"c":"$Q4"}]]
+2:[["children",{"s":"blog","h":131168,"c":"$Q3"}]]
+1:[["children",{"s":"hi","h":131136,"c":"$Q2"}]]
+0:{"b":"Za6MJkPP0L_myw5O6gxWr","t":{"t":{"s":"","h":131088,"c":"$Q1"}}}

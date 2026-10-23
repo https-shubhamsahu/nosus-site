@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url>
 <loc>https://nosus.foo/</loc>
 <image:image>
@@ -25,46 +25,73 @@
 </url>
 <url>
 <loc>https://nosus.foo/find-who-leaked-a-document/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/find-who-leaked-a-document/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/find-who-leaked-a-document/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/find-who-leaked-a-document/" />
 <lastmod>2026-10-16</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/print-without-login/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/print-without-login/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/print-without-login/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/print-without-login/" />
 <lastmod>2026-10-16</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/open-drive-on-any-computer/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/open-drive-on-any-computer/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/open-drive-on-any-computer/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/open-drive-on-any-computer/" />
 <lastmod>2026-10-16</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/receive-files/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/receive-files/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/receive-files/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/receive-files/" />
 <lastmod>2026-10-20</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/whatsapp-view-once-pdf/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/whatsapp-view-once-pdf/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/whatsapp-view-once-pdf/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/whatsapp-view-once-pdf/" />
 <lastmod>2026-10-20</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/one-time-file-link/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/one-time-file-link/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/one-time-file-link/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/one-time-file-link/" />
 <lastmod>2026-10-20</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/self-destructing-note/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/self-destructing-note/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/self-destructing-note/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/self-destructing-note/" />
 <lastmod>2026-10-20</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/watermark-pdf-viewer-email/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/watermark-pdf-viewer-email/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/watermark-pdf-viewer-email/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/watermark-pdf-viewer-email/" />
 <lastmod>2026-10-16</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/compare/privnote/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/compare/privnote/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/compare/privnote/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/compare/privnote/" />
 <lastmod>2026-10-20</lastmod>
 <priority>0.8</priority>
 </url>
@@ -75,16 +102,25 @@
 </url>
 <url>
 <loc>https://nosus.foo/one-time-link/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/one-time-link/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/one-time-link/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/one-time-link/" />
 <lastmod>2026-10-20</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/send-file-without-login/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/send-file-without-login/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/send-file-without-login/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/send-file-without-login/" />
 <lastmod>2026-10-20</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/send-password-securely/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/send-password-securely/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/send-password-securely/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/send-password-securely/" />
 <lastmod>2026-10-20</lastmod>
 <priority>0.8</priority>
 </url>
@@ -130,61 +166,97 @@
 </url>
 <url>
 <loc>https://nosus.foo/hi/self-destructing-note/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/self-destructing-note/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/self-destructing-note/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/self-destructing-note/" />
 <lastmod>2026-10-20</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/hi/whatsapp-view-once-pdf/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/whatsapp-view-once-pdf/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/whatsapp-view-once-pdf/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/whatsapp-view-once-pdf/" />
 <lastmod>2026-10-20</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/hi/print-without-login/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/print-without-login/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/print-without-login/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/print-without-login/" />
 <lastmod>2026-10-16</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/hi/receive-files/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/receive-files/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/receive-files/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/receive-files/" />
 <lastmod>2026-10-20</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/hi/find-who-leaked-a-document/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/find-who-leaked-a-document/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/find-who-leaked-a-document/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/find-who-leaked-a-document/" />
 <lastmod>2026-10-16</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/hi/watermark-pdf-viewer-email/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/watermark-pdf-viewer-email/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/watermark-pdf-viewer-email/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/watermark-pdf-viewer-email/" />
 <lastmod>2026-10-16</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/hi/open-drive-on-any-computer/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/open-drive-on-any-computer/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/open-drive-on-any-computer/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/open-drive-on-any-computer/" />
 <lastmod>2026-10-16</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/hi/one-time-file-link/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/one-time-file-link/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/one-time-file-link/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/one-time-file-link/" />
 <lastmod>2026-10-20</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/hi/send-file-without-login/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/send-file-without-login/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/send-file-without-login/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/send-file-without-login/" />
 <lastmod>2026-10-20</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/hi/send-password-securely/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/send-password-securely/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/send-password-securely/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/send-password-securely/" />
 <lastmod>2026-10-20</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/hi/one-time-link/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/one-time-link/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/one-time-link/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/one-time-link/" />
 <lastmod>2026-10-20</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/hi/compare/privnote/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/compare/privnote/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/compare/privnote/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/compare/privnote/" />
 <lastmod>2026-10-20</lastmod>
 <priority>0.8</priority>
 </url>
@@ -211,6 +283,12 @@
 </url>
 <url>
 <loc>https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://nosus.foo/pt/foto-visualizacao-unica-whatsapp-print/" />
+<xhtml:link rel="alternate" hreflang="id" href="https://nosus.foo/id/foto-sekali-lihat-whatsapp/" />
+<xhtml:link rel="alternate" hreflang="es" href="https://nosus.foo/es/ver-una-vez-whatsapp-captura/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
 <lastmod>2026-10-23</lastmod>
 </url>
 <url>
@@ -279,6 +357,9 @@
 </url>
 <url>
 <loc>https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/blog/aadhar-card-share-karna-chahiye-ya-nahi/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/" />
 <lastmod>2026-10-12</lastmod>
 </url>
 <url>
@@ -300,6 +381,57 @@
 <url>
 <loc>https://nosus.foo/blog/trai-new-spam-call-rules-block-promo-1909/</loc>
 <lastmod>2026-10-12</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/hi/blog/aadhar-card-share-karna-chahiye-ya-nahi/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/blog/aadhar-card-share-karna-chahiye-ya-nahi/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/" />
+<lastmod>2026-10-23</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/hi/blog/can-whatsapp-view-once-be-screenshotted-or-saved/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://nosus.foo/pt/foto-visualizacao-unica-whatsapp-print/" />
+<xhtml:link rel="alternate" hreflang="id" href="https://nosus.foo/id/foto-sekali-lihat-whatsapp/" />
+<xhtml:link rel="alternate" hreflang="es" href="https://nosus.foo/es/ver-una-vez-whatsapp-captura/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
+<lastmod>2026-10-23</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/hi/blog/one-time-view-photo-kaise-bheje/</loc>
+<lastmod>2026-10-23</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/pt/foto-visualizacao-unica-whatsapp-print/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://nosus.foo/pt/foto-visualizacao-unica-whatsapp-print/" />
+<xhtml:link rel="alternate" hreflang="id" href="https://nosus.foo/id/foto-sekali-lihat-whatsapp/" />
+<xhtml:link rel="alternate" hreflang="es" href="https://nosus.foo/es/ver-una-vez-whatsapp-captura/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
+<lastmod>2026-10-23</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/id/foto-sekali-lihat-whatsapp/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://nosus.foo/pt/foto-visualizacao-unica-whatsapp-print/" />
+<xhtml:link rel="alternate" hreflang="id" href="https://nosus.foo/id/foto-sekali-lihat-whatsapp/" />
+<xhtml:link rel="alternate" hreflang="es" href="https://nosus.foo/es/ver-una-vez-whatsapp-captura/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
+<lastmod>2026-10-23</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/es/ver-una-vez-whatsapp-captura/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://nosus.foo/pt/foto-visualizacao-unica-whatsapp-print/" />
+<xhtml:link rel="alternate" hreflang="id" href="https://nosus.foo/id/foto-sekali-lihat-whatsapp/" />
+<xhtml:link rel="alternate" hreflang="es" href="https://nosus.foo/es/ver-una-vez-whatsapp-captura/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
+<lastmod>2026-10-23</lastmod>
 </url>
 <url>
 <loc>https://nosus.foo/privacy.html</loc>

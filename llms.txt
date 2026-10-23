@@ -59,6 +59,15 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [One-Time Link बनाएँ: Free, बिना Account, Encrypted](https://nosus.foo/hi/one-time-link/)
 - [Privnote Alternative: NO SUS बनाम Privnote, आमने-सामने](https://nosus.foo/hi/compare/privnote/)
 - [Disappearing / Self Destructing Message का मतलब हिंदी में](https://nosus.foo/hi/self-destructing-message-meaning/)
+- [Aadhar Card Share Karna Chahiye Ya Nahi? Safe Tarika (2026)](https://nosus.foo/hi/blog/aadhar-card-share-karna-chahiye-ya-nahi/)
+- [WhatsApp View Once फोटो का स्क्रीनशॉट या सेव हो सकता है?](https://nosus.foo/hi/blog/can-whatsapp-view-once-be-screenshotted-or-saved/)
+- [One Time View Photo Kaise Bheje? WhatsApp aur Instagram](https://nosus.foo/hi/blog/one-time-view-photo-kaise-bheje/)
+
+## Other languages (Português, Bahasa Indonesia, Español)
+
+- [Foto de visualização única pode printar? Não, mas tem furo](https://nosus.foo/pt/foto-visualizacao-unica-whatsapp-print/)
+- [Foto Sekali Lihat WhatsApp Bisa Di-download? Tidak Bisa](https://nosus.foo/id/foto-sekali-lihat-whatsapp/)
+- [Cómo capturar "ver una vez" en WhatsApp: no se puede](https://nosus.foo/es/ver-una-vez-whatsapp-captura/)
 
 ## Blog articles
 
