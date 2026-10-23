@@ -1,6 +1,6 @@
 # NO SUS
 
-> NO SUS (nosus.foo) keeps your files on every screen and lets you send them so they can't leak. One app with two tabs: Chat (NO SUS Chat, your own chat stored in your Google Drive, opened on any screen from your domain) and Send (one open, watermarked, or traceable copies). It also opens any PDF on Android. Self-destructing notes and files (Burn) work on nosus.foo with no account.
+> NO SUS (nosus.foo) keeps your files on every screen and lets you choose how you send them. One app with two tabs: Chat (NO SUS Chat, your own chat stored in your Google Drive, opened on any screen from your domain) and Send (one open, watermarked, or traceable copies). It also opens any PDF on Android. Self-destructing notes and files (Burn) work on nosus.foo with no account.
 
 This file is for machine readers. It does not guarantee AI citations or answer-engine inclusion.
 
@@ -17,29 +17,74 @@ Sign-in for new accounts is Google only. NO SUS does not take file uploads from 
 
 Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native app: Android, in closed beta on Google Play (https://nosus.foo/beta/).
 
-## Answers
+## Pages
 
-- [Find who leaked a document](https://nosus.foo/find-who-leaked-a-document/)
-- [Print at a xerox shop without logging in to Gmail or WhatsApp](https://nosus.foo/print-without-login/)
-- [Open your files on a borrowed computer without typing your password](https://nosus.foo/open-drive-on-any-computer/)
-- [Receive a file from someone who doesn't have the app](https://nosus.foo/receive-files/)
-- [Send a PDF that opens only once (WhatsApp view once can't)](https://nosus.foo/whatsapp-view-once-pdf/)
-- [Send a file that deletes after it is opened](https://nosus.foo/one-time-file-link/)
-- [Send a self-destructing note](https://nosus.foo/self-destructing-note/)
-- [Watermark a PDF with the viewer's email](https://nosus.foo/watermark-pdf-viewer-email/)
-- [NO SUS vs Privnote](https://nosus.foo/compare/privnote/)
-- [NO SUS vs DocSend for individuals](https://nosus.foo/compare/docsend/)
-- [Send a one-time link (generator)](https://nosus.foo/one-time-link/)
-- [Send a file without logging in or making an account](https://nosus.foo/send-file-without-login/)
-- [Send a password securely with a one-time link](https://nosus.foo/send-password-securely/)
-- [Alternatives to Onetime Secret](https://nosus.foo/alternatives/onetimesecret/)
-- [Alternatives to Yopass](https://nosus.foo/alternatives/yopass/)
-- [Alternatives to Password Pusher](https://nosus.foo/alternatives/password-pusher/)
-- [Alternatives to Bitwarden Send](https://nosus.foo/alternatives/bitwarden-send/)
-- [Alternatives to PrivateBin](https://nosus.foo/alternatives/privatebin/)
-- [Alternatives to WeTransfer for private files](https://nosus.foo/alternatives/wetransfer/)
-- [Alternatives to Digify](https://nosus.foo/alternatives/digify/)
-- [Alternatives to Papermark](https://nosus.foo/alternatives/papermark/)
+- [Find Who Leaked a Document: One Reworded Copy per Reader](https://nosus.foo/find-who-leaked-a-document/)
+- [Print at a Xerox Shop Without Gmail or WhatsApp Login](https://nosus.foo/print-without-login/)
+- [Open Your Files on a Borrowed PC Without Your Password](https://nosus.foo/open-drive-on-any-computer/)
+- [Receive a File From Someone Without an Account or App](https://nosus.foo/receive-files/)
+- [WhatsApp View Once PDF: Send a File That Opens Once](https://nosus.foo/whatsapp-view-once-pdf/)
+- [One-Time File Link: Files That Delete After Download](https://nosus.foo/one-time-file-link/)
+- [Self-Destructing Note: Free, Encrypted, No Account](https://nosus.foo/self-destructing-note/)
+- [Watermark a PDF With the Viewer's Email + View Log](https://nosus.foo/watermark-pdf-viewer-email/)
+- [One-Time Link Generator: Free, No Account, Encrypted](https://nosus.foo/one-time-link/)
+- [Send a File Without Login or Account: Free, One Link](https://nosus.foo/send-file-without-login/)
+- [Send a Password Securely: Free One-Time Link, No Account](https://nosus.foo/send-password-securely/)
+
+## Comparisons
+
+- [Privnote Alternative: NO SUS vs Privnote, Side by Side](https://nosus.foo/compare/privnote/)
+- [DocSend Alternative for Individuals: NO SUS vs DocSend](https://nosus.foo/compare/docsend/)
+- [Onetime Secret Alternative: NO SUS vs Onetime Secret (2026)](https://nosus.foo/alternatives/onetimesecret/)
+- [Yopass Alternative: NO SUS vs Yopass, Compared Fairly (2026)](https://nosus.foo/alternatives/yopass/)
+- [Password Pusher Alternative: NO SUS vs pwpush.com, Compared](https://nosus.foo/alternatives/password-pusher/)
+- [Bitwarden Send Alternative With No Account Needed](https://nosus.foo/alternatives/bitwarden-send/)
+- [PrivateBin Alternative: NO SUS vs PrivateBin Compared](https://nosus.foo/alternatives/privatebin/)
+- [WeTransfer Alternative for Private Files](https://nosus.foo/alternatives/wetransfer/)
+- [Digify Alternative for Individuals | NO SUS vs Digify](https://nosus.foo/alternatives/digify/)
+- [Papermark Alternative for Individuals | NO SUS vs Papermark](https://nosus.foo/alternatives/papermark/)
+
+## हिंदी (Hindi)
+
+- [खुद मिटने वाला Note: Free, Encrypted, बिना Account](https://nosus.foo/hi/self-destructing-note/)
+- [WhatsApp View Once PDF कैसे भेजें](https://nosus.foo/hi/whatsapp-view-once-pdf/)
+- [Xerox शॉप पर बिना Login Print: Gmail और WhatsApp नहीं](https://nosus.foo/hi/print-without-login/)
+- [बिना Phone Number के File Receive करें: बिना Account या App](https://nosus.foo/hi/receive-files/)
+- [Document Leak किसने किया, कैसे पता करें | NO SUS Canary](https://nosus.foo/hi/find-who-leaked-a-document/)
+- [PDF पर Viewer का Email Watermark + View Log](https://nosus.foo/hi/watermark-pdf-viewer-email/)
+- [दूसरे Computer पर Drive कैसे खोलें, बिना Password](https://nosus.foo/hi/open-drive-on-any-computer/)
+- [एक बार खुलने वाला File Link: Download के बाद Delete](https://nosus.foo/hi/one-time-file-link/)
+- [बिना Login File कैसे भेजें: Free, बिना Account](https://nosus.foo/hi/send-file-without-login/)
+- [Password सुरक्षित तरीके से कैसे भेजें: Free Link](https://nosus.foo/hi/send-password-securely/)
+- [One-Time Link बनाएँ: Free, बिना Account, Encrypted](https://nosus.foo/hi/one-time-link/)
+- [Privnote Alternative: NO SUS बनाम Privnote, आमने-सामने](https://nosus.foo/hi/compare/privnote/)
+- [Disappearing / Self Destructing Message का मतलब हिंदी में](https://nosus.foo/hi/self-destructing-message-meaning/)
+
+## Blog articles
+
+- [Screenshot or Screen Record WhatsApp View Once? Both Blocked](https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/)
+- [Which Apps Have Disappearing Messages? Signal Is Best (2026)](https://nosus.foo/blog/best-self-destructing-message-apps/)
+- [How to Send a PDF Securely: Gmail, Outlook and Free Options](https://nosus.foo/blog/how-to-send-a-pdf-securely/)
+- [Is Privnote Safe? Reasonably, on the Real Site. Avoid Fakes](https://nosus.foo/blog/is-privnote-safe/)
+- [Telegram Secret Chat vs WhatsApp Disappearing Messages](https://nosus.foo/blog/telegram-secret-chat-vs-whatsapp-disappearing-messages/)
+- [How to Send a Password Securely (Not in WhatsApp or Email)](https://nosus.foo/blog/how-to-send-a-password-securely/)
+- [Privnote Alternatives: Self-Destructing Note Tools Compared](https://nosus.foo/blog/self-destructing-note-tools-compared/)
+- [What Is a Canary Trap? How Reworded Copies Catch a Leaker](https://nosus.foo/blog/what-is-a-canary-trap/)
+- [AI Chatbot Study: 6 of 9 Sites Sent Chat Data to Trackers](https://nosus.foo/blog/ai-chatbots-share-chats-with-advertisers/)
+- [Bank Account Frozen? What RBI's Draft Mule Rules Change](https://nosus.foo/blog/rbi-money-mule-rules-bank-account-frozen/)
+- [No Such Thing as Digital Arrest: What to Do If Called](https://nosus.foo/blog/digital-arrest-scam-cbi-crackdown-what-to-do/)
+- [Do Disappearing Messages Really Disappear? What 5 Apps Keep](https://nosus.foo/blog/do-disappearing-messages-really-disappear/)
+- [Google Account Security Checkup: 10-Minute Guide (2026)](https://nosus.foo/blog/google-account-security-checkup/)
+- [Collect Client Documents Securely: A DPDP-Ready Guide](https://nosus.foo/blog/how-to-collect-documents-from-clients-securely/)
+- [Log Out of WhatsApp Web on Another Computer From Your Phone](https://nosus.foo/blog/logout-whatsapp-web-from-another-computer/)
+- [How to Print Documents at a Xerox Shop Without Leaking Them](https://nosus.foo/blog/print-shop-document-privacy/)
+- [How to Receive Files Without Sharing Your Phone Number](https://nosus.foo/blog/receive-files-without-sharing-your-phone-number/)
+- [How to Share an Aadhaar Copy Safely (and Your PAN) in 2026](https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/)
+- [How to Watermark a PDF or ID Copy Before You Share It](https://nosus.foo/blog/how-to-watermark-a-pdf-before-sharing/)
+- [Is a Cyber Cafe Login Safe? Sometimes. Use This Checklist](https://nosus.foo/blog/is-it-safe-to-log-in-on-a-cyber-cafe-computer/)
+- [Jumped Deposit Scam: Don't Refund 'Sent by Mistake' Callers](https://nosus.foo/blog/jumped-deposit-upi-scam-sbi-warning/)
+- [Telegram Desktop Link Hijack Bug: Update to 7.2.9 or Later](https://nosus.foo/blog/telegram-desktop-vulnerability-account-takeover-fix/)
+- [TRAI Spam Call Rules 2026: BLOCK PROMO, DND, 1600 Numbers](https://nosus.foo/blog/trai-new-spam-call-rules-block-promo-1909/)
 
 ## Important URLs
 
@@ -47,6 +92,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [All alternatives, compared](https://nosus.foo/alternatives/)
 - [Security: what is encrypted where, who holds the key](https://nosus.foo/security/)
 - [Product guide: NO SUS Chat, one open, watermarked, traceable copies, opening PDFs](https://nosus.foo/guides/)
+- [Hindi pages (हिंदी)](https://nosus.foo/hi/)
 - [Blog: sourced privacy guides and news](https://nosus.foo/blog/) ([RSS](https://nosus.foo/blog/feed.xml))
 - [Android beta](https://nosus.foo/beta/)
 - [Web app](https://app.nosus.foo/)
