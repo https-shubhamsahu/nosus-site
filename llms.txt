@@ -20,7 +20,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 ## Pages
 
 - [Find Who Leaked a Document: One Reworded Copy per Reader](https://nosus.foo/find-who-leaked-a-document/)
-- [Print at a Xerox Shop Without Gmail or WhatsApp Login](https://nosus.foo/print-without-login/)
+- [Print a Document at a Xerox Shop Without Logging In](https://nosus.foo/print-without-login/)
 - [Open Your Files on a Borrowed PC Without Your Password](https://nosus.foo/open-drive-on-any-computer/)
 - [Receive a File From Someone Without an Account or App](https://nosus.foo/receive-files/)
 - [WhatsApp View Once PDF: Send a File That Opens Once](https://nosus.foo/whatsapp-view-once-pdf/)
@@ -71,8 +71,14 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 
 ## Blog articles
 
+- [Can Someone Misuse Your Aadhar Card Xerox? The Real Risk](https://nosus.foo/blog/can-someone-misuse-aadhaar-xerox/)
+- [How to Send Your SSN Securely (and Why Not by Email or Text)](https://nosus.foo/blog/how-to-send-ssn-securely/)
+- [Is It Safe to Share Your PAN Card? When to Say Yes, and How](https://nosus.foo/blog/is-it-safe-to-share-pan-card/)
+- [Logged In on a Public Computer? Sign Out of Google Remotely](https://nosus.foo/blog/logged-in-on-public-computer-what-to-do/)
+- [Masked Aadhaar vs Photocopy: Meaning, Download and Password](https://nosus.foo/blog/masked-aadhaar-vs-photocopy/)
 - [Screenshot or Screen Record WhatsApp View Once? Both Blocked](https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/)
 - [Which Apps Have Disappearing Messages? Signal Is Best (2026)](https://nosus.foo/blog/best-self-destructing-message-apps/)
+- [How to Share an Aadhaar Copy Safely (and Your PAN) in 2026](https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/)
 - [How to Send a PDF Securely: Gmail, Outlook and Free Options](https://nosus.foo/blog/how-to-send-a-pdf-securely/)
 - [Is Privnote Safe? Reasonably, on the Real Site. Avoid Fakes](https://nosus.foo/blog/is-privnote-safe/)
 - [Telegram Secret Chat vs WhatsApp Disappearing Messages](https://nosus.foo/blog/telegram-secret-chat-vs-whatsapp-disappearing-messages/)
@@ -88,7 +94,6 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [Log Out of WhatsApp Web on Another Computer From Your Phone](https://nosus.foo/blog/logout-whatsapp-web-from-another-computer/)
 - [How to Print Documents at a Xerox Shop Without Leaking Them](https://nosus.foo/blog/print-shop-document-privacy/)
 - [How to Receive Files Without Sharing Your Phone Number](https://nosus.foo/blog/receive-files-without-sharing-your-phone-number/)
-- [How to Share an Aadhaar Copy Safely (and Your PAN) in 2026](https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/)
 - [How to Watermark a PDF or ID Copy Before You Share It](https://nosus.foo/blog/how-to-watermark-a-pdf-before-sharing/)
 - [Is a Cyber Cafe Login Safe? Sometimes. Use This Checklist](https://nosus.foo/blog/is-it-safe-to-log-in-on-a-cyber-cafe-computer/)
 - [Jumped Deposit Scam: Don't Refund 'Sent by Mistake' Callers](https://nosus.foo/blog/jumped-deposit-upi-scam-sbi-warning/)

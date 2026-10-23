@@ -36,7 +36,7 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/print-without-login/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/print-without-login/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/print-without-login/" />
-<lastmod>2026-10-16</lastmod>
+<lastmod>2026-10-23</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -113,7 +113,7 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/send-file-without-login/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/send-file-without-login/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/send-file-without-login/" />
-<lastmod>2026-10-20</lastmod>
+<lastmod>2026-10-23</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -282,6 +282,26 @@
 <changefreq>weekly</changefreq>
 </url>
 <url>
+<loc>https://nosus.foo/blog/can-someone-misuse-aadhaar-xerox/</loc>
+<lastmod>2026-10-23</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/blog/how-to-send-ssn-securely/</loc>
+<lastmod>2026-10-23</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/blog/is-it-safe-to-share-pan-card/</loc>
+<lastmod>2026-10-23</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/blog/logged-in-on-public-computer-what-to-do/</loc>
+<lastmod>2026-10-23</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/blog/masked-aadhaar-vs-photocopy/</loc>
+<lastmod>2026-10-23</lastmod>
+</url>
+<url>
 <loc>https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
@@ -293,6 +313,13 @@
 </url>
 <url>
 <loc>https://nosus.foo/blog/best-self-destructing-message-apps/</loc>
+<lastmod>2026-10-23</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/blog/aadhar-card-share-karna-chahiye-ya-nahi/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/" />
 <lastmod>2026-10-23</lastmod>
 </url>
 <url>
@@ -353,13 +380,6 @@
 </url>
 <url>
 <loc>https://nosus.foo/blog/receive-files-without-sharing-your-phone-number/</loc>
-<lastmod>2026-10-12</lastmod>
-</url>
-<url>
-<loc>https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/" />
-<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/blog/aadhar-card-share-karna-chahiye-ya-nahi/" />
-<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/" />
 <lastmod>2026-10-12</lastmod>
 </url>
 <url>

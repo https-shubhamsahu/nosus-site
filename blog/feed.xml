@@ -8,6 +8,51 @@
     <atom:link href="https://nosus.foo/blog/feed.xml" rel="self" type="application/rss+xml" />
     <lastBuildDate>Fri, 23 Oct 2026 00:00:00 GMT</lastBuildDate>
     <item>
+      <title>Can Someone Misuse Your Aadhar Card Xerox? What a Copy Can Do</title>
+      <link>https://nosus.foo/blog/can-someone-misuse-aadhaar-xerox/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/can-someone-misuse-aadhaar-xerox</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Explainer</category>
+      <description>Yes, an Aadhaar photocopy can be misused, but not the way most people fear. A xerox can't pass OTP or biometric authentication, which need the code sent to your phone or your fingerprint, iris or face. It can pass checks that only look at the paper, such as a scan of its signed QR code, which prove the details are real but not that the person holding it is you. Hand over masked copies marked with their purpose, lock your biometrics, and check your authentication history.</description>
+    </item>
+    <item>
+      <title>How to Send Your SSN Securely (and Why Not by Email or Text)</title>
+      <link>https://nosus.foo/blog/how-to-send-ssn-securely/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/how-to-send-ssn-securely</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Don't type your Social Security number into a plain email or text message. The safest ways are the requester's own secure portal, a phone call to a number you looked up yourself, or handing it over in person. If it has to go in writing, use an end-to-end encrypted chat or a link that opens once, keep it out of any subject line, and delete the message afterwards.</description>
+    </item>
+    <item>
+      <title>Is It Safe to Share Your PAN Card? When to Say Yes, and How</title>
+      <link>https://nosus.foo/blog/is-it-safe-to-share-pan-card/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/is-it-safe-to-share-pan-card</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Usually yes, when a real transaction needs it. PAN is meant to be quoted to banks, employers, brokers and sellers of big-ticket items, so the number itself isn't a secret. The risk is a full copy, with your photo, date of birth and signature, in the hands of someone who applies for credit in your name. Share it only when a deal needs it, write the purpose on the copy, and check your Annual Information Statement and credit report for anything you don't recognise.</description>
+    </item>
+    <item>
+      <title>Logged In on a Public Computer? Sign Out of Google Remotely</title>
+      <link>https://nosus.foo/blog/logged-in-on-public-computer-what-to-do/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/logged-in-on-public-computer-what-to-do</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Yes, you can log out of Google from another device. On your phone, open your Google Account, go to Security &amp; sign-in, then Your devices, then Manage all devices, pick the public computer and tap Sign out on every session with its name. Then change your password if you typed it there, check that nothing in Gmail was changed, and unlink WhatsApp Web or any other account you opened.</description>
+    </item>
+    <item>
+      <title>Masked Aadhaar vs Photocopy: Meaning, Download and Password</title>
+      <link>https://nosus.foo/blog/masked-aadhaar-vs-photocopy/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/masked-aadhaar-vs-photocopy</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Explainer</category>
+      <description>A masked Aadhaar is UIDAI's own e-Aadhaar PDF with the first eight digits of your number hidden, so only the last four show. A plain photocopy, or xerox, shows all 12. Download the masked version free from myAadhaar with an OTP on your Aadhaar-linked mobile, open it with the first four letters of your name in capitals plus your birth year, and hand it over wherever the full number isn't needed.</description>
+    </item>
+    <item>
       <title>Screenshot or Screen Record WhatsApp View Once? Both Blocked</title>
       <link>https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/</link>
       <!-- The guid stays slash-free so readers do not show every post again. -->
@@ -24,6 +69,15 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
       <category>Comparison</category>
       <description>For a conversation, Signal has the most honest disappearing messages and Telegram secret chats are a close second. For a single photo, WhatsApp view once is the easiest. For a password or file that should never sit in a chat, use a one-time link tool: Yopass for open code, Privnote for the simplest note, NO SUS Burn for files up to 50 MB with no account. None of them can stop a camera pointed at the screen.</description>
+    </item>
+    <item>
+      <title>How to Share an Aadhaar Copy Safely (and Your PAN) in 2026</title>
+      <link>https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/how-to-share-aadhaar-copy-safely</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Don't hand over a plain, full-number photocopy. As of October 2026 the safer options are UIDAI's new Aadhaar app, which shares only the fields a QR request asks for, a masked e-Aadhaar that shows just the last four digits, an offline e-KYC file, or DigiLocker. Mark any copy you do give with its purpose and date, then lock your biometrics and check your authentication history.</description>
     </item>
     <item>
       <title>How to Send a PDF Securely: Gmail, Outlook and Free Options</title>
@@ -159,15 +213,6 @@
       <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
       <category>Guide</category>
       <description>Give strangers something other than your WhatsApp number: a masked email address for small files, or a Dropbox file request link that takes files up to 2 GB from people without an account. Telegram and Signal usernames work when the sender already uses those apps, while WhatsApp usernames are on hold in India as of October 2026.</description>
-    </item>
-    <item>
-      <title>How to Share an Aadhaar Copy Safely (and Your PAN) in 2026</title>
-      <link>https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/</link>
-      <!-- The guid stays slash-free so readers do not show every post again. -->
-      <guid isPermaLink="true">https://nosus.foo/blog/how-to-share-aadhaar-copy-safely</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Guide</category>
-      <description>Don't hand over a plain, full-number photocopy. As of October 2026 the safer options are UIDAI's new Aadhaar app, which shares only the fields a QR request asks for, a masked e-Aadhaar that shows just the last four digits, an offline e-KYC file, or DigiLocker. Mark any copy you do give with its purpose and date, then lock your biometrics and check your authentication history.</description>
     </item>
     <item>
       <title>How to Watermark a PDF or ID Copy Before You Share It</title>
