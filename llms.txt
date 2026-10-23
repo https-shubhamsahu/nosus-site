@@ -19,14 +19,14 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 
 ## Pages
 
-- [Find Who Leaked a Document: One Reworded Copy per Reader](https://nosus.foo/find-who-leaked-a-document/)
+- [How to Find Who Leaked My Document: One Copy per Reader](https://nosus.foo/find-who-leaked-a-document/)
 - [Print a Document at a Xerox Shop Without Logging In](https://nosus.foo/print-without-login/)
 - [Open Your Files on a Borrowed PC Without Your Password](https://nosus.foo/open-drive-on-any-computer/)
 - [Receive a File From Someone Without an Account or App](https://nosus.foo/receive-files/)
 - [WhatsApp View Once PDF: Send a File That Opens Once](https://nosus.foo/whatsapp-view-once-pdf/)
-- [One-Time File Link: Files That Delete After Download](https://nosus.foo/one-time-file-link/)
+- [How to Send a File That Deletes After Opening](https://nosus.foo/one-time-file-link/)
 - [Self-Destructing Note: Free, Encrypted, No Account](https://nosus.foo/self-destructing-note/)
-- [Watermark a PDF With the Viewer's Email + View Log](https://nosus.foo/watermark-pdf-viewer-email/)
+- [How to Watermark a PDF With the Viewer's Email](https://nosus.foo/watermark-pdf-viewer-email/)
 - [One-Time Link Generator: Free, No Account, Encrypted](https://nosus.foo/one-time-link/)
 - [Send a File Without Login or Account: Free, One Link](https://nosus.foo/send-file-without-login/)
 - [Send a Password Securely: Free One-Time Link, No Account](https://nosus.foo/send-password-securely/)
