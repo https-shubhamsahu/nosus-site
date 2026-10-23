@@ -60,7 +60,7 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/whatsapp-view-once-pdf/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/whatsapp-view-once-pdf/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/whatsapp-view-once-pdf/" />
-<lastmod>2026-10-20</lastmod>
+<lastmod>2026-10-23</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -76,7 +76,7 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/self-destructing-note/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/self-destructing-note/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/self-destructing-note/" />
-<lastmod>2026-10-20</lastmod>
+<lastmod>2026-10-23</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -105,7 +105,7 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/one-time-link/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/one-time-link/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/one-time-link/" />
-<lastmod>2026-10-20</lastmod>
+<lastmod>2026-10-23</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -121,7 +121,12 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/send-password-securely/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/send-password-securely/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/send-password-securely/" />
-<lastmod>2026-10-20</lastmod>
+<lastmod>2026-10-23</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://nosus.foo/self-destructing-photo-meaning/</loc>
+<lastmod>2026-10-23</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -299,6 +304,18 @@
 </url>
 <url>
 <loc>https://nosus.foo/blog/masked-aadhaar-vs-photocopy/</loc>
+<lastmod>2026-10-23</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/blog/one-time-download-link-google-drive/</loc>
+<lastmod>2026-10-23</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/blog/view-once-screenshot-instagram-telegram-messenger-signal/</loc>
+<lastmod>2026-10-23</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/blog/self-destructing-email-gmail-outlook/</loc>
 <lastmod>2026-10-23</lastmod>
 </url>
 <url>

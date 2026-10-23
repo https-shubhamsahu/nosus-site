@@ -53,6 +53,33 @@
       <description>A masked Aadhaar is UIDAI's own e-Aadhaar PDF with the first eight digits of your number hidden, so only the last four show. A plain photocopy, or xerox, shows all 12. Download the masked version free from myAadhaar with an OTP on your Aadhaar-linked mobile, open it with the first four letters of your name in capitals plus your birth year, and hand it over wherever the full number isn't needed.</description>
     </item>
     <item>
+      <title>One-Time Download Link in Google Drive? What Actually Works</title>
+      <link>https://nosus.foo/blog/one-time-download-link-google-drive/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/one-time-download-link-google-drive</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>No. Google Drive's sharing help, checked on 23 October 2026, describes no link that stops working after one open or one download. Drive can limit a file to named people, end a person's access on a date (work and school accounts only) and hide download, print and copy for viewers. For a file that should be gone after one download, send it through a one-time link instead.</description>
+    </item>
+    <item>
+      <title>Screenshot View Once: Instagram, Telegram, Messenger, Signal</title>
+      <link>https://nosus.foo/blog/view-once-screenshot-instagram-telegram-messenger-signal/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/view-once-screenshot-instagram-telegram-messenger-signal</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Comparison</category>
+      <description>It depends on the app. WhatsApp and Messenger say a view once photo or video can't be screenshotted or screen-recorded, and Telegram says screenshots don't work on its self-destructing media. Instagram's own help pages contradict each other, and Signal doesn't say. In every app, a second phone's camera still works.</description>
+    </item>
+    <item>
+      <title>Self-Destructing Email in Gmail, Outlook and Proton Mail</title>
+      <link>https://nosus.foo/blog/self-destructing-email-gmail-outlook/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/self-destructing-email-gmail-outlook</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Comparison</category>
+      <description>Partly. Gmail's confidential mode cuts off an email on a date you pick, and you can remove access sooner. Proton Mail deletes an email when its expiration time runs out, up to 28 days after sending. Classic Outlook's Expires after only strikes the message through; real expiry needs Microsoft's top business plans. None of them can promise to stop a screenshot, and none can stop a photo of the screen.</description>
+    </item>
+    <item>
       <title>Screenshot or Screen Record WhatsApp View Once? Both Blocked</title>
       <link>https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/</link>
       <!-- The guid stays slash-free so readers do not show every post again. -->

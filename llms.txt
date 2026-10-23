@@ -30,6 +30,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [One-Time Link Generator: Free, No Account, Encrypted](https://nosus.foo/one-time-link/)
 - [Send a File Without Login or Account: Free, One Link](https://nosus.foo/send-file-without-login/)
 - [Send a Password Securely: Free One-Time Link, No Account](https://nosus.foo/send-password-securely/)
+- [Self-Destructing Photo Meaning, in Hindi and Telugu Too](https://nosus.foo/self-destructing-photo-meaning/)
 
 ## Comparisons
 
@@ -76,6 +77,9 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [Is It Safe to Share Your PAN Card? When to Say Yes, and How](https://nosus.foo/blog/is-it-safe-to-share-pan-card/)
 - [Logged In on a Public Computer? Sign Out of Google Remotely](https://nosus.foo/blog/logged-in-on-public-computer-what-to-do/)
 - [Masked Aadhaar vs Photocopy: Meaning, Download and Password](https://nosus.foo/blog/masked-aadhaar-vs-photocopy/)
+- [One-Time Download Link in Google Drive? What Actually Works](https://nosus.foo/blog/one-time-download-link-google-drive/)
+- [Screenshot View Once: Instagram, Telegram, Messenger, Signal](https://nosus.foo/blog/view-once-screenshot-instagram-telegram-messenger-signal/)
+- [Self-Destructing Email in Gmail, Outlook and Proton Mail](https://nosus.foo/blog/self-destructing-email-gmail-outlook/)
 - [Screenshot or Screen Record WhatsApp View Once? Both Blocked](https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/)
 - [Which Apps Have Disappearing Messages? Signal Is Best (2026)](https://nosus.foo/blog/best-self-destructing-message-apps/)
 - [How to Share an Aadhaar Copy Safely (and Your PAN) in 2026](https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/)
