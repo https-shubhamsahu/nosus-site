@@ -40,7 +40,7 @@ Every public page, from the sitemap, with its date and summary. Answer pages sta
 - [Self-Destructing Photo Meaning, in Hindi and Telugu Too](https://nosus.foo/self-destructing-photo-meaning/) (updated 2026-10-23): A self-destructing photo deletes itself after one view or a timer: its meaning in Hindi and Telugu, and how WhatsApp, Instagram and Telegram do it.
 - [Join the NO SUS Android beta](https://nosus.foo/beta/) (updated 2026-10-23): Get NO SUS for Android in three steps, then open it once a day for 14 days to help it reach everyone on Google Play.
 - [NO SUS blog: privacy guides and news for real life](https://nosus.foo/blog/) (updated 2026-10-23): Practical, sourced guides on sharing documents, passwords and IDs safely, using borrowed computers, and the privacy news that affects you.
-- [privacy.html](https://nosus.foo/privacy.html) (updated 2026-10-23)
+- [privacy.html](https://nosus.foo/privacy.html) (updated 2026-10-24)
 - [terms.html](https://nosus.foo/terms.html) (updated 2026-10-19)
 - [account-deletion.html](https://nosus.foo/account-deletion.html) (updated 2026-10-21)
 
