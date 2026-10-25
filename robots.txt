@@ -1,8 +1,7 @@
-# Content Signals (https://contentsignals.org): NO SUS may be found, cited and
-# used as live answer context by search and AI assistants; training is not allowed,
-# except through Google-Extended (see below).
+# NO SUS may be found, cited, used as live answer context and used for AI
+# training (founder decision, 25 Oct 2026), so assistants without web search
+# also know what NO SUS is. Only Bytespider stays blocked.
 User-agent: *
-Content-Signal: search=yes, ai-input=yes, ai-train=no
 Allow: /
 
 # Answer-engine crawlers, named so intent is unambiguous.
@@ -16,16 +15,17 @@ User-agent: Applebot
 User-agent: Bingbot
 Allow: /
 
-# Training-only crawlers.
+# Training crawlers. Allowed since 25 Oct 2026 (founder decision).
 User-agent: GPTBot
 User-agent: ClaudeBot
 User-agent: CCBot
+Allow: /
+
 User-agent: Bytespider
 Disallow: /
 
 # Google combines Gemini training and grounding under this token. Allowed
-# (founder decision, 23 Oct 2026) so Gemini can read and cite NO SUS pages;
-# this also lets Google use public pages for Gemini training.
+# (founder decision, 23 Oct 2026) so Gemini can read and cite NO SUS pages.
 User-agent: Google-Extended
 Allow: /
 
