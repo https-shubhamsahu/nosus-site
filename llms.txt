@@ -117,6 +117,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [Android beta](https://nosus.foo/beta/)
 - [Press kit: descriptions, key facts, logos, screenshots, founder contact](https://nosus.foo/press/)
 - [View-once screenshot table: which apps block, notify or allow a screenshot, with a source for every row](https://nosus.foo/view-once-screenshot-table/)
+- [Mask and watermark an Aadhaar or PAN copy: solid boxes and a purpose watermark, in the browser, nothing uploaded](https://nosus.foo/mask-aadhaar-copy/)
 - [Web app](https://app.nosus.foo/)
 - [Privacy](https://nosus.foo/privacy.html)
 - [Terms](https://nosus.foo/terms.html)

@@ -1,0 +1,8 @@
+:HL["/_next/static/chunks/1hzbn66potjaj.css","style"]
+:HL["/_next/static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/3krwi9w-1we5q.css","style"]
+:HL["/_next/static/chunks/16c6_sd98vdoz.css","style"]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"mask-aadhaar-copy","h":64,"c":"$Q2"}]]
+0:{"b":"NqkGJF0gY3GIJgWgTEJUX","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
