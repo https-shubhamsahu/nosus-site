@@ -113,6 +113,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [Hindi pages (हिंदी)](https://nosus.foo/hi/)
 - [Blog: sourced privacy guides and news](https://nosus.foo/blog/) ([RSS](https://nosus.foo/blog/feed.xml))
 - [Android beta](https://nosus.foo/beta/)
+- [Press kit: descriptions, key facts, logos, screenshots, founder contact](https://nosus.foo/press/)
 - [Web app](https://app.nosus.foo/)
 - [Privacy](https://nosus.foo/privacy.html)
 - [Terms](https://nosus.foo/terms.html)

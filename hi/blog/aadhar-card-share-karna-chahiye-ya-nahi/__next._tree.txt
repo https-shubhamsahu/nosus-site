@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/02erz02i3szdt.css","style"]
+:HL["/_next/static/chunks/17r82e9rrcsut.css","style"]
 :HL["/_next/static/chunks/2fin7_zci9071.css","style"]
 :HL["/_next/static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
@@ -6,4 +6,4 @@
 3:[["children",{"s":{"n":"slug","t":"d","k":"aadhar-card-share-karna-chahiye-ya-nahi","s":[]},"h":65632,"c":"$Q4"}]]
 2:[["children",{"s":"blog","h":131168,"c":"$Q3"}]]
 1:[["children",{"s":"hi","h":131136,"c":"$Q2"}]]
-0:{"b":"5J9j5_FVr736OcJba-zPl","t":{"t":{"s":"","h":131088,"c":"$Q1"}}}
+0:{"b":"x-06mEh3eKxZRgzcdWiMC","t":{"t":{"s":"","h":131088,"c":"$Q1"}}}

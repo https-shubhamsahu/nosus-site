@@ -5,7 +5,7 @@
 <image:image>
 <image:loc>https://nosus.foo/founder.webp</image:loc>
 </image:image>
-<lastmod>2026-10-24</lastmod>
+<lastmod>2026-10-25</lastmod>
 <changefreq>weekly</changefreq>
 <priority>1</priority>
 </url>
@@ -22,6 +22,12 @@
 <loc>https://nosus.foo/security/</loc>
 <lastmod>2026-10-22</lastmod>
 <priority>0.7</priority>
+</url>
+<url>
+<loc>https://nosus.foo/press/</loc>
+<lastmod>2026-10-25</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.4</priority>
 </url>
 <url>
 <loc>https://nosus.foo/find-who-leaked-a-document/</loc>

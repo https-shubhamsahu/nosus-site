@@ -22,10 +22,11 @@ Every public page, from the sitemap, with its date and summary. Answer pages sta
 
 ## Pages
 
-- [NO SUS: Self-Destructing Notes and One-Time File Links](https://nosus.foo/) (updated 2026-10-24): Free self-destructing notes and one-time file links, encrypted in your browser, no account. Plus watermarks, traceable copies and one chat on every screen.
+- [NO SUS: Self-Destructing Notes and One-Time File Links](https://nosus.foo/) (updated 2026-10-25): Free self-destructing notes and one-time file links, encrypted in your browser, no account. Plus watermarks, traceable copies and one chat on every screen.
 - [NO SUS product guide: NO SUS Chat and three ways to send](https://nosus.foo/guides/) (updated 2026-10-23): How to open your NO SUS Chat on any screen, send with one open, a watermark or traceable copies, and open any PDF, with the limits of each.
 - [Secure Sharing Alternatives: Privnote, Yopass, WeTransfer](https://nosus.foo/alternatives/) (updated 2026-10-23): Pick a Privnote, Onetime Secret, Yopass, WeTransfer, DocSend or Papermark alternative by what you send: a note, a password, a big file or a tracked deck.
 - [Is NO SUS safe? Encryption, keys and what we log](https://nosus.foo/security/) (updated 2026-10-22): Who holds the key, where each NO SUS tool stores data, how long we keep it, what we log and what we cannot do. Every claim comes from our code.
+- [NO SUS press kit: logos, facts and founder contact](https://nosus.foo/press/) (updated 2026-10-25): Everything to write about NO SUS: a one-line, 50-word and 100-word description, key facts, honest limits, logos, screenshots and the founder's email.
 - [How to Find Who Leaked My Document: One Copy per Reader](https://nosus.foo/find-who-leaked-a-document/) (updated 2026-10-24): Give every reader a slightly reworded copy. If the text leaks, paste it into NO SUS Canary to see whose copy it was. Readers need no account.
 - [Print a Document at a Xerox Shop Without Logging In](https://nosus.foo/print-without-login/) (updated 2026-10-23): At a xerox shop or cyber cafe, open your NO SUS domain on their PC, scan its QR with your phone and print. No Gmail login, no file in the shop’s WhatsApp.
 - [Open Your Files on a Borrowed PC Without Your Password](https://nosus.foo/open-drive-on-any-computer/) (updated 2026-10-16): Don’t type your Google password on a shared or cyber cafe PC. Open your NO SUS domain there, scan its QR with your phone, approve, and your chat opens.
