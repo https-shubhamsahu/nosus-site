@@ -114,6 +114,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [Blog: sourced privacy guides and news](https://nosus.foo/blog/) ([RSS](https://nosus.foo/blog/feed.xml))
 - [Android beta](https://nosus.foo/beta/)
 - [Press kit: descriptions, key facts, logos, screenshots, founder contact](https://nosus.foo/press/)
+- [View-once screenshot table: which apps block, notify or allow a screenshot, with a source for every row](https://nosus.foo/view-once-screenshot-table/)
 - [Web app](https://app.nosus.foo/)
 - [Privacy](https://nosus.foo/privacy.html)
 - [Terms](https://nosus.foo/terms.html)
