@@ -6,7 +6,25 @@
     <description>Privacy guides and news: sharing documents, passwords and IDs safely, borrowed computers, and what changed this week.</description>
     <language>en</language>
     <atom:link href="https://nosus.foo/blog/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 23 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Screenshot or Screen Record WhatsApp View Once? Both Blocked</title>
+      <link>https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Explainer</category>
+      <description>WhatsApp's help pages say view once photos and videos cannot be screenshotted, screen-recorded, forwarded, saved or replayed. They also say a camera on another device can still capture the screen, and a phone's own screen recorder may capture the audio of view once voice messages. WhatsApp does not publish which app versions block screenshots, so treat the block as strong but not guaranteed.</description>
+    </item>
+    <item>
+      <title>Which Apps Have Disappearing Messages? Signal Is Best (2026)</title>
+      <link>https://nosus.foo/blog/best-self-destructing-message-apps/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/best-self-destructing-message-apps</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Comparison</category>
+      <description>For a conversation, Signal has the most honest disappearing messages and Telegram secret chats are a close second. For a single photo, WhatsApp view once is the easiest. For a password or file that should never sit in a chat, use a one-time link tool: Yopass for open code, Privnote for the simplest note, NO SUS Burn for files up to 50 MB with no account. None of them can stop a camera pointed at the screen.</description>
+    </item>
     <item>
       <title>Can Someone Misuse Your Aadhar Card Xerox? What a Copy Can Do</title>
       <link>https://nosus.foo/blog/can-someone-misuse-aadhaar-xerox/</link>
@@ -80,24 +98,6 @@
       <description>Partly. Gmail's confidential mode cuts off an email on a date you pick, and you can remove access sooner. Proton Mail deletes an email when its expiration time runs out, up to 28 days after sending. Classic Outlook's Expires after only strikes the message through; real expiry needs Microsoft's top business plans. None of them can promise to stop a screenshot, and none can stop a photo of the screen.</description>
     </item>
     <item>
-      <title>Screenshot or Screen Record WhatsApp View Once? Both Blocked</title>
-      <link>https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/</link>
-      <!-- The guid stays slash-free so readers do not show every post again. -->
-      <guid isPermaLink="true">https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Explainer</category>
-      <description>WhatsApp's help pages say view once photos and videos cannot be screenshotted, screen-recorded, forwarded, saved or replayed. They also say a camera on another device can still capture the screen, and a phone's own screen recorder may capture the audio of view once voice messages. WhatsApp does not publish which app versions block screenshots, so treat the block as strong but not guaranteed.</description>
-    </item>
-    <item>
-      <title>Which Apps Have Disappearing Messages? Signal Is Best (2026)</title>
-      <link>https://nosus.foo/blog/best-self-destructing-message-apps/</link>
-      <!-- The guid stays slash-free so readers do not show every post again. -->
-      <guid isPermaLink="true">https://nosus.foo/blog/best-self-destructing-message-apps</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Comparison</category>
-      <description>For a conversation, Signal has the most honest disappearing messages and Telegram secret chats are a close second. For a single photo, WhatsApp view once is the easiest. For a password or file that should never sit in a chat, use a one-time link tool: Yopass for open code, Privnote for the simplest note, NO SUS Burn for files up to 50 MB with no account. None of them can stop a camera pointed at the screen.</description>
-    </item>
-    <item>
       <title>How to Share an Aadhaar Copy Safely (and Your PAN) in 2026</title>
       <link>https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/</link>
       <!-- The guid stays slash-free so readers do not show every post again. -->
@@ -143,7 +143,7 @@
       <description>Don't paste a password, Wi-Fi key or API key into WhatsApp, email or Slack, where it stays in chat history and backups. For access someone needs long term, use a password manager's sharing feature; for a one-off, send an expiring one-time link and give its password over a different channel. OTPs and your UPI PIN should never be sent to anyone.</description>
     </item>
     <item>
-      <title>Privnote Alternatives Compared: Self-Destructing Note Tools in 2026</title>
+      <title>Self-Destructing Note Tools Compared: 6 Picks (Oct 2026)</title>
       <link>https://nosus.foo/blog/self-destructing-note-tools-compared/</link>
       <!-- The guid stays slash-free so readers do not show every post again. -->
       <guid isPermaLink="true">https://nosus.foo/blog/self-destructing-note-tools-compared</guid>

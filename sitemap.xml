@@ -11,16 +11,16 @@
 </url>
 <url>
 <loc>https://nosus.foo/guides/</loc>
-<lastmod>2026-10-23</lastmod>
+<lastmod>2026-10-25</lastmod>
 </url>
 <url>
 <loc>https://nosus.foo/alternatives/</loc>
-<lastmod>2026-10-23</lastmod>
+<lastmod>2026-10-25</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://nosus.foo/security/</loc>
-<lastmod>2026-10-22</lastmod>
+<lastmod>2026-10-25</lastmod>
 <priority>0.7</priority>
 </url>
 <url>
@@ -103,7 +103,7 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/compare/privnote/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/compare/privnote/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/compare/privnote/" />
-<lastmod>2026-10-20</lastmod>
+<lastmod>2026-10-25</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -283,19 +283,33 @@
 </url>
 <url>
 <loc>https://nosus.foo/hi/</loc>
-<lastmod>2026-10-23</lastmod>
+<lastmod>2026-10-25</lastmod>
 <priority>0.6</priority>
 </url>
 <url>
 <loc>https://nosus.foo/beta/</loc>
-<lastmod>2026-10-23</lastmod>
+<lastmod>2026-10-25</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 <url>
 <loc>https://nosus.foo/blog/</loc>
-<lastmod>2026-10-23</lastmod>
+<lastmod>2026-10-25</lastmod>
 <changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://nosus.foo/pt/foto-visualizacao-unica-whatsapp-print/" />
+<xhtml:link rel="alternate" hreflang="id" href="https://nosus.foo/id/foto-sekali-lihat-whatsapp/" />
+<xhtml:link rel="alternate" hreflang="es" href="https://nosus.foo/es/ver-una-vez-whatsapp-captura/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
+<lastmod>2026-10-25</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/blog/best-self-destructing-message-apps/</loc>
+<lastmod>2026-10-25</lastmod>
 </url>
 <url>
 <loc>https://nosus.foo/blog/can-someone-misuse-aadhaar-xerox/</loc>
@@ -327,20 +341,6 @@
 </url>
 <url>
 <loc>https://nosus.foo/blog/self-destructing-email-gmail-outlook/</loc>
-<lastmod>2026-10-23</lastmod>
-</url>
-<url>
-<loc>https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
-<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
-<xhtml:link rel="alternate" hreflang="pt-BR" href="https://nosus.foo/pt/foto-visualizacao-unica-whatsapp-print/" />
-<xhtml:link rel="alternate" hreflang="id" href="https://nosus.foo/id/foto-sekali-lihat-whatsapp/" />
-<xhtml:link rel="alternate" hreflang="es" href="https://nosus.foo/es/ver-una-vez-whatsapp-captura/" />
-<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
-<lastmod>2026-10-23</lastmod>
-</url>
-<url>
-<loc>https://nosus.foo/blog/best-self-destructing-message-apps/</loc>
 <lastmod>2026-10-23</lastmod>
 </url>
 <url>

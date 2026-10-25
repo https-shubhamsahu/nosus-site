@@ -1,6 +1,8 @@
 # NO SUS
 
-> NO SUS (nosus.foo) keeps your files on every screen and lets you choose how you send them. One app with two tabs: Chat (NO SUS Chat, your own chat stored in your Google Drive, opened on any screen from your domain) and Send (one open, watermarked, or traceable copies). It also opens any PDF on Android. Self-destructing notes and files (Burn) work on nosus.foo with no account.
+> NO SUS keeps your files on every screen and lets you choose how you send them. One app with two tabs: Chat (NO SUS Chat, your own chat stored in your Google Drive, opened on any screen from your domain) and Send (one open, watermarked, or traceable copies). It also opens any PDF on Android. Self-destructing notes and files (Burn) work on nosus.foo with no account.
+
+NO SUS (nosus.foo) is a privacy app made in India. It is not the slang phrase "no sus" and not Brazil's public health system, SUS.
 
 This file is for machine readers. It does not guarantee AI citations or answer-engine inclusion.
 
@@ -34,7 +36,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 
 ## Comparisons
 
-- [Privnote Alternative: NO SUS vs Privnote, Side by Side](https://nosus.foo/compare/privnote/)
+- [Privnote Alternative: NO SUS vs Privnote and 5 More Compared](https://nosus.foo/compare/privnote/)
 - [DocSend Alternative for Individuals: NO SUS vs DocSend](https://nosus.foo/compare/docsend/)
 - [Onetime Secret Alternative: NO SUS vs Onetime Secret (2026)](https://nosus.foo/alternatives/onetimesecret/)
 - [Yopass Alternative: NO SUS vs Yopass, Compared Fairly (2026)](https://nosus.foo/alternatives/yopass/)
@@ -72,6 +74,8 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 
 ## Blog articles
 
+- [Screenshot or Screen Record WhatsApp View Once? Both Blocked](https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/)
+- [Which Apps Have Disappearing Messages? Signal Is Best (2026)](https://nosus.foo/blog/best-self-destructing-message-apps/)
 - [Can Someone Misuse Your Aadhar Card Xerox? The Real Risk](https://nosus.foo/blog/can-someone-misuse-aadhaar-xerox/)
 - [How to Send Your SSN Securely (and Why Not by Email or Text)](https://nosus.foo/blog/how-to-send-ssn-securely/)
 - [Is It Safe to Share Your PAN Card? When to Say Yes, and How](https://nosus.foo/blog/is-it-safe-to-share-pan-card/)
@@ -80,14 +84,12 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [One-Time Download Link in Google Drive? What Actually Works](https://nosus.foo/blog/one-time-download-link-google-drive/)
 - [Screenshot View Once: Instagram, Telegram, Messenger, Signal](https://nosus.foo/blog/view-once-screenshot-instagram-telegram-messenger-signal/)
 - [Self-Destructing Email in Gmail, Outlook and Proton Mail](https://nosus.foo/blog/self-destructing-email-gmail-outlook/)
-- [Screenshot or Screen Record WhatsApp View Once? Both Blocked](https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/)
-- [Which Apps Have Disappearing Messages? Signal Is Best (2026)](https://nosus.foo/blog/best-self-destructing-message-apps/)
 - [How to Share an Aadhaar Copy Safely (and Your PAN) in 2026](https://nosus.foo/blog/how-to-share-aadhaar-copy-safely/)
 - [How to Send a PDF Securely: Gmail, Outlook and Free Options](https://nosus.foo/blog/how-to-send-a-pdf-securely/)
 - [Is Privnote Safe? Reasonably, on the Real Site. Avoid Fakes](https://nosus.foo/blog/is-privnote-safe/)
 - [Telegram Secret Chat vs WhatsApp Disappearing Messages](https://nosus.foo/blog/telegram-secret-chat-vs-whatsapp-disappearing-messages/)
 - [How to Send a Password Securely (Not in WhatsApp or Email)](https://nosus.foo/blog/how-to-send-a-password-securely/)
-- [Privnote Alternatives: Self-Destructing Note Tools Compared](https://nosus.foo/blog/self-destructing-note-tools-compared/)
+- [Self-Destructing Note Tools Compared: 6 Picks (Oct 2026)](https://nosus.foo/blog/self-destructing-note-tools-compared/)
 - [What Is a Canary Trap? How Reworded Copies Catch a Leaker](https://nosus.foo/blog/what-is-a-canary-trap/)
 - [AI Chatbot Study: 6 of 9 Sites Sent Chat Data to Trackers](https://nosus.foo/blog/ai-chatbots-share-chats-with-advertisers/)
 - [Bank Account Frozen? What RBI's Draft Mule Rules Change](https://nosus.foo/blog/rbi-money-mule-rules-bank-account-frozen/)
@@ -120,6 +122,15 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [Terms](https://nosus.foo/terms.html)
 - [Account deletion](https://nosus.foo/account-deletion.html)
 - [Longer description](https://nosus.foo/llms-full.txt)
+
+## Who makes NO SUS
+
+NO SUS is made by its founder, Shubham Sahu, who is based in Mumbai, India.
+
+- [Shubham Sahu, founder](https://shubham-sahu.me/)
+- [NO SUS on LinkedIn](https://www.linkedin.com/company/nosus/)
+- Contact: shubhamsahu@nosus.foo
+- [Every NO SUS profile, in the press kit](https://nosus.foo/press/)
 
 ## Utility pages (noindex)
 
