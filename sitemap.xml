@@ -5,7 +5,7 @@
 <image:image>
 <image:loc>https://nosus.foo/founder.webp</image:loc>
 </image:image>
-<lastmod>2026-10-25</lastmod>
+<lastmod>2026-11-01</lastmod>
 <changefreq>weekly</changefreq>
 <priority>1</priority>
 </url>
@@ -310,11 +310,15 @@
 <xhtml:link rel="alternate" hreflang="id" href="https://nosus.foo/id/foto-sekali-lihat-whatsapp/" />
 <xhtml:link rel="alternate" hreflang="es" href="https://nosus.foo/es/ver-una-vez-whatsapp-captura/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
-<lastmod>2026-10-25</lastmod>
+<lastmod>2026-11-01</lastmod>
 </url>
 <url>
 <loc>https://nosus.foo/blog/best-self-destructing-message-apps/</loc>
-<lastmod>2026-10-25</lastmod>
+<lastmod>2026-11-01</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/blog/how-to-send-a-password-securely/</loc>
+<lastmod>2026-11-01</lastmod>
 </url>
 <url>
 <loc>https://nosus.foo/blog/can-someone-misuse-aadhaar-xerox/</loc>
@@ -365,10 +369,6 @@
 </url>
 <url>
 <loc>https://nosus.foo/blog/telegram-secret-chat-vs-whatsapp-disappearing-messages/</loc>
-<lastmod>2026-10-20</lastmod>
-</url>
-<url>
-<loc>https://nosus.foo/blog/how-to-send-a-password-securely/</loc>
 <lastmod>2026-10-20</lastmod>
 </url>
 <url>
@@ -454,7 +454,7 @@
 </url>
 <url>
 <loc>https://nosus.foo/hi/blog/one-time-view-photo-kaise-bheje/</loc>
-<lastmod>2026-10-23</lastmod>
+<lastmod>2026-11-01</lastmod>
 </url>
 <url>
 <loc>https://nosus.foo/pt/foto-visualizacao-unica-whatsapp-print/</loc>

@@ -6,7 +6,7 @@
     <description>Privacy guides and news: sharing documents, passwords and IDs safely, borrowed computers, and what changed this week.</description>
     <language>en</language>
     <atom:link href="https://nosus.foo/blog/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sun, 25 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 00:00:00 GMT</lastBuildDate>
     <item>
       <title>Screenshot or Screen Record WhatsApp View Once? Both Blocked</title>
       <link>https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/</link>
@@ -24,6 +24,15 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
       <category>Comparison</category>
       <description>For a conversation, Signal has the most honest disappearing messages and Telegram secret chats are a close second. For a single photo, WhatsApp view once is the easiest. For a password or file that should never sit in a chat, use a one-time link tool: Yopass for open code, Privnote for the simplest note, NO SUS Burn for files up to 50 MB with no account. None of them can stop a camera pointed at the screen.</description>
+    </item>
+    <item>
+      <title>How to Send a Password Securely (Not in WhatsApp or Email)</title>
+      <link>https://nosus.foo/blog/how-to-send-a-password-securely/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/how-to-send-a-password-securely</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Don't paste a password, Wi-Fi key or API key into WhatsApp, email or Slack, where it stays in chat history and backups. For access someone needs long term, use a password manager's sharing feature; for a one-off, send an expiring one-time link and give its password over a different channel. OTPs and your UPI PIN should never be sent to anyone.</description>
     </item>
     <item>
       <title>Can Someone Misuse Your Aadhar Card Xerox? What a Copy Can Do</title>
@@ -132,15 +141,6 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
       <category>Comparison</category>
       <description>WhatsApp encrypts every personal chat end to end by default and adds optional disappearing messages. Telegram encrypts end to end only in secret chats, which are one-to-one, tied to one device and need to be started by hand; normal Telegram chats are stored encrypted on Telegram's servers. Both let the other person keep a copy, because neither can block a camera, and a WhatsApp backup, forward or quoted reply can outlive its timer.</description>
-    </item>
-    <item>
-      <title>How to Send a Password Securely (Not in WhatsApp or Email)</title>
-      <link>https://nosus.foo/blog/how-to-send-a-password-securely/</link>
-      <!-- The guid stays slash-free so readers do not show every post again. -->
-      <guid isPermaLink="true">https://nosus.foo/blog/how-to-send-a-password-securely</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Guide</category>
-      <description>Don't paste a password, Wi-Fi key or API key into WhatsApp, email or Slack, where it stays in chat history and backups. For access someone needs long term, use a password manager's sharing feature; for a one-off, send an expiring one-time link and give its password over a different channel. OTPs and your UPI PIN should never be sent to anyone.</description>
     </item>
     <item>
       <title>Self-Destructing Note Tools Compared: 6 Picks (Oct 2026)</title>
