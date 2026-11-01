@@ -21,6 +21,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 
 ## Pages
 
+- [About NO SUS: who makes it and how to reach us](https://nosus.foo/about/)
 - [How to Find Who Leaked My Document: One Copy per Reader](https://nosus.foo/find-who-leaked-a-document/)
 - [Print a Document at a Xerox Shop Without Logging In](https://nosus.foo/print-without-login/)
 - [Open Your Files on a Borrowed PC Without Your Password](https://nosus.foo/open-drive-on-any-computer/)

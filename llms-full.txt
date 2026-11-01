@@ -26,10 +26,11 @@ Every public page, from the sitemap, with its date and summary. Answer pages sta
 - [NO SUS: Self-Destructing Notes and One-Time File Links](https://nosus.foo/) (updated 2026-11-01): Free self-destructing notes and one-time file links, encrypted in your browser, no account. Plus watermarks, traceable copies and one chat on every screen.
 - [NO SUS product guide: NO SUS Chat and three ways to send](https://nosus.foo/guides/) (updated 2026-11-01): How to open your NO SUS Chat on any screen, send with one open, a watermark or traceable copies, and open any PDF, with the limits of each.
 - [Secure Sharing Alternatives, Picked by What You Send](https://nosus.foo/alternatives/) (updated 2026-10-25): Compare Onetime Secret, Yopass, Privnote, WeTransfer, DocSend and Papermark with NO SUS by what you send: a note, a password, a big file or a tracked deck.
-- [Is NO SUS safe? Encryption, keys and what we log](https://nosus.foo/security/) (updated 2026-10-25): Who holds the key, where each NO SUS tool stores data, how long we keep it, what we log and what we cannot do. Every claim comes from our code.
+- [Is NO SUS safe? Encryption, keys and what we log](https://nosus.foo/security/) (updated 2026-11-02): Who holds the key, where each NO SUS tool stores data, how long we keep it, what we log and what we cannot do. Every claim comes from our code.
+- [About NO SUS: who makes it and how to reach us](https://nosus.foo/about/) (updated 2026-11-02): NO SUS is a privacy app made in Mumbai, India, by its founder, Shubham Sahu. What it does, what the site counts, and how to reach us.
 - [NO SUS press kit: logos, facts and founder contact](https://nosus.foo/press/) (updated 2026-10-25): Everything to write about NO SUS: a one-line, 50-word and 100-word description, key facts, honest limits, logos, screenshots and the founder's email.
 - [View-Once Screenshot Table: Block, Notify or Allow (2026)](https://nosus.foo/view-once-screenshot-table/) (updated 2026-10-25): WhatsApp, Instagram, Messenger, Telegram, Snapchat and Signal: which block a view-once screenshot, which tell the sender, which do neither. Sourced.
-- [Mask and Watermark Aadhaar or PAN Copy: Free, No Upload](https://nosus.foo/mask-aadhaar-copy/) (updated 2026-10-25): Cover the first 8 Aadhaar digits, the QR code or PAN details with solid boxes, then stamp who the copy is for. Runs in your browser; nothing is uploaded.
+- [Mask and Watermark Aadhaar or PAN Copy: Free, No Upload](https://nosus.foo/mask-aadhaar-copy/) (updated 2026-11-01): Cover the first 8 Aadhaar digits, the QR code or PAN details with solid boxes, then stamp who the copy is for. Runs in your browser; nothing is uploaded.
 - [How to Find Who Leaked My Document: One Copy per Reader](https://nosus.foo/find-who-leaked-a-document/) (updated 2026-10-24): Give every reader a slightly reworded copy. If the text leaks, paste it into NO SUS Canary to see whose copy it was. Readers need no account.
 - [Print a Document at a Xerox Shop Without Logging In](https://nosus.foo/print-without-login/) (updated 2026-10-23): At a xerox shop or cyber cafe, open your NO SUS domain on their PC, scan its QR with your phone and print. No Gmail login, no file in the shop’s WhatsApp.
 - [Open Your Files on a Borrowed PC Without Your Password](https://nosus.foo/open-drive-on-any-computer/) (updated 2026-10-16): Don’t type your Google password on a shared or cyber cafe PC. Open your NO SUS domain there, scan its QR with your phone, approve, and your chat opens.
@@ -44,9 +45,9 @@ Every public page, from the sitemap, with its date and summary. Answer pages sta
 - [Self-Destructing Photo Meaning, in Hindi and Telugu Too](https://nosus.foo/self-destructing-photo-meaning/) (updated 2026-10-23): A self-destructing photo deletes itself after one view or a timer: its meaning in Hindi and Telugu, and how WhatsApp, Instagram and Telegram do it.
 - [Join the NO SUS Android beta](https://nosus.foo/beta/) (updated 2026-10-25): Get NO SUS for Android in three steps, then open it once a day for 14 days to help it reach everyone on Google Play.
 - [NO SUS blog: privacy guides and news for real life](https://nosus.foo/blog/) (updated 2026-11-01): Practical, sourced guides on sharing documents, passwords and IDs safely, using borrowed computers, and the privacy news that affects you.
-- [privacy.html](https://nosus.foo/privacy.html) (updated 2026-10-24)
-- [terms.html](https://nosus.foo/terms.html) (updated 2026-10-19)
-- [account-deletion.html](https://nosus.foo/account-deletion.html) (updated 2026-10-21)
+- [privacy.html](https://nosus.foo/privacy.html) (updated 2026-11-02)
+- [terms.html](https://nosus.foo/terms.html) (updated 2026-11-01)
+- [account-deletion.html](https://nosus.foo/account-deletion.html) (updated 2026-11-01)
 
 ## Comparisons
 
