@@ -8,6 +8,33 @@
     <atom:link href="https://nosus.foo/blog/feed.xml" rel="self" type="application/rss+xml" />
     <lastBuildDate>Sun, 01 Nov 2026 00:00:00 GMT</lastBuildDate>
     <item>
+      <title>DPDP Act Checklist for Small Businesses in India (2026)</title>
+      <link>https://nosus.foo/blog/dpdp-act-checklist-for-small-business/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/dpdp-act-checklist-for-small-business</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Any business that keeps personal data of customers, staff or candidates in digital form is a Data Fiduciary under India's DPDP Act, whatever its size; there is no turnover or headcount threshold and no small-business exemption has been notified. The main duties (notice, security safeguards, breach reporting, erasure, a published contact person) and the penalties start in mid-May 2027, 18 months after the Rules were published on 13 November 2025. A small business can get ready in 12 steps: map the data, cut what it doesn't need, write a notice, lock down access, keep logs, sign vendor contracts, set deletion dates and write a breach plan.</description>
+    </item>
+    <item>
+      <title>DPDP Act for CA Firms: A Client Data Checklist</title>
+      <link>https://nosus.foo/blog/dpdp-act-for-ca-firms/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/dpdp-act-for-ca-firms</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>A CA firm that decides how client data is used for an engagement is a Data Fiduciary under India's DPDP Act, with duties on security safeguards, breach reporting, erasure and a published contact person from mid-May 2027. The Act lets you keep records a law requires, so SA 230's seven-year retention for audit working papers still stands; everything else should be deleted when the engagement's purpose ends, after the one-year minimum in Rule 8(3). The usual weak spots are filing-season WhatsApp, shared portal logins, OTPs on staff phones, DSC tokens and articled assistants who leave.</description>
+    </item>
+    <item>
+      <title>DPDP Act for HR, Payroll and Staffing Firms: An Employee Data Checklist</title>
+      <link>https://nosus.foo/blog/dpdp-act-hr-payroll-staffing-firms/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/dpdp-act-hr-payroll-staffing-firms</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Under India's DPDP Act an employer may process employee data for employment purposes without consent (section 7(i)), but security safeguards, breach reporting, erasure and a published contact person still apply from mid-May 2027. Candidates are not yet employees, so give them a notice and collect only what hiring needs. A payroll provider working on a client's instructions is usually that client's Data Processor and needs a contract with security terms; a staffing firm that is the legal employer is generally a Data Fiduciary for its associates' statutory data. Write the roles into every contract.</description>
+    </item>
+    <item>
       <title>Screenshot or Screen Record WhatsApp View Once? Both Blocked</title>
       <link>https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/</link>
       <!-- The guid stays slash-free so readers do not show every post again. -->
