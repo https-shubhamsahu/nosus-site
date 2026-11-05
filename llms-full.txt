@@ -24,7 +24,7 @@ Every public page, from the sitemap, with its date and summary. Answer pages sta
 
 ## Pages
 
-- [Share Files and Notes Without Login, Free](https://nosus.foo/) (updated 2026-11-05): Free file sharing with no login or sign-up for you or the recipient. Up to 10 files or a note, encrypted in your browser, in one link that opens once.
+- [Share Files and Notes Without Login, Free](https://nosus.foo/) (updated 2026-11-06): Free file sharing with no login or sign-up for you or the recipient. Up to 10 files or a note, encrypted in your browser, in one link that opens once.
 - [NO SUS product guide: NO SUS Chat and three ways to send](https://nosus.foo/guides/) (updated 2026-11-01): How to open your NO SUS Chat on any screen, send with one open, a watermark or traceable copies, and open any PDF, with the limits of each.
 - [Secure Sharing Alternatives, Picked by What You Send](https://nosus.foo/alternatives/) (updated 2026-10-25): Compare Onetime Secret, Yopass, Privnote, WeTransfer, DocSend and Papermark with NO SUS by what you send: a note, a password, a big file or a tracked deck.
 - [Is NO SUS safe? Encryption, keys and what we log](https://nosus.foo/security/) (updated 2026-11-02): Who holds the key, where each NO SUS tool stores data, how long we keep it, what we log and what we cannot do. Every claim comes from our code.
