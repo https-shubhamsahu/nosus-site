@@ -46,6 +46,22 @@
 <priority>0.7</priority>
 </url>
 <url>
+<loc>https://nosus.foo/id-misuse/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/id-misuse/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/id-misuse/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/id-misuse/" />
+<lastmod>2026-11-05</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://nosus.foo/hi/id-misuse/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/id-misuse/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/id-misuse/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/id-misuse/" />
+<lastmod>2026-11-05</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
 <loc>https://nosus.foo/find-who-leaked-a-document/</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/find-who-leaked-a-document/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/find-who-leaked-a-document/" />
@@ -294,7 +310,7 @@
 </url>
 <url>
 <loc>https://nosus.foo/hi/</loc>
-<lastmod>2026-11-01</lastmod>
+<lastmod>2026-11-05</lastmod>
 <priority>0.6</priority>
 </url>
 <url>
@@ -510,10 +526,18 @@
 </url>
 <url>
 <loc>https://nosus.foo/terms.html</loc>
-<lastmod>2026-11-01</lastmod>
+<lastmod>2026-11-05</lastmod>
 </url>
 <url>
 <loc>https://nosus.foo/account-deletion.html</loc>
 <lastmod>2026-11-01</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/refund.html</loc>
+<lastmod>2026-11-05</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/contact.html</loc>
+<lastmod>2026-11-05</lastmod>
 </url>
 </urlset>

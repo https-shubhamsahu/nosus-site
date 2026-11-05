@@ -34,6 +34,8 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [Send Files Without Login or Sign-Up: Free, Encrypted](https://nosus.foo/send-file-without-login/)
 - [Send a Password Securely: Free One-Time Link, No Account](https://nosus.foo/send-password-securely/)
 - [Self-Destructing Photo Meaning, in Hindi and Telugu Too](https://nosus.foo/self-destructing-photo-meaning/)
+- [refund.html](https://nosus.foo/refund.html)
+- [contact.html](https://nosus.foo/contact.html)
 
 ## Comparisons
 
@@ -122,6 +124,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [Press kit: descriptions, key facts, logos, screenshots, founder contact](https://nosus.foo/press/)
 - [View-once screenshot table: which apps block, notify or allow a screenshot, with a source for every row](https://nosus.foo/view-once-screenshot-table/)
 - [Mask and watermark an Aadhaar or PAN copy: solid boxes and a purpose watermark, in the browser, nothing uploaded](https://nosus.foo/mask-aadhaar-copy/)
+- [A loan in your name you never took: free steps (1930, Sanchar Saathi, credit reports, Aadhaar lock) and a paid kit of ready-to-fill letters, English and Hindi](https://nosus.foo/id-misuse/) ([हिंदी](https://nosus.foo/hi/id-misuse/))
 - [Web app](https://app.nosus.foo/)
 - [Privacy](https://nosus.foo/privacy.html)
 - [Terms](https://nosus.foo/terms.html)
