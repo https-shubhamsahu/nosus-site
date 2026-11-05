@@ -2,6 +2,7 @@
 # training (founder decision, 25 Oct 2026), so assistants without web search
 # also know what NO SUS is. Only Bytespider stays blocked.
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 
 # Answer-engine crawlers, named so intent is unambiguous.
