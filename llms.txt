@@ -27,17 +27,17 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [Open Your Files on a Borrowed PC Without Your Password](https://nosus.foo/open-drive-on-any-computer/)
 - [Receive a File From Someone Without an Account or App](https://nosus.foo/receive-files/)
 - [Send a PDF as View Once on WhatsApp, No Account](https://nosus.foo/whatsapp-view-once-pdf/)
-- [How to Send a File That Deletes After Opening](https://nosus.foo/one-time-file-link/)
-- [Self-Destructing Note: Free, Encrypted, No Account](https://nosus.foo/self-destructing-note/)
+- [One-Time Download Link: Free, Encrypted, Deletes on Download](https://nosus.foo/one-time-file-link/)
+- [Self-Destructing Note: Free, Encrypted, No Sign-Up](https://nosus.foo/self-destructing-note/)
 - [How to Watermark a PDF With the Viewer's Email](https://nosus.foo/watermark-pdf-viewer-email/)
 - [One-Time Link Generator: Free, No Account, Encrypted](https://nosus.foo/one-time-link/)
-- [Send a File Without Login or Account: Free, One Link](https://nosus.foo/send-file-without-login/)
+- [Send Files Without Login or Sign-Up: Free, Encrypted](https://nosus.foo/send-file-without-login/)
 - [Send a Password Securely: Free One-Time Link, No Account](https://nosus.foo/send-password-securely/)
 - [Self-Destructing Photo Meaning, in Hindi and Telugu Too](https://nosus.foo/self-destructing-photo-meaning/)
 
 ## Comparisons
 
-- [Privnote Alternative: NO SUS vs Privnote and 5 More Compared](https://nosus.foo/compare/privnote/)
+- [Privnote Alternatives 2026: 6 Free Tools Compared](https://nosus.foo/compare/privnote/)
 - [DocSend Alternative for Individuals: NO SUS vs DocSend](https://nosus.foo/compare/docsend/)
 - [Onetime Secret Alternative: NO SUS vs Onetime Secret (2026)](https://nosus.foo/alternatives/onetimesecret/)
 - [Yopass Alternative: NO SUS vs Yopass, Compared Fairly (2026)](https://nosus.foo/alternatives/yopass/)
