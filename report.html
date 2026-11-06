@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Sends nothing: the script only builds a mailto: link. No analytics on this page. test/unit/web_report_page_test.dart pins the script hash. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-ow/7RtTOY/q2AbvKvHyp9lXMDYkFxMfPU+WEC0yTzYc='; style-src 'unsafe-inline'; img-src 'self'; form-action 'none'; base-uri 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report a problem | NO SUS</title>
+  <meta name="description" content="Report a NO SUS link, file, note or account used to harm someone. No account needed. Goes to our Grievance Officer by email.">
+  <link rel="canonical" href="https://nosus.foo/report.html">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    body { font-family: 'Courier New', monospace; background: #0D0D0D; color: #F5F5F5;
+           max-width: 720px; margin: 0 auto; padding: 32px 24px; line-height: 1.7; }
+    h1 { font-size: 22px; letter-spacing: 2px; }
+    h2 { font-size: 15px; letter-spacing: 1px; margin-top: 32px; color: #ccc; }
+    p, li { font-size: 13px; color: #bbb; }
+    a { color: #fff; }
+    .home { font-size: 11px; margin: 0 0 24px; }
+    form { margin-top: 24px; }
+    .field { margin: 0 0 20px; }
+    label, legend { display: block; font-size: 14px; color: #F5F5F5; margin-bottom: 6px; }
+    fieldset { border: 0; padding: 0; margin: 0 0 20px; }
+    .hint { font-size: 12px; color: #9a9a9a; margin: 0 0 8px; }
+    .choice { display: flex; align-items: center; gap: 10px; min-height: 44px; font-size: 13px; color: #ddd; margin: 0; }
+    .choice input { width: 20px; height: 20px; margin: 0; accent-color: #F5F5F5; }
+    input[type=text], input[type=email], textarea {
+      box-sizing: border-box; width: 100%; font: inherit; font-size: 14px; color: #F5F5F5;
+      background: #161616; border: 1px solid #5a5a5a; border-radius: 6px; padding: 10px 12px; }
+    textarea { min-height: 140px; resize: vertical; }
+    input:focus-visible, textarea:focus-visible, button:focus-visible, a:focus-visible {
+      outline: 2px solid #F5F5F5; outline-offset: 2px; }
+    button { font: inherit; font-size: 15px; font-weight: 700; color: #0D0D0D; background: #F5F5F5;
+             border: 0; border-radius: 8px; min-height: 48px; padding: 12px 24px; cursor: pointer; }
+    .error { color: #ffb4a8; font-size: 13px; min-height: 1.7em; }
+  </style>
+</head>
+<body>
+  <p class="home"><a href="https://nosus.foo/">&larr; NO SUS home</a></p>
+  <main>
+  <h1>Report a problem</h1>
+  <p>Tell us about a NO SUS link, file, note or account that is being used to harm someone. You do not need an account.</p>
+  <p>This page sends nothing by itself. It opens an email to our Grievance Officer with your answers filled in, and you press send.</p>
+  <p>If someone is in danger, call 112. For money lost to cyber fraud, call 1930 or report at <a href="https://cybercrime.gov.in/" rel="noopener">cybercrime.gov.in</a>.</p>
+
+  <form id="report" novalidate>
+    <fieldset>
+      <legend>What is it about?</legend>
+      <p class="choice"><input type="radio" name="kind" id="k-ncii" value="Intimate images shared without consent" data-urgent="1"><label for="k-ncii">Intimate images shared without consent</label></p>
+      <p class="choice"><input type="radio" name="kind" id="k-child" value="Sexual content involving a child" data-urgent="1"><label for="k-child">Sexual content involving a child</label></p>
+      <p class="choice"><input type="radio" name="kind" id="k-scam" value="A scam or fraud"><label for="k-scam">A scam or fraud</label></p>
+      <p class="choice"><input type="radio" name="kind" id="k-imp" value="Someone pretending to be someone else"><label for="k-imp">Someone pretending to be someone else</label></p>
+      <p class="choice"><input type="radio" name="kind" id="k-threat" value="Threats or harassment"><label for="k-threat">Threats or harassment</label></p>
+      <p class="choice"><input type="radio" name="kind" id="k-malware" value="Malware or a harmful file"><label for="k-malware">Malware or a harmful file</label></p>
+      <p class="choice"><input type="radio" name="kind" id="k-copy" value="Copyright"><label for="k-copy">Copyright</label></p>
+      <p class="choice"><input type="radio" name="kind" id="k-other" value="Something else"><label for="k-other">Something else</label></p>
+    </fieldset>
+
+    <div class="field">
+      <label for="where">Where did you see it?</label>
+      <p class="hint" id="where-hint">A link, a handle like name.nosus.foo, or where it was sent to you. If you paste a NO SUS link, the key after ?k= is taken out for you.</p>
+      <input type="text" id="where" aria-describedby="where-hint" autocomplete="off">
+    </div>
+
+    <div class="field">
+      <label for="what">What happened?</label>
+      <textarea id="what"></textarea>
+    </div>
+
+    <div class="field">
+      <label for="reply">Your email (optional)</label>
+      <p class="hint" id="reply-hint">So we can tell you what we did. Leave it empty and we still act on the report.</p>
+      <input type="email" id="reply" aria-describedby="reply-hint" autocomplete="email">
+    </div>
+
+    <p class="error" id="error" role="alert"></p>
+    <button type="submit">Open the email</button>
+  </form>
+  <p>No email app? Write to <a href="mailto:shubhamsahu@nosus.foo?subject=Report">shubhamsahu@nosus.foo</a> with the same details.</p>
+
+  <h2>What happens next</h2>
+  <ul>
+    <li>We acknowledge your report within 24 hours and resolve it within 7 days.</li>
+    <li>Intimate images and anything involving a child are handled first.</li>
+    <li>We cannot read one-open notes and files: they are encrypted with a key we never get. With the link, we can delete a note or file that has not been opened yet, turn off a watermarked link, and ban the account behind it when there is one.</li>
+  </ul>
+
+  <h2>Grievance Officer</h2>
+  <p>Shubham Sahu, <a href="mailto:shubhamsahu@nosus.foo?subject=Grievance">shubhamsahu@nosus.foo</a>, NO SUS, Mumbai, Maharashtra, India. Under the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021. See <a href="terms.html">Terms</a> section 12.</p>
+  </main>
+  <script>
+    (function () {
+      var form = document.getElementById('report');
+      var error = document.getElementById('error');
+      // Keys never go in a report: ?k= / &v= values and bare 64-hex keys are cut.
+      function clean(s) {
+        return String(s || '')
+          .replace(/([?&](?:k|v)=)[^&\s#]*/gi, '$1[removed]')
+          .replace(/[a-f0-9]{64}(?:\.[a-f0-9]{32})?/gi, '[key removed]')
+          .trim();
+      }
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var kind = form.querySelector('input[name=kind]:checked');
+        var what = document.getElementById('what').value.trim();
+        if (!kind) { error.textContent = 'Choose what it is about.'; return; }
+        if (!what) { error.textContent = 'Write what happened.'; document.getElementById('what').focus(); return; }
+        error.textContent = '';
+        var where = clean(document.getElementById('where').value);
+        var reply = document.getElementById('reply').value.trim();
+        var subject = (kind.getAttribute('data-urgent') ? 'URGENT: ' : '') + 'Report: ' + kind.value;
+        var body = 'What it is about: ' + kind.value + '\n\n' +
+          'Where I saw it: ' + (where || 'not given') + '\n\n' +
+          'What happened:\n' + clean(what) + '\n\n' +
+          'Reply to: ' + (reply || 'no reply needed') + '\n';
+        window.location.href = 'mailto:shubhamsahu@nosus.foo?subject=' + encodeURIComponent(subject) +
+          '&body=' + encodeURIComponent(body);
+      });
+    })();
+  </script>
+</body>
+</html>

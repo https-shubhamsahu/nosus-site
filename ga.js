@@ -11,9 +11,18 @@
 // with data-mode="app", which only adds ga.html, a hidden frame, once the page
 // has loaded. GA runs inside that frame (data-mode="frame"): its own address is
 // clean, and it has no links, forms or scrolling for GA's automatic events to
-// see. It sends one page view per app load, at this origin plus at most a route
-// name from ROUTES (never an ID, code or key), any utm_* tags, and the
-// referring site's origin only. GA cannot measure engagement time from a frame.
+// see. It sends one page view per app load, at this origin, any utm_* tags, and
+// the referring site's origin only. GA cannot measure engagement time from a
+// frame.
+//
+// The frame is same-origin, so gtag.js inside it could read the page around it.
+// So pages whose address holds a key, code or secret (every route in ROUTES:
+// one-open links, Canary, share links, Go pairing, invites) get no frame at all,
+// the frame is removed if the address later turns into one of them, and the app
+// calls dropAnalytics() (window.__nosusNoGa) before it shows a note it opened
+// from a code. Before adding the frame, this clears the one-open links this tab
+// kept for a reload (lib/core/web/link_secret.dart, "nosus_link:" entries).
+// Red team, 6 Nov 2026.
 //
 // Only on the live hosts (nosus.foo, www.nosus.foo, app.nosus.foo), like the
 // app's own analytics (AnalyticsService.shouldRecord): a local or preview copy
@@ -23,7 +32,8 @@
 // ?ga_debug=1 sends debug_mode, so the hit shows in GA DebugView.
 (function (w, d) {
   var GA_MEASUREMENT_ID = 'G-VW75E3R383';
-  // The app's link routes, by name (lib/main.dart _routeIncomingWebLink).
+  // The app's link routes, by name (lib/main.dart _routeIncomingWebLink). Each
+  // one's address carries a key, code or secret.
   var ROUTES = ['burn', 'burnfile', 'burnfiles', 'redeem', 'v', 'join', 'go', 'canary'];
 
   function founder(search) {
@@ -62,16 +72,36 @@
 
     if (mode === 'app') {
       if (founder(search)) return;
-      var m = /^#\/?([a-z]+)\//.exec(l.hash || '') || /^\/([a-z]+)\//.exec(l.pathname || '/');
-      var route = m && ROUTES.indexOf(m[1]) >= 0 ? m[1] : '';
+      var linkPage = function () {
+        var m = /^#\/?([a-z]+)\//.exec(l.hash || '') || /^\/([a-z]+)\//.exec(l.pathname || '/');
+        return w.__nosusNoGa === true || Boolean(m && ROUTES.indexOf(m[1]) >= 0);
+      };
+      if (linkPage()) return;
       var ref = '';
       try {
         var r = new URL(d.referrer);
         if (r.origin !== l.origin && /^https?:$/.test(r.protocol)) ref = r.origin + '/';
       } catch (e) {}
-      var src = 'ga.html?p=' + route + '&r=' + encodeURIComponent(ref) + '&u=' + encodeURIComponent(utm(search)) +
+      var src = 'ga.html?p=&r=' + encodeURIComponent(ref) + '&u=' + encodeURIComponent(utm(search)) +
         (/[?&]ga_debug=1(?:&|$)/.test(search) ? '&d=1' : '');
+      var frame = null, off = false, timer = null;
+      var drop = function () {
+        if (off || !linkPage()) return;
+        off = true;
+        if (frame && frame.parentNode) frame.parentNode.removeChild(frame);
+        frame = null;
+        if (timer !== null && w.clearInterval) w.clearInterval(timer);
+      };
       var add = function () {
+        drop();
+        if (off) return;
+        try {
+          var ss = w.sessionStorage;
+          for (var i = ss.length - 1; i >= 0; i--) {
+            var k = ss.key(i);
+            if (k && k.indexOf('nosus_link:') === 0) ss.removeItem(k);
+          }
+        } catch (e) {}
         var f = d.createElement('iframe');
         f.src = src;
         f.hidden = true;
@@ -81,7 +111,13 @@
         f.setAttribute('referrerpolicy', 'no-referrer');
         f.style.display = 'none';
         d.body.appendChild(f);
+        frame = f;
       };
+      // Flutter moves between routes with pushState, which fires no event, so
+      // the address is also checked once a second.
+      w.addEventListener('hashchange', drop);
+      w.addEventListener('popstate', drop);
+      if (w.setInterval) timer = w.setInterval(drop, 1000);
       if (d.readyState === 'complete') add();
       else w.addEventListener('load', add);
       return;

@@ -46,6 +46,11 @@
 <priority>0.7</priority>
 </url>
 <url>
+<loc>https://nosus.foo/play/</loc>
+<lastmod>2026-11-06</lastmod>
+<priority>0.7</priority>
+</url>
+<url>
 <loc>https://nosus.foo/id-misuse/</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/id-misuse/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/id-misuse/" />
@@ -522,11 +527,11 @@
 </url>
 <url>
 <loc>https://nosus.foo/privacy.html</loc>
-<lastmod>2026-11-02</lastmod>
+<lastmod>2026-11-06</lastmod>
 </url>
 <url>
 <loc>https://nosus.foo/terms.html</loc>
-<lastmod>2026-11-05</lastmod>
+<lastmod>2026-11-06</lastmod>
 </url>
 <url>
 <loc>https://nosus.foo/account-deletion.html</loc>
@@ -539,5 +544,9 @@
 <url>
 <loc>https://nosus.foo/contact.html</loc>
 <lastmod>2026-11-05</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/report.html</loc>
+<lastmod>2026-11-06</lastmod>
 </url>
 </urlset>

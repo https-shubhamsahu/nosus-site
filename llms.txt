@@ -36,6 +36,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [Self-Destructing Photo Meaning, in Hindi and Telugu Too](https://nosus.foo/self-destructing-photo-meaning/)
 - [refund.html](https://nosus.foo/refund.html)
 - [contact.html](https://nosus.foo/contact.html)
+- [report.html](https://nosus.foo/report.html)
 
 ## Comparisons
 
@@ -124,6 +125,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [Press kit: descriptions, key facts, logos, screenshots, founder contact](https://nosus.foo/press/)
 - [View-once screenshot table: which apps block, notify or allow a screenshot, with a source for every row](https://nosus.foo/view-once-screenshot-table/)
 - [Mask and watermark an Aadhaar or PAN copy: solid boxes and a purpose watermark, in the browser, nothing uploaded](https://nosus.foo/mask-aadhaar-copy/)
+- [Scam ya Nahi? A daily game: five practice messages (SMS, WhatsApp, email, UPI screens), tap SUS or NO SUS, see the tell; plus what to do after a scam (1930)](https://nosus.foo/play/)
 - [A loan in your name you never took: free steps (1930, Sanchar Saathi, credit reports, Aadhaar lock) and a paid kit of ready-to-fill letters, English and Hindi](https://nosus.foo/id-misuse/) ([हिंदी](https://nosus.foo/hi/id-misuse/))
 - [Web app](https://app.nosus.foo/)
 - [Privacy](https://nosus.foo/privacy.html)

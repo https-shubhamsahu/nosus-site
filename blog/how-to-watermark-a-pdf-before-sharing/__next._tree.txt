@@ -2,8 +2,8 @@
 :HL["/_next/static/chunks/2sapk3fqafk1h.css","style"]
 :HL["/_next/static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/chunks/0dubwmqeea371.css","style"]
+:HL["/_next/static/chunks/3xe44v4leb4ji.css","style"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"how-to-watermark-a-pdf-before-sharing","s":["feed.xml","og"]},"h":65632,"c":"$Q3"}]]
 1:[["children",{"s":"blog","h":131136,"c":"$Q2"}]]
-0:{"b":"ZPkXC6PPITS4arcjaVI6f","t":{"t":{"s":"","h":131088,"c":"$Q1"}}}
+0:{"b":"Oal8dIdPs6MFOSjbZWh5T","t":{"t":{"s":"","h":131088,"c":"$Q1"}}}
