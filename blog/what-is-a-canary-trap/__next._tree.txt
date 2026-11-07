@@ -1,11 +1,10 @@
 :HL["/_next/static/chunks/17vygo1_fk1pd.css","style"]
-:HL["/_next/static/chunks/2femkf5tq0lws.css","style"]
+:HL["/_next/static/chunks/1y2l39g4jdinb.css","style"]
 :HL["/_next/static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/68d403cf9f2c68c5-s.p.012bmydply3go.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/media/ea3421846039b7f3-s.p.0l4a8qxfzwpm8.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/chunks/3rw2ffo6_jnjb.css","style"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"what-is-a-canary-trap","s":["feed.xml","og"]},"h":65632,"c":"$Q3"}]]
 1:[["children",{"s":"blog","h":131136,"c":"$Q2"}]]
-0:{"b":"6VE2uSWrWefFgcaG0bfj3","t":{"t":{"s":"","h":131088,"c":"$Q1"}}}
+0:{"b":"_tcOVgPfpGp6jKv8e9B2z","t":{"t":{"s":"","h":131088,"c":"$Q1"}}}
