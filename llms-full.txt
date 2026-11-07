@@ -88,7 +88,7 @@ Every public page, from the sitemap, with its date and summary. Answer pages sta
 - [NO SUS हिंदी में: एक बार खुलने वाले Note और File](https://nosus.foo/hi/) (updated 2026-11-05): NO SUS के हिंदी पेज: खुद मिटने वाला note, एक बार खुलने वाला file link, PDF watermark, leak की जाँच और बिना login print, steps और सीमाओं के साथ।
 - [Aadhar Card Share Karna Chahiye Ya Nahi? Safe Tarika (2026)](https://nosus.foo/hi/blog/aadhar-card-share-karna-chahiye-ya-nahi/) (updated 2026-10-23): Haan, par plain photocopy nahi. Masked Aadhaar (sirf aakhri 4 digit) dein, Aadhaar app se sirf zaroori details share karein, har copy par purpose likhein.
 - [WhatsApp View Once का स्क्रीनशॉट या रिकॉर्डिंग हो सकती है?](https://nosus.foo/hi/blog/can-whatsapp-view-once-be-screenshotted-or-saved/) (updated 2026-10-23): WhatsApp View once फोटो-वीडियो पर स्क्रीनशॉट और स्क्रीन रिकॉर्डिंग रोकता है, पर खुद 2 तरीके मानता है जिनसे ये फिर भी लीक हो सकते हैं। कौन से, और क्या करें।
-- [One Time View Photo Kaise Bheje? WhatsApp aur Instagram](https://nosus.foo/hi/blog/one-time-view-photo-kaise-bheje/) (updated 2026-11-01): One view / once view photo kaise bheje: WhatsApp par '1' icon hara karein, Instagram par 'एक बार देखें' chunein. Dono ke steps, help pages se.
+- [One Time View Photo Kaise Bheje? WhatsApp aur Instagram](https://nosus.foo/hi/blog/one-time-view-photo-kaise-bheje/) (updated 2026-11-01): WhatsApp aur Instagram ke steps, 50 second ke video ke saath. Plus: woh 1 tarika jisse one time view photo phir bhi save ho jaati hai, aur PDF kaise bheje.
 
 ## Other languages (Português, Bahasa Indonesia, Español)
 
