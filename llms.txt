@@ -120,6 +120,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [Security: what is encrypted where, who holds the key](https://nosus.foo/security/)
 - [Product guide: NO SUS Chat, one open, watermarked, traceable copies, opening PDFs](https://nosus.foo/guides/)
 - [Hindi pages (हिंदी)](https://nosus.foo/hi/)
+- [Research: what one-time sharing actually protects (2026 review, Zenodo)](https://doi.org/10.5281/zenodo.24041864)
 - [Blog: sourced privacy guides and news](https://nosus.foo/blog/) ([RSS](https://nosus.foo/blog/feed.xml))
 - [Android beta](https://nosus.foo/beta/)
 - [Press kit: descriptions, key facts, logos, screenshots, founder contact](https://nosus.foo/press/)

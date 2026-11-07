@@ -166,6 +166,11 @@ NO SUS profiles:
 - Startup Fame: https://startupfa.me/s/no-sus
 - Fazier: https://fazier.com/launches/no-sus
 
+## Research
+
+- Sahu, S. (2026). What One-Time Sharing Actually Protects: A 2026 Review of View-Once Media, Disappearing Messages, Self-Destructing Notes and One-Time File Links. Zenodo. https://doi.org/10.5281/zenodo.24041864
+  A desk review of vendors' own documentation for 16 products (view-once media, disappearing-message timers, self-destructing notes, self-destructing email and one-time file links), coding 19 features on seven criteria. It finds that no source claims to stop a second camera, and that one-time features mainly limit the copies left in chats, backups, inboxes and servers. The author founded NO SUS, which the review assesses on the same criteria.
+
 ## Contact
 
 shubhamsahu@nosus.foo
