@@ -6,7 +6,34 @@
     <description>Privacy guides and news: sharing documents, passwords and IDs safely, borrowed computers, and what changed this week.</description>
     <language>en</language>
     <atom:link href="https://nosus.foo/blog/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sun, 01 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Got Scammed Online? What to Do First and How to Try to Get Money Back</title>
+      <link>https://nosus.foo/blog/got-scammed-online-what-to-do/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/got-scammed-online-what-to-do</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Call 1930 or file at cybercrime.gov.in as soon as you can, and report the fraud to your bank on a number you already trust. Keep the transaction ID, date, amount and screenshots. Fast reports reach banks while the money may still be held in the receiving account. Nobody can promise a refund, but RBI rules cap your loss in some cases when you report quickly.</description>
+    </item>
+    <item>
+      <title>Is This a Scam? How to Check a Message, Link, Number or Call</title>
+      <link>https://nosus.foo/blog/how-to-check-if-a-message-is-a-scam/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/how-to-check-if-a-message-is-a-scam</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>Treat any message you didn't expect as suspect until you've checked it, especially if it asks you to tap a link, pay, share an OTP or PIN, or install an app. Search the number, UPI ID or website in cybercrime.gov.in's Suspect Search, get the real bank number from Sanchar Saathi and call back on that. Report it on Chakshu, and call 1930 if money has gone.</description>
+    </item>
+    <item>
+      <title>Is UPI Safe? How UPI Scams Work, and the Tell in Each One</title>
+      <link>https://nosus.foo/blog/upi-scams-how-they-work/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/upi-scams-how-they-work</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Guide</category>
+      <description>UPI has real protections: your account is tied to your mobile number and your phone, and every payment needs your UPI PIN. So the UPI tricks the RBI describes get you to type that PIN yourself, on a QR code, a payment request or a fake refund, or to hand it over. Receiving money never needs a PIN. If money has gone, call 1930 and your bank straight away.</description>
+    </item>
     <item>
       <title>DPDP Act Checklist for Small Businesses in India (2026)</title>
       <link>https://nosus.foo/blog/dpdp-act-checklist-for-small-business/</link>

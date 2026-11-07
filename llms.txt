@@ -37,6 +37,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [One-Time View Photo Link: Send a Photo That Opens Once](https://nosus.foo/one-time-view-photo-link/)
 - [How to Track Who Opened Your PDF (and When)](https://nosus.foo/track-who-opened-pdf/)
 - [PAN Card Misuse: How to Check, Report and Stop It](https://nosus.foo/pan-card-misuse/)
+- [Share Text Online Without Login: Opens Once, Then Gone](https://nosus.foo/share-text-online/)
 - [Self-Destructing Photo Meaning, in Hindi and Telugu Too](https://nosus.foo/self-destructing-photo-meaning/)
 - [refund.html](https://nosus.foo/refund.html)
 - [contact.html](https://nosus.foo/contact.html)
@@ -82,6 +83,9 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 
 ## Blog articles
 
+- [Scammed Online? How to Complain and Try to Get Money Back](https://nosus.foo/blog/got-scammed-online-what-to-do/)
+- [Is This a Scam? How to Check a Message, Call or Link](https://nosus.foo/blog/how-to-check-if-a-message-is-a-scam/)
+- [Is UPI Safe? How UPI Scams Work, With Examples](https://nosus.foo/blog/upi-scams-how-they-work/)
 - [DPDP Act Checklist for Small Businesses (2026)](https://nosus.foo/blog/dpdp-act-checklist-for-small-business/)
 - [DPDP Act for CA Firms: A Client Data Checklist](https://nosus.foo/blog/dpdp-act-for-ca-firms/)
 - [DPDP Act for HR, Payroll and Staffing Firms: Checklist](https://nosus.foo/blog/dpdp-act-hr-payroll-staffing-firms/)
