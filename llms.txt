@@ -45,7 +45,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 
 ## Comparisons
 
-- [Privnote Alternatives 2026: 6 Free Tools Compared](https://nosus.foo/compare/privnote/)
+- [Privnote Alternatives 2026: 6 Free Tools for Text and Photos](https://nosus.foo/compare/privnote/)
 - [DocSend Alternative for Individuals: NO SUS vs DocSend](https://nosus.foo/compare/docsend/)
 - [Onetime Secret Alternative: NO SUS vs Onetime Secret (2026)](https://nosus.foo/alternatives/onetimesecret/)
 - [Yopass Alternative: NO SUS vs Yopass, Compared Fairly (2026)](https://nosus.foo/alternatives/yopass/)
@@ -74,6 +74,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [Aadhar Card Share Karna Chahiye Ya Nahi? Safe Tarika (2026)](https://nosus.foo/hi/blog/aadhar-card-share-karna-chahiye-ya-nahi/)
 - [WhatsApp View Once का स्क्रीनशॉट या रिकॉर्डिंग हो सकती है?](https://nosus.foo/hi/blog/can-whatsapp-view-once-be-screenshotted-or-saved/)
 - [One Time View Photo Kaise Bheje? WhatsApp aur Instagram](https://nosus.foo/hi/blog/one-time-view-photo-kaise-bheje/)
+- [ऑनलाइन फ्रॉड होने पर क्या करें? शिकायत और पैसा वापसी के नियम](https://nosus.foo/hi/blog/online-fraud-ho-jaye-to-kya-kare/)
 
 ## Other languages (Português, Bahasa Indonesia, Español)
 
@@ -86,11 +87,11 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [Scammed Online? How to Complain and Try to Get Money Back](https://nosus.foo/blog/got-scammed-online-what-to-do/)
 - [Is This a Scam? How to Check a Message, Call or Link](https://nosus.foo/blog/how-to-check-if-a-message-is-a-scam/)
 - [Is UPI Safe? How UPI Scams Work, With Examples](https://nosus.foo/blog/upi-scams-how-they-work/)
+- [Which Apps Have Disappearing Messages? 8 Compared (2026)](https://nosus.foo/blog/best-self-destructing-message-apps/)
 - [DPDP Act Checklist for Small Businesses (2026)](https://nosus.foo/blog/dpdp-act-checklist-for-small-business/)
 - [DPDP Act for CA Firms: A Client Data Checklist](https://nosus.foo/blog/dpdp-act-for-ca-firms/)
 - [DPDP Act for HR, Payroll and Staffing Firms: Checklist](https://nosus.foo/blog/dpdp-act-hr-payroll-staffing-firms/)
 - [Can You Screenshot or Screen Record WhatsApp View Once?](https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/)
-- [Which Apps Have Disappearing Messages? 8 Compared (2026)](https://nosus.foo/blog/best-self-destructing-message-apps/)
 - [How to Send a Password Securely (Not in WhatsApp or Email)](https://nosus.foo/blog/how-to-send-a-password-securely/)
 - [Can Someone Misuse Your Aadhar Card Xerox? The Real Risk](https://nosus.foo/blog/can-someone-misuse-aadhaar-xerox/)
 - [How to Send Your SSN Securely (and Why Not by Email or Text)](https://nosus.foo/blog/how-to-send-ssn-securely/)

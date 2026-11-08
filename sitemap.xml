@@ -15,7 +15,7 @@
 </url>
 <url>
 <loc>https://nosus.foo/alternatives/</loc>
-<lastmod>2026-10-25</lastmod>
+<lastmod>2026-11-08</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -55,7 +55,7 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/id-misuse/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/id-misuse/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/id-misuse/" />
-<lastmod>2026-11-05</lastmod>
+<lastmod>2026-11-08</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -63,7 +63,7 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/id-misuse/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/id-misuse/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/id-misuse/" />
-<lastmod>2026-11-05</lastmod>
+<lastmod>2026-11-08</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -111,7 +111,7 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/one-time-file-link/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/one-time-file-link/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/one-time-file-link/" />
-<lastmod>2026-11-02</lastmod>
+<lastmod>2026-11-08</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -135,7 +135,7 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/compare/privnote/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/compare/privnote/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/compare/privnote/" />
-<lastmod>2026-10-25</lastmod>
+<lastmod>2026-11-08</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -340,7 +340,7 @@
 </url>
 <url>
 <loc>https://nosus.foo/hi/</loc>
-<lastmod>2026-11-05</lastmod>
+<lastmod>2026-11-08</lastmod>
 <priority>0.6</priority>
 </url>
 <url>
@@ -356,6 +356,9 @@
 </url>
 <url>
 <loc>https://nosus.foo/blog/got-scammed-online-what-to-do/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/blog/got-scammed-online-what-to-do/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/blog/online-fraud-ho-jaye-to-kya-kare/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/blog/got-scammed-online-what-to-do/" />
 <lastmod>2026-11-08</lastmod>
 </url>
 <url>
@@ -364,6 +367,10 @@
 </url>
 <url>
 <loc>https://nosus.foo/blog/upi-scams-how-they-work/</loc>
+<lastmod>2026-11-08</lastmod>
+</url>
+<url>
+<loc>https://nosus.foo/blog/best-self-destructing-message-apps/</loc>
 <lastmod>2026-11-08</lastmod>
 </url>
 <url>
@@ -386,10 +393,6 @@
 <xhtml:link rel="alternate" hreflang="id" href="https://nosus.foo/id/foto-sekali-lihat-whatsapp/" />
 <xhtml:link rel="alternate" hreflang="es" href="https://nosus.foo/es/ver-una-vez-whatsapp-captura/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
-<lastmod>2026-11-01</lastmod>
-</url>
-<url>
-<loc>https://nosus.foo/blog/best-self-destructing-message-apps/</loc>
 <lastmod>2026-11-01</lastmod>
 </url>
 <url>
@@ -533,6 +536,13 @@
 <lastmod>2026-11-01</lastmod>
 </url>
 <url>
+<loc>https://nosus.foo/hi/blog/online-fraud-ho-jaye-to-kya-kare/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/blog/got-scammed-online-what-to-do/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/blog/online-fraud-ho-jaye-to-kya-kare/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/blog/got-scammed-online-what-to-do/" />
+<lastmod>2026-11-08</lastmod>
+</url>
+<url>
 <loc>https://nosus.foo/pt/foto-visualizacao-unica-whatsapp-print/</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
@@ -540,7 +550,7 @@
 <xhtml:link rel="alternate" hreflang="id" href="https://nosus.foo/id/foto-sekali-lihat-whatsapp/" />
 <xhtml:link rel="alternate" hreflang="es" href="https://nosus.foo/es/ver-una-vez-whatsapp-captura/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
-<lastmod>2026-10-23</lastmod>
+<lastmod>2026-11-08</lastmod>
 </url>
 <url>
 <loc>https://nosus.foo/id/foto-sekali-lihat-whatsapp/</loc>
@@ -550,7 +560,7 @@
 <xhtml:link rel="alternate" hreflang="id" href="https://nosus.foo/id/foto-sekali-lihat-whatsapp/" />
 <xhtml:link rel="alternate" hreflang="es" href="https://nosus.foo/es/ver-una-vez-whatsapp-captura/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
-<lastmod>2026-10-23</lastmod>
+<lastmod>2026-11-08</lastmod>
 </url>
 <url>
 <loc>https://nosus.foo/es/ver-una-vez-whatsapp-captura/</loc>
@@ -560,7 +570,7 @@
 <xhtml:link rel="alternate" hreflang="id" href="https://nosus.foo/id/foto-sekali-lihat-whatsapp/" />
 <xhtml:link rel="alternate" hreflang="es" href="https://nosus.foo/es/ver-una-vez-whatsapp-captura/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/blog/can-whatsapp-view-once-be-screenshotted-or-saved/" />
-<lastmod>2026-10-23</lastmod>
+<lastmod>2026-11-08</lastmod>
 </url>
 <url>
 <loc>https://nosus.foo/privacy.html</loc>

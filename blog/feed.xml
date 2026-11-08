@@ -35,6 +35,15 @@
       <description>UPI has real protections: your account is tied to your mobile number and your phone, and every payment needs your UPI PIN. So the UPI tricks the RBI describes get you to type that PIN yourself, on a QR code, a payment request or a fake refund, or to hand it over. Receiving money never needs a PIN. If money has gone, call 1930 and your bank straight away.</description>
     </item>
     <item>
+      <title>Which Apps Have Disappearing Messages? 8 Compared (2026)</title>
+      <link>https://nosus.foo/blog/best-self-destructing-message-apps/</link>
+      <!-- The guid stays slash-free so readers do not show every post again. -->
+      <guid isPermaLink="true">https://nosus.foo/blog/best-self-destructing-message-apps</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Comparison</category>
+      <description>For a conversation, Signal has the most honest disappearing messages and Telegram secret chats are a close second. For a single photo, WhatsApp view once is the easiest. For a password or file that should never sit in a chat, use a one-time link tool: Yopass for open code, Privnote for the simplest note, NO SUS Burn for files up to 50 MB with no account. None of them can stop a camera pointed at the screen.</description>
+    </item>
+    <item>
       <title>DPDP Act Checklist for Small Businesses in India (2026)</title>
       <link>https://nosus.foo/blog/dpdp-act-checklist-for-small-business/</link>
       <!-- The guid stays slash-free so readers do not show every post again. -->
@@ -69,15 +78,6 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
       <category>Explainer</category>
       <description>WhatsApp's help pages say view once photos and videos cannot be screenshotted, screen-recorded, forwarded, saved or replayed. They also say a camera on another device can still capture the screen, and a phone's own screen recorder may capture the audio of view once voice messages. WhatsApp does not publish which app versions block screenshots, so treat the block as strong but not guaranteed.</description>
-    </item>
-    <item>
-      <title>Which Apps Have Disappearing Messages? 8 Compared (2026)</title>
-      <link>https://nosus.foo/blog/best-self-destructing-message-apps/</link>
-      <!-- The guid stays slash-free so readers do not show every post again. -->
-      <guid isPermaLink="true">https://nosus.foo/blog/best-self-destructing-message-apps</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Comparison</category>
-      <description>For a conversation, Signal has the most honest disappearing messages and Telegram secret chats are a close second. For a single photo, WhatsApp view once is the easiest. For a password or file that should never sit in a chat, use a one-time link tool: Yopass for open code, Privnote for the simplest note, NO SUS Burn for files up to 50 MB with no account. None of them can stop a camera pointed at the screen.</description>
     </item>
     <item>
       <title>How to Send a Password Securely (Not in WhatsApp or Email)</title>
