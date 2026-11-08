@@ -18,6 +18,7 @@ NO SUS keeps your files on every screen and lets you choose how you send them. N
 - Mask and watermark an ID copy (https://nosus.foo/mask-aadhaar-copy/): a free page, no account. It opens a photo or scan (an Aadhaar or PAN card, for example), covers the parts you drag over with solid black boxes, stamps a line like "For rent agreement only · R. Sharma · 25 Oct 2026" diagonally across it, and saves a new PNG or JPEG. It runs in the browser: the image is not uploaded, the saved file is newly drawn (no EXIF from the original), and the page keeps working offline once loaded. It does not open PDFs. A watermark discourages reuse; it cannot stop a photo, a crop or an edit.
 - ID misused: what to do (https://nosus.foo/id-misuse/ in English, https://nosus.foo/hi/id-misuse/ in Hindi): a free page for a loan, SIM or account opened with someone's Aadhaar or PAN. Free steps: report on cybercrime.gov.in or 1930, see the SIMs on the Aadhaar with Sanchar Saathi (TAFCOP), pull the free yearly credit report from each of the four bureaus, check Aadhaar authentication history and lock biometrics. It also sells a one-time kit for Rs 299: ten ready-to-fill letters and sheets in English and Hindi (lender complaint, KYC record request, dispute letters for CIBIL, Experian, Equifax and CRIF High Mark, cybercrime complaint text, RBI Integrated Ombudsman complaint, case timeline, attachment checklist). Templates and steps, not legal advice; a letter does not remove an entry or find who did it.
 - Receiving files from people without the app: NO SUS does not offer an upload page for strangers. A sender without the app can make a one-time Burn link at https://nosus.foo/ with no account and send it to you.
+- Ads: the share tool and the tool pages show no ads. Only blog pages (https://nosus.foo/blog/) may show Google ads.
 
 ## About the page list
 
@@ -104,6 +105,7 @@ Every public page, from the sitemap, with its date and summary. Answer pages sta
 
 ## Blog articles
 
+- [File Sharing Without Login: 9 Free Sites Compared (2026)](https://nosus.foo/blog/best-file-sharing-sites-without-login/) (updated 2026-11-08): Wormhole, Smash, file.io, Tresorit Send, transfer.it and 4 more: size, expiry, encryption and ads from their own pages. WeTransfer now needs an account.
 - [Scammed Online? How to Complain and Try to Get Money Back](https://nosus.foo/blog/got-scammed-online-what-to-do/) (updated 2026-11-08): Lost money to an online or UPI scam? Call 1930, tell your bank, file on cybercrime.gov.in. What RBI refund rules say, and where to go if the bank says no.
 - [Is This a Scam? How to Check a Message, Call or Link](https://nosus.foo/blog/how-to-check-if-a-message-is-a-scam/) (updated 2026-11-08): Unsure about an SMS, WhatsApp message, link or call? Four checks, the free government lookups for numbers and UPI IDs, and where to report it in India.
 - [Is UPI Safe? How UPI Scams Work, With Examples](https://nosus.foo/blog/upi-scams-how-they-work/) (updated 2026-11-08): UPI needs your PIN for every payment, so UPI scams get you to type it yourself. How 8 common tricks work, the tell in each, and what to do if you're hit.

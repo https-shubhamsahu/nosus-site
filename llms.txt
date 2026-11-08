@@ -84,6 +84,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 
 ## Blog articles
 
+- [File Sharing Without Login: 9 Free Sites Compared (2026)](https://nosus.foo/blog/best-file-sharing-sites-without-login/)
 - [Scammed Online? How to Complain and Try to Get Money Back](https://nosus.foo/blog/got-scammed-online-what-to-do/)
 - [Is This a Scam? How to Check a Message, Call or Link](https://nosus.foo/blog/how-to-check-if-a-message-is-a-scam/)
 - [Is UPI Safe? How UPI Scams Work, With Examples](https://nosus.foo/blog/upi-scams-how-they-work/)
