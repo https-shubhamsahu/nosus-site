@@ -138,6 +138,8 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [Mask and watermark an Aadhaar or PAN copy: solid boxes and a purpose watermark, in the browser, nothing uploaded](https://nosus.foo/mask-aadhaar-copy/)
 - [Scam ya Nahi? A daily game: five practice messages (SMS, WhatsApp, email, UPI screens), tap SUS or NO SUS, see the tell; plus what to do after a scam (1930)](https://nosus.foo/play/)
 - [A loan in your name you never took: free steps (1930, Sanchar Saathi, credit reports, Aadhaar lock) and a paid kit of ready-to-fill letters, English and Hindi](https://nosus.foo/id-misuse/) ([हिंदी](https://nosus.foo/hi/id-misuse/))
+- [Lost money to a scam: free steps in order (1930, cybercrime.gov.in, the bank in writing, the UPI dispute) and a paid kit of ready complaints, English and Hindi](https://nosus.foo/scammed/) ([हिंदी](https://nosus.foo/hi/scammed/))
+- [Get your number, name and photos off the internet: free steps (DND, TAFCOP, Truecaller unlisting, Google removal, old accounts) and a paid kit of per-site checklists and erasure letters](https://nosus.foo/delete-me/) ([हिंदी](https://nosus.foo/hi/delete-me/))
 - [Web app](https://app.nosus.foo/)
 - [Privacy](https://nosus.foo/privacy.html)
 - [Terms](https://nosus.foo/terms.html)

@@ -55,7 +55,7 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/id-misuse/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/id-misuse/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/id-misuse/" />
-<lastmod>2026-11-08</lastmod>
+<lastmod>2026-11-09</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -63,7 +63,39 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/id-misuse/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/id-misuse/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/id-misuse/" />
-<lastmod>2026-11-08</lastmod>
+<lastmod>2026-11-09</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://nosus.foo/scammed/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/scammed/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/scammed/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/scammed/" />
+<lastmod>2026-11-09</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://nosus.foo/hi/scammed/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/scammed/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/scammed/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/scammed/" />
+<lastmod>2026-11-09</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://nosus.foo/delete-me/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/delete-me/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/delete-me/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/delete-me/" />
+<lastmod>2026-11-09</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://nosus.foo/hi/delete-me/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/delete-me/" />
+<xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/delete-me/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/delete-me/" />
+<lastmod>2026-11-09</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -340,7 +372,7 @@
 </url>
 <url>
 <loc>https://nosus.foo/hi/</loc>
-<lastmod>2026-11-08</lastmod>
+<lastmod>2026-11-09</lastmod>
 <priority>0.6</priority>
 </url>
 <url>
