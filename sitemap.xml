@@ -11,7 +11,7 @@
 </url>
 <url>
 <loc>https://nosus.foo/guides/</loc>
-<lastmod>2026-11-01</lastmod>
+<lastmod>2026-11-06</lastmod>
 </url>
 <url>
 <loc>https://nosus.foo/alternatives/</loc>
@@ -31,7 +31,7 @@
 </url>
 <url>
 <loc>https://nosus.foo/press/</loc>
-<lastmod>2026-10-25</lastmod>
+<lastmod>2026-11-06</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.4</priority>
 </url>
@@ -377,7 +377,7 @@
 </url>
 <url>
 <loc>https://nosus.foo/beta/</loc>
-<lastmod>2026-10-25</lastmod>
+<lastmod>2026-11-06</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
