@@ -5,4 +5,4 @@
 :HL["/_next/static/chunks/3f41ki4298wj1.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"view-once-screenshot-table","h":64,"c":"$Q2"}]]
-0:{"b":"zBqAoAY-ryzTlkT3iyqtL","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"8yzl7zUflBCp-VLlKa2K5","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
