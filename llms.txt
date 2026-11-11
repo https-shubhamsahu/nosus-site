@@ -38,7 +38,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [How to Track Who Opened Your PDF (and When)](https://nosus.foo/track-who-opened-pdf/)
 - [PAN Card Misuse: How to Check, Report and Stop It](https://nosus.foo/pan-card-misuse/)
 - [Share Text Online Without Login: Opens Once, Then Gone](https://nosus.foo/share-text-online/)
-- [Self-Destructing Photo Meaning, in Hindi and Telugu Too](https://nosus.foo/self-destructing-photo-meaning/)
+- [Self-Destructing Photo Meaning in Hindi: Can It Be Saved?](https://nosus.foo/self-destructing-photo-meaning/)
 - [refund.html](https://nosus.foo/refund.html)
 - [contact.html](https://nosus.foo/contact.html)
 - [report.html](https://nosus.foo/report.html)
