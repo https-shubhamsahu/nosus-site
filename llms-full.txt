@@ -30,7 +30,7 @@ Every public page, from the sitemap, with its date and summary. Answer pages sta
 
 - [Share Files and Notes Without Login, Free](https://nosus.foo/) (updated 2026-11-11): Free file sharing with no login or sign-up for you or the recipient. Up to 10 files or a note, encrypted in your browser, in one link that opens once.
 - [NO SUS product guide: NO SUS Chat and three ways to send](https://nosus.foo/guides/) (updated 2026-11-06): How to open your NO SUS Chat on any screen, send with one open, a watermark or traceable copies, and open any PDF, with the limits of each.
-- [Secure Sharing Alternatives, Picked by What You Send](https://nosus.foo/alternatives/) (updated 2026-11-08): Compare Onetime Secret, Yopass, Privnote, WeTransfer, DocSend and Papermark with NO SUS by what you send: a note, a password, a big file or a tracked deck.
+- [Secure Sharing Alternatives, Picked by What You Send](https://nosus.foo/alternatives/) (updated 2026-11-12): Compare Onetime Secret, Yopass, Privnote, WeTransfer, DocSend and Papermark with NO SUS by what you send: a note, a password, a big file or a tracked deck.
 - [Is NO SUS safe? Encryption, keys and what we log](https://nosus.foo/security/) (updated 2026-11-02): Who holds the key, where each NO SUS tool stores data, how long we keep it, what we log and what we cannot do. Every claim comes from our code.
 - [About NO SUS: who makes it and how to reach us](https://nosus.foo/about/) (updated 2026-11-02): NO SUS is a privacy app made in Mumbai, India, by its founder, Shubham Sahu. What it does, what the site counts, and how to reach us.
 - [NO SUS press kit: logos, facts and founder contact](https://nosus.foo/press/) (updated 2026-11-06): Everything to write about NO SUS: a one-line, 50-word and 100-word description, key facts, honest limits, logos, screenshots and the founder's email.
@@ -58,7 +58,7 @@ Every public page, from the sitemap, with its date and summary. Answer pages sta
 - [Share Text Online Without Login: Opens Once, Then Gone](https://nosus.foo/share-text-online/) (updated 2026-11-08): Paste text, get a link or a 6-digit code, open it on any phone or laptop. Encrypted in your browser, no account, deleted after one open.
 - [Self-Destructing Photo Meaning in Hindi: Can It Be Saved?](https://nosus.foo/self-destructing-photo-meaning/) (updated 2026-10-23): A self-destructing photo deletes itself after 1 view or when a timer runs out. How WhatsApp, Instagram and Telegram do it, and why it isn't camera-proof.
 - [Get NO SUS for Android on Google Play](https://nosus.foo/beta/) (updated 2026-11-06): NO SUS for Android is free on Google Play: notes and files that open once, watermarked copies, and your own chat on any screen.
-- [NO SUS blog: privacy guides and news for real life](https://nosus.foo/blog/) (updated 2026-11-08): Practical, sourced guides on sharing documents, passwords and IDs safely, using borrowed computers, and the privacy news that affects you.
+- [NO SUS blog: privacy guides and news for real life](https://nosus.foo/blog/) (updated 2026-11-12): Practical, sourced guides on sharing documents, passwords and IDs safely, using borrowed computers, and the privacy news that affects you.
 - [privacy.html](https://nosus.foo/privacy.html) (updated 2026-11-08)
 - [terms.html](https://nosus.foo/terms.html) (updated 2026-11-06)
 - [account-deletion.html](https://nosus.foo/account-deletion.html) (updated 2026-11-01)
@@ -76,6 +76,7 @@ Every public page, from the sitemap, with its date and summary. Answer pages sta
 - [Bitwarden Send Alternative With No Account Needed](https://nosus.foo/alternatives/bitwarden-send/) (updated 2026-10-20): Bitwarden Send needs a Bitwarden account to create; NO SUS needs none. A fair comparison of limits, files, expiry, passwords and price. Checked Oct 2026.
 - [PrivateBin Alternative: NO SUS vs PrivateBin Compared](https://nosus.foo/alternatives/privatebin/) (updated 2026-10-20): NO SUS vs PrivateBin: hosted vs self-hosted, encryption, burn after reading, files, passwords and API, and where PrivateBin wins. Checked Oct 2026.
 - [WeTransfer Alternative for Private Files](https://nosus.foo/alternatives/wetransfer/) (updated 2026-10-20): Sending a small sensitive file once, not a big transfer? NO SUS Burn Files vs WeTransfer on size, expiry, passwords and accounts, 50 MB cap included.
+- [ToffeeShare Alternative: Send, Then Close the Tab](https://nosus.foo/alternatives/toffeeshare/) (updated 2026-11-12): ToffeeShare needs your tab open until they download. NO SUS keeps a small encrypted file ready up to 7 days and opens once. Size, expiry, limits compared.
 - [Digify Alternative for Individuals | NO SUS vs Digify](https://nosus.foo/alternatives/digify/) (updated 2026-10-16): Need a viewer-email watermark and a view log for one PDF, not DRM or a data room? NO SUS watermarked links vs Digify on price, protection and limits.
 - [Papermark Alternative for Individuals | NO SUS vs Papermark](https://nosus.foo/alternatives/papermark/) (updated 2026-10-16): Papermark is open source with a free plan; its watermark needs a paid plan. NO SUS watermarked links vs Papermark on price, email gate and self-hosting.
 
@@ -111,7 +112,7 @@ Every public page, from the sitemap, with its date and summary. Answer pages sta
 
 ## Blog articles
 
-- [File Sharing Without Login: 9 Free Sites Compared (2026)](https://nosus.foo/blog/best-file-sharing-sites-without-login/) (updated 2026-11-08): Wormhole, Smash, file.io, Tresorit Send, transfer.it and 4 more: size, expiry, encryption and ads from their own pages. WeTransfer now needs an account.
+- [File Sharing Without Login: 9 Free Sites Compared (2026)](https://nosus.foo/blog/best-file-sharing-sites-without-login/) (updated 2026-11-12): Wormhole, Smash, file.io, Tresorit Send, transfer.it and 4 more: size, expiry, encryption and ads from their own pages. WeTransfer now needs an account.
 - [Scammed Online? How to Complain and Try to Get Money Back](https://nosus.foo/blog/got-scammed-online-what-to-do/) (updated 2026-11-08): Lost money to an online or UPI scam? Call 1930, tell your bank, file on cybercrime.gov.in. What RBI refund rules say, and where to go if the bank says no.
 - [Is This a Scam? How to Check a Message, Call or Link](https://nosus.foo/blog/how-to-check-if-a-message-is-a-scam/) (updated 2026-11-08): Unsure about an SMS, WhatsApp message, link or call? Four checks, the free government lookups for numbers and UPI IDs, and where to report it in India.
 - [Is UPI Safe? How UPI Scams Work, With Examples](https://nosus.foo/blog/upi-scams-how-they-work/) (updated 2026-11-08): UPI needs your PIN for every payment, so UPI scams get you to type it yourself. How 8 common tricks work, the tell in each, and what to do if you're hit.

@@ -53,6 +53,7 @@ Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native
 - [Bitwarden Send Alternative With No Account Needed](https://nosus.foo/alternatives/bitwarden-send/)
 - [PrivateBin Alternative: NO SUS vs PrivateBin Compared](https://nosus.foo/alternatives/privatebin/)
 - [WeTransfer Alternative for Private Files](https://nosus.foo/alternatives/wetransfer/)
+- [ToffeeShare Alternative: Send, Then Close the Tab](https://nosus.foo/alternatives/toffeeshare/)
 - [Digify Alternative for Individuals | NO SUS vs Digify](https://nosus.foo/alternatives/digify/)
 - [Papermark Alternative for Individuals | NO SUS vs Papermark](https://nosus.foo/alternatives/papermark/)
 
