@@ -5,7 +5,7 @@
 <image:image>
 <image:loc>https://nosus.foo/founder.webp</image:loc>
 </image:image>
-<lastmod>2026-11-11</lastmod>
+<lastmod>2026-11-13</lastmod>
 <changefreq>weekly</changefreq>
 <priority>1</priority>
 </url>
@@ -21,6 +21,11 @@
 <url>
 <loc>https://nosus.foo/security/</loc>
 <lastmod>2026-11-02</lastmod>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://nosus.foo/teams/</loc>
+<lastmod>2026-11-13</lastmod>
 <priority>0.7</priority>
 </url>
 <url>
