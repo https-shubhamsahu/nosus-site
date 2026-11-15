@@ -1,12 +1,12 @@
 1:"$Sreact.fragment"
-f:"/_next/static/chunks/0pwhofy0cgd-9.js"
+f:"/_next/static/chunks/25ygwqju7qs1k.js"
 10:I[68027,["$f"],"default",1]
 :HL["/_next/static/chunks/3zkesb_dd-v19.css","style"]
 :HL["/_next/static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/chunks/3ee0139b5msdg.css","style"]
 :HL["/_next/static/chunks/1qf798u-xi0e9.css","style"]
-2:Ta4c,(function(w,token,ga){try{
+2:Tb81,(function(w,token,ga,cl){try{
 var APP="https://app.nosus.foo";
 function appTarget(){
 var l=w.location,h=l.hash||"",p=l.pathname||"/",s=l.search||"";
@@ -29,6 +29,7 @@ var next=appTarget();
 if(!next)return;
 w.__nosusTrack=false;
 if(ga)w["ga-disable-"+ga]=true;
+if(cl&&typeof w.clarity==="function")try{w.clarity("stop");}catch(e){}
 try{w.history.replaceState(null,"",w.location.pathname+w.location.search);}catch(e){}
 handoff(next);
 }
@@ -49,9 +50,17 @@ if(me==="1")ls.setItem("nosus_me","1");else if(me==="0")ls.removeItem("nosus_me"
 return me==="1"||(me!=="0"&&ls.getItem("nosus_me")==="1");
 }catch(e){return me==="1";}
 }
-if(ga&&/^(www\.)?nosus\.foo$/.test(host)&&!founder()){
+if((ga||cl)&&/^(www\.)?nosus\.foo$/.test(host)&&!founder()){
 var loadGa=function(){
 try{if(d.querySelector("[data-burn-tool]"))return;}catch(e){}
+if(cl){
+w.clarity=w.clarity||function(){(w.clarity.q=w.clarity.q||[]).push(arguments);};
+var c=d.createElement("script");
+c.async=true;
+c.src="https://www.clarity.ms/tag/"+cl;
+d.head.appendChild(c);
+}
+if(!ga)return;
 w.dataLayer=w.dataLayer||[];
 w.gtag=function(){w.dataLayer.push(arguments);};
 w.gtag("js",new Date());
@@ -69,11 +78,11 @@ sc.src="https://static.cloudflareinsights.com/beacon.min.js";
 sc.type="module";
 sc.setAttribute("data-cf-beacon",JSON.stringify({token:token,spa:false}));
 d.head.appendChild(sc);
-}catch(e){}})(window,"a55650161a204c4eb063047566b2fc0e","G-VW75E3R383");9:X
+}catch(e){}})(window,"a55650161a204c4eb063047566b2fc0e","G-VW75E3R383","ze1pf8hmdh");9:X
 c:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$Ld","p":false,"v":null}}]]
 a:[["children",{"s":"scammed","h":512,"d":{"r":"$Lb","p":false,"v":"$9"},"c":"$Qc"}]]
 7:[["children",{"s":"hi","h":512,"d":{"r":"$L8","p":false,"v":"$9"},"c":"$Qa"}]]
-0:{"P":null,"c":["","hi","scammed",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3zkesb_dd-v19.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0pwhofy0cgd-9.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"LINzvG_variable VNkuCW_variable rJAfdG_variable SSBbPG_variable DGAtRW_variable J752YG_variable h-full antialiased","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://akfghnaxkcvqiheknuyw.supabase.co","crossOrigin":"anonymous"}],["$","link",null,{"rel":"dns-prefetch","href":"https://akfghnaxkcvqiheknuyw.supabase.co"}]]}],["$","body",null,{"className":"min-h-full flex flex-col bg-background text-foreground","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5","$L6"]}]]}]]}],"p":false,"v":null},"c":"$Q7"},"h":{"r":"$Le","p":false,"v":null}},"m":"$undefined","G":["$10",["$L11"]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"WEWlOTrXLmpqZzA4FnH_3"}
+0:{"P":null,"c":["","hi","scammed",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3zkesb_dd-v19.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/25ygwqju7qs1k.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"LINzvG_variable VNkuCW_variable rJAfdG_variable SSBbPG_variable DGAtRW_variable J752YG_variable h-full antialiased","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://akfghnaxkcvqiheknuyw.supabase.co","crossOrigin":"anonymous"}],["$","link",null,{"rel":"dns-prefetch","href":"https://akfghnaxkcvqiheknuyw.supabase.co"}]]}],["$","body",null,{"className":"min-h-full flex flex-col bg-background text-foreground","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5","$L6"]}]]}]]}],"p":false,"v":null},"c":"$Q7"},"h":{"r":"$Le","p":false,"v":null}},"m":"$undefined","G":["$10",["$L11"]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"l3GTFd6dMoF6BaEipsjUI"}
 13:I[39756,["$f"],"default"]
 14:I[37457,["$f"],"default"]
 15:"/_next/static/chunks/0pzkmy5bhfm6z.js"
