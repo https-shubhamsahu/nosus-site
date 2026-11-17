@@ -1,0 +1,7 @@
+<svg width="196" height="40" viewBox="0 0 196 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Featured on launched.tools, reviewed">
+<rect x="0.5" y="0.5" width="195" height="39" rx="9.5" fill="#FFFFFF" stroke="#D4D7C9"/>
+<rect x="10" y="9" width="22" height="22" rx="6" fill="#C6F94E"/>
+<svg x="14.5" y="13.5" width="13" height="13" viewBox="128 120 264 264"><path d="M214 120 L392 120 L392 298 Z" fill="#15170F"/><path d="M156 356 L322 190" stroke="#15170F" stroke-width="78" fill="none"/></svg>
+<text x="40" y="19" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700" fill="#15170F">Featured on launched.tools</text>
+<text x="40" y="31" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" fill="#878C79">REVIEWED ✓</text>
+</svg>
