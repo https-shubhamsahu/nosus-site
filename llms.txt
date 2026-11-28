@@ -1,6 +1,6 @@
 # NO SUS
 
-> NO SUS keeps your files on every screen and lets you choose how you send them. One app with two tabs: Chat (NO SUS Chat, your own chat stored in your Google Drive, opened on any screen from your domain) and Send (one open, watermarked, or traceable copies). It also opens any PDF on Android. Self-destructing notes and files (Burn) work on nosus.foo with no account.
+> NO SUS keeps your files on every screen and lets you choose how you send them. One app with two tabs: Chat (NO SUS Chat, your own chat kept on your phone or in your own Google Drive, opened on any screen from your domain) and Send (one open, watermarked, or traceable copies). It also opens any PDF on Android. Self-destructing notes and files (Burn) work on nosus.foo with no account.
 
 NO SUS (nosus.foo) is a privacy app made in India. It is not the slang phrase "no sus" and not Brazil's public health system, SUS.
 
@@ -13,9 +13,11 @@ This file is for machine readers. It does not guarantee AI citations or answer-e
   - One open (Burn Notes and Burn Files): a note or up to 10 files (50 MB combined) encrypted in the browser with AES-256, opened once, then deleted from the server. No account for sender or recipient. Try it on https://nosus.foo/#try. The link carries the key after the #, which browsers do not send to the server. Only a six-digit code you ask for (10 minutes, any share) puts a copy of its key on the server, until up to 10 minutes after the code is used or expires.
   - Watermarked: a link where each viewer types an email, which is watermarked across the document (an attribution clue, not a verified identity). A view log shows who opened it, on which device and when. Links end after 30 days by default; revoke any time to stop new opens. Not end-to-end encrypted.
   - Traceable copies (Canary): up to 100 readers each get a slightly reworded copy of a note (text only for now). Paste leaked text, or pick a screenshot in the Android app, and it shows whose copy it was: a strong hint, not proof.
-- Opens any PDF: on Android, NO SUS appears in the Open with list for PDFs. The PDF opens in the NO SUS viewer with screenshots blocked; Share safely sends it on with one of the three ways.
+- Opens any PDF: on Android, NO SUS appears in the Open with list for PDFs. The PDF opens in the NO SUS viewer with search and dark reading; screenshots are blocked in the app; Share safely sends it on with one of the three ways.
+- See when it was opened: one-open links you sent show Opened or Not opened, with a notification when signed in, never who opened it.
+- Groups (invite-only, with roles and an activity log) and Settings (lists every signed-in screen; end one or all).
 
-Sign-in for new accounts is Google only. NO SUS does not take file uploads from people without the app; a sender without the app can make a one-time Burn link at https://nosus.foo/ instead.
+Sign-in for new accounts is Google only; older email and GitHub accounts still work. NO SUS does not take file uploads from people without the app; a sender without the app can make a one-time Burn link at https://nosus.foo/ instead.
 
 Web app (any phone or computer, iPhone included): https://app.nosus.foo/. Native app: Android, free on Google Play (https://play.google.com/store/apps/details?id=foo.nosus.app).
 

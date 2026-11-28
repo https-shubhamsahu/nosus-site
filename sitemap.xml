@@ -5,13 +5,13 @@
 <image:image>
 <image:loc>https://nosus.foo/founder.webp</image:loc>
 </image:image>
-<lastmod>2026-11-26</lastmod>
+<lastmod>2026-11-28</lastmod>
 <changefreq>weekly</changefreq>
 <priority>1</priority>
 </url>
 <url>
 <loc>https://nosus.foo/guides/</loc>
-<lastmod>2026-11-06</lastmod>
+<lastmod>2026-11-28</lastmod>
 </url>
 <url>
 <loc>https://nosus.foo/alternatives/</loc>
@@ -20,7 +20,7 @@
 </url>
 <url>
 <loc>https://nosus.foo/security/</loc>
-<lastmod>2026-11-15</lastmod>
+<lastmod>2026-11-28</lastmod>
 <priority>0.7</priority>
 </url>
 <url>
@@ -30,7 +30,7 @@
 </url>
 <url>
 <loc>https://nosus.foo/about/</loc>
-<lastmod>2026-11-02</lastmod>
+<lastmod>2026-11-28</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.4</priority>
 </url>
@@ -116,7 +116,7 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/print-without-login/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/print-without-login/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/print-without-login/" />
-<lastmod>2026-10-23</lastmod>
+<lastmod>2026-11-28</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -124,7 +124,7 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/open-drive-on-any-computer/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/open-drive-on-any-computer/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/open-drive-on-any-computer/" />
-<lastmod>2026-10-16</lastmod>
+<lastmod>2026-11-28</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -300,7 +300,7 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/print-without-login/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/print-without-login/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/print-without-login/" />
-<lastmod>2026-10-16</lastmod>
+<lastmod>2026-11-28</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -332,7 +332,7 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://nosus.foo/open-drive-on-any-computer/" />
 <xhtml:link rel="alternate" hreflang="hi" href="https://nosus.foo/hi/open-drive-on-any-computer/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://nosus.foo/open-drive-on-any-computer/" />
-<lastmod>2026-10-16</lastmod>
+<lastmod>2026-11-28</lastmod>
 <priority>0.8</priority>
 </url>
 <url>
@@ -382,12 +382,12 @@
 </url>
 <url>
 <loc>https://nosus.foo/hi/</loc>
-<lastmod>2026-11-09</lastmod>
+<lastmod>2026-11-28</lastmod>
 <priority>0.6</priority>
 </url>
 <url>
 <loc>https://nosus.foo/beta/</loc>
-<lastmod>2026-11-06</lastmod>
+<lastmod>2026-11-28</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
@@ -620,11 +620,11 @@
 </url>
 <url>
 <loc>https://nosus.foo/privacy.html</loc>
-<lastmod>2026-11-22</lastmod>
+<lastmod>2026-11-28</lastmod>
 </url>
 <url>
 <loc>https://nosus.foo/terms.html</loc>
-<lastmod>2026-11-06</lastmod>
+<lastmod>2026-11-28</lastmod>
 </url>
 <url>
 <loc>https://nosus.foo/account-deletion.html</loc>
